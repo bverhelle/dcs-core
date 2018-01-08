@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - DCS Hairdressers</title>
+    <title>@ViewData["Title"] - @SharedLocalizer["SiteName"]</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -44,17 +44,17 @@
                                     <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li @(ViewBag.Language == "NL" ? "active" : "")>
+                                    <li @(ViewBag.Language == "nl" ? "active" : "")>
                                         <a asp-controller="Home" asp-action="SetCulture"
-                                           asp-route-culture="NL">NL</a>
+                                           asp-route-culture="nl">nl</a>
                                     </li>
-                                    <li @(ViewBag.Language == "FR" ? "active" : "")>
+                                    <li @(ViewBag.Language == "fr" ? "active" : "")>
                                         <a asp-controller="Home" asp-action="SetCulture"
-                                           asp-route-culture="FR">FR</a>
+                                           asp-route-culture="fr">fr</a>
                                     </li>
-                                    <li @(ViewBag.Language == "EN" ? "active" : "")>
+                                    <li @(ViewBag.Language == "en" ? "active" : "")>
                                         <a asp-controller="Home" asp-action="SetCulture"
-                                           asp-route-culture="EN">EN</a>
+                                           asp-route-culture="en">en</a>
                                     </li>
                                 </ul>
                             </li>

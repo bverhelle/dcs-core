@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using DCSCoreMvc.Data;
 using DCSCoreMvc.Models;
 using DCSCoreMvc.Services;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Mvc.Razor;
 
 namespace DCSCoreMvc
 {
@@ -43,7 +46,11 @@ namespace DCSCoreMvc
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
 
-            services.AddMvc();
+            services.AddLocalization(options => options.ResourcesPath = "Localization");
+
+            services
+                .AddMvc()
+                .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix, options => options.ResourcesPath = "Localization");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -65,6 +72,27 @@ namespace DCSCoreMvc
             app.UseSession();
 
             app.UseAuthentication();
+
+            //var supportedCultures = CultureInfo.GetCultures(CultureTypes.AllCultures);
+
+            var supportedCultures = new[]
+            {
+                new CultureInfo("nl"),
+                new CultureInfo("fr"),
+                new CultureInfo("en")
+            };
+
+            var localizationOptions = new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture("nl"),
+                SupportedCultures = supportedCultures,
+                SupportedUICultures = supportedCultures
+            };
+
+            localizationOptions.RequestCultureProviders.Clear();
+            localizationOptions.RequestCultureProviders.Add(new CultureProviderResolverService());
+
+            app.UseRequestLocalization(localizationOptions);
 
             app.UseMvc(routes =>
             {

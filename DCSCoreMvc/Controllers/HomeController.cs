@@ -1,12 +1,20 @@
 ﻿using DCSCoreMvc.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
 using System.Diagnostics;
 
 namespace DCSCoreMvc.Controllers
 {
     public class HomeController : Controller
     {
+        private IStringLocalizer<HomeController> _stringLocalizer;
+
+        public HomeController(IStringLocalizer<HomeController> stringLocalizer)
+        {
+            _stringLocalizer = stringLocalizer;
+        }
+
         public IActionResult Index()
         {
             var culture = Request.HttpContext.Session.GetString("culture");
