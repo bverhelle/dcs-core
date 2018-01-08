@@ -61,7 +61,7 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DCS Kappers.
+        ///   Looks up a localized string similar to DCS Hairdressers.
         /// </summary>
         internal static string SiteName {
             get {
