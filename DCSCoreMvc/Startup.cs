@@ -33,6 +33,13 @@ namespace DCSCoreMvc
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
+            services.AddSession(o =>
+            {
+                o.IdleTimeout = TimeSpan.FromMinutes(30);
+            });
+
+            services.AddDistributedMemoryCache();
+            
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
 
@@ -54,6 +61,8 @@ namespace DCSCoreMvc
             }
 
             app.UseStaticFiles();
+
+            app.UseSession();
 
             app.UseAuthentication();
 

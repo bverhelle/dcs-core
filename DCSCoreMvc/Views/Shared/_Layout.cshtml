@@ -33,30 +33,34 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     @*<li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>*@
                     @*<li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>*@
-                    <li class="dropdown">
+                    @*<li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown"
                            href="#">Settings<span class="caret"></span></a>
-                        <ul class="dropdown-menu multi-level">
-                            <li class="dropdown-submenu">
+                        <ul class="dropdown-menu multi-level">*@
+                            <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown"
                                    href="#">
-                                    Select your language (@ViewBag.Language)
+                                    @ViewBag.Language
                                     <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li @(ViewBag.Language == "EN" ? "active" : "")>
+                                    <li @(ViewBag.Language == "NL" ? "active" : "")>
                                         <a asp-controller="Home" asp-action="SetCulture"
-                                           asp-route-culture="EN">English</a>
+                                           asp-route-culture="NL">NL</a>
                                     </li>
                                     <li @(ViewBag.Language == "FR" ? "active" : "")>
                                         <a asp-controller="Home" asp-action="SetCulture"
-                                           asp-route-culture="FR">French</a>
+                                           asp-route-culture="FR">FR</a>
+                                    </li>
+                                    <li @(ViewBag.Language == "EN" ? "active" : "")>
+                                        <a asp-controller="Home" asp-action="SetCulture"
+                                           asp-route-culture="EN">EN</a>
                                     </li>
                                 </ul>
                             </li>
                         </ul>
-                    </li>
-                </ul>
+                    @*</li>
+                </ul>*@
                 @*@await Html.PartialAsync("_LoginPartial")*@
             </div>
         </div>

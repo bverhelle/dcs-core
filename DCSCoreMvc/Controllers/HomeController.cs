@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using DCSCoreMvc.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using DCSCoreMvc.Models;
+using System.Diagnostics;
 
 namespace DCSCoreMvc.Controllers
 {
@@ -12,6 +9,8 @@ namespace DCSCoreMvc.Controllers
     {
         public IActionResult Index()
         {
+            var culture = Request.HttpContext.Session.GetString("culture");
+            ViewBag.Language = culture;
             return View();
         }
 
@@ -32,6 +31,12 @@ namespace DCSCoreMvc.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult SetCulture(string culture)
+        {
+            Request.HttpContext.Session.SetString("culture", culture);
+            return RedirectToAction("Index");
         }
     }
 }
