@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<ul class="nav navbar-nav navbar-right vertical-align-top-menu">
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown"
+           href="#">
+            @SharedLocalizer["Culture"]
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li @(ViewBag.Language == "nl" ? "active" : "")>
+                <a asp-controller="Home" asp-action="SetCulture"
+                   asp-route-culture="nl">nl</a>
+            </li>
+            <li @(ViewBag.Language == "fr" ? "active" : "")>
+                <a asp-controller="Home" asp-action="SetCulture"
+                   asp-route-culture="fr">fr</a>
+            </li>
+            <li @(ViewBag.Language == "en" ? "active" : "")>
+                <a asp-controller="Home" asp-action="SetCulture"
+                   asp-route-culture="en">en</a>
+            </li>
+        </ul>
+    </li>
+</ul>

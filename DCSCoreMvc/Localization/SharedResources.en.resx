@@ -117,10 +117,58 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CallUs" xml:space="preserve">
+    <value>Call Us</value>
+  </data>
+  <data name="CompanyCity" xml:space="preserve">
+    <value>Ostend</value>
+  </data>
+  <data name="CompanyInfo" xml:space="preserve">
+    <value>Company details</value>
+  </data>
+  <data name="CompanyVAT" xml:space="preserve">
+    <value>VAT</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
   <data name="Culture" xml:space="preserve">
     <value>en</value>
   </data>
+  <data name="Extensions" xml:space="preserve">
+    <value>Extensions</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="MakeAnAppointment" xml:space="preserve">
+    <value>Make an appointment</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="OpeningHours" xml:space="preserve">
+    <value>Opening hours</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
   <data name="SiteName" xml:space="preserve">
     <value>DCS Hairdressers</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Wednesday</value>
   </data>
 </root>

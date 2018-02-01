@@ -8,6 +8,7 @@
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
+        <link href="~/css/_Layout.css" rel="stylesheet" />
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -17,11 +18,31 @@
     </environment>
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top navbar-first">
         <div class="container">
-            <div class="pull-left text-danger"><span class="glyphicon glyphicon-earphone"> </span><span> 059 730 185</span></div>
-            <div class="pull-right text-danger">Boek een afspraak</div>
+            <div class="navbar-header">
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand callus">@*@SharedLocalizer["CallUs"]:*@<span class="glyphicon glyphicon-earphone"> </span>  @SharedLocalizer["PhoneNumber"]</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    @*<li><a asp-area="" asp-controller="Home" asp-action="Appointment" class="btn btn-danger navbar-btn">Boek een afspraak</a></li>*@
+                    @*<li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>*@
+                    @*<li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown"
+                           href="#">Settings<span class="caret"></span></a>
+                        <ul class="dropdown-menu multi-level"></ul>*@
+                </ul>
+                @*@await Html.PartialAsync("_LoginPartial")*@
+                <a asp-area="" asp-controller="Home" asp-action="Appointment" class="btn btn-danger navbar-btn pull-right">@SharedLocalizer["MakeAnAppointment"]</a>
+            </div>
+            @*<div class="pull-left text-danger"><span class="glyphicon glyphicon-earphone"> </span><span> 059 730 185</span></div>
+                <div class="pull-right text-danger">Boek een afspraak</div>*@
+
         </div>
+    </nav>
+    <nav class="navbar navbar-fixed-top navbar-second">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -30,55 +51,42 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">@SharedLocalizer["SiteName"]</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand navbar-brand-logo">@*@SharedLocalizer["SiteName"]*@@*<img src="~/images/dcs_logo.png" />*@</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    @*<li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>*@
-                    @*<li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>*@
-                    @*<li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown"
-                       href="#">Settings<span class="caret"></span></a>
-                    <ul class="dropdown-menu multi-level">*@
-
+                    @*<li><a asp-area="" asp-controller="Home" asp-action="Services">@SharedLocalizer["Services"]</a></li> *@  @*Needs to be added*@
+                    @*<li><a asp-area="" asp-controller="Home" asp-action="Extensions">@SharedLocalizer["Extensions"]</a></li> *@  @*Needs to be added*@
                 </ul>
-
-
-                @*</li>
-                </ul>*@
-                @await Html.PartialAsync("_LoginPartial")
+                @await  Html.PartialAsync("_LanguagePartial")
+                @*@await Html.PartialAsync("_LoginPartial")*@   @*Needs to be added*@
             </div>
         </div>
     </nav>
-    <div class="container body-content">
+
+
+
+    <div class="container body-content grid-body">
+        <div class="grid-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - @SharedLocalizer["SiteName"]</p>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown"
-                       href="#">
-                        @SharedLocalizer["Culture"]
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li @(ViewBag.Language == "nl" ? "active" : "")>
-                            <a asp-controller="Home" asp-action="SetCulture"
-                               asp-route-culture="nl">nl</a>
-                        </li>
-                        <li @(ViewBag.Language == "fr" ? "active" : "")>
-                            <a asp-controller="Home" asp-action="SetCulture"
-                               asp-route-culture="fr">fr</a>
-                        </li>
-                        <li @(ViewBag.Language == "en" ? "active" : "")>
-                            <a asp-controller="Home" asp-action="SetCulture"
-                               asp-route-culture="en">en</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+        </div>
+        @*<hr />*@
+        <footer class="grid-footer">
+            @*<ul class="navbar navbar-nav">
+            <li class="">&copy; @DateTime.Now.Year - @SharedLocalizer["SiteName"]</li>
+        </ul>*@
+
+            <div class="row footer-row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-partial">
+                    @await Html.PartialAsync("_AddressPartial")
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-partial">
+                    @await Html.PartialAsync("_OpeningHoursPartial")
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-partial">
+                    @await Html.PartialAsync("_ContactPartial")
+                </div>
+            </div>
         </footer>
     </div>
 
