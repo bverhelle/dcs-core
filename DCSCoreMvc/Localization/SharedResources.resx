@@ -198,8 +198,14 @@
   <data name="OpeningHoursWednesday" xml:space="preserve">
     <value>09:00 - 18:30</value>
   </data>
+  <data name="OptiosBookingCulture" xml:space="preserve">
+    <value>nl</value>
+  </data>
   <data name="PhoneNumber" xml:space="preserve">
     <value>059 730 185</value>
+  </data>
+  <data name="SalonName" xml:space="preserve">
+    <value>Davina's Coiffure Shop</value>
   </data>
   <data name="Saturday" xml:space="preserve">
     <value>zaterdag</value>

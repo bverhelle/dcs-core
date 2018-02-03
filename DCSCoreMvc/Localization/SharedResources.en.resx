@@ -150,6 +150,9 @@
   <data name="OpeningHours" xml:space="preserve">
     <value>Opening hours</value>
   </data>
+  <data name="OptiosBookingCulture" xml:space="preserve">
+    <value>en_US.UTF-8</value>
+  </data>
   <data name="Saturday" xml:space="preserve">
     <value>Saturday</value>
   </data>

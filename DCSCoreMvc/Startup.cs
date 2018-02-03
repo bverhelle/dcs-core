@@ -77,7 +77,7 @@ namespace DCSCoreMvc
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-            
+            //app.UseDeveloperExceptionPage();
             app.UseStaticFiles();
 
             app.UseSession();

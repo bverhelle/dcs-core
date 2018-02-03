@@ -5,47 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - @SharedLocalizer["SiteName"]</title>
 
+
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
         <link href="~/css/_Layout.css" rel="stylesheet" />
+        @RenderSection("css", false)
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+        @{IgnoreSection("css");}
     </environment>
 </head>
 <body>
-    <nav class="navbar navbar-fixed-top navbar-first">
+    <nav class="navbar navbar-fixed-top navbar-first standard-shadow">
         <div class="container">
-            <div class="navbar-header">
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand callus">@*@SharedLocalizer["CallUs"]:*@<span class="glyphicon glyphicon-earphone"> </span>  @SharedLocalizer["PhoneNumber"]</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    @*<li><a asp-area="" asp-controller="Home" asp-action="Appointment" class="btn btn-danger navbar-btn">Boek een afspraak</a></li>*@
-                    @*<li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>*@
-                    @*<li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown"
-                           href="#">Settings<span class="caret"></span></a>
-                        <ul class="dropdown-menu multi-level"></ul>*@
-                </ul>
-                @*@await Html.PartialAsync("_LoginPartial")*@
-                <a asp-area="" asp-controller="Home" asp-action="Appointment" class="btn btn-danger navbar-btn pull-right">@SharedLocalizer["MakeAnAppointment"]</a>
-            </div>
-            @*<div class="pull-left text-danger"><span class="glyphicon glyphicon-earphone"> </span><span> 059 730 185</span></div>
-                <div class="pull-right text-danger">Boek een afspraak</div>*@
-
+            <div class="navbar-text callus"><span class="glyphicon glyphicon-earphone"> </span>  @SharedLocalizer["PhoneNumber"]</div>
+            <ul class="nav navbar-right navbar-appointment">
+                <a href="http://kapper.optios.net/online_booking/start.php?optios_id=4674&amp;language=@SharedLocalizer["OptiosBookingCulture"]" target="_blank" class="btn btn-danger navbar-btn btn-dcs" rel="#overlay">@SharedLocalizer["MakeAnAppointment"]</a>
+            </ul>
         </div>
     </nav>
-    <nav class="navbar navbar-fixed-top navbar-second">
+    <nav class="navbar navbar-fixed-top navbar-second standard-shadow standard-hyperlinks">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-second">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -53,12 +43,12 @@
                 </button>
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand navbar-brand-logo">@*@SharedLocalizer["SiteName"]*@@*<img src="~/images/dcs_logo.png" />*@</a>
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse" id="navbar-second">
                 <ul class="nav navbar-nav">
                     @*<li><a asp-area="" asp-controller="Home" asp-action="Services">@SharedLocalizer["Services"]</a></li> *@  @*Needs to be added*@
                     @*<li><a asp-area="" asp-controller="Home" asp-action="Extensions">@SharedLocalizer["Extensions"]</a></li> *@  @*Needs to be added*@
                 </ul>
-                @await  Html.PartialAsync("_LanguagePartial")
+                @await Html.PartialAsync("_LanguagePartial")
                 @*@await Html.PartialAsync("_LoginPartial")*@   @*Needs to be added*@
             </div>
         </div>
@@ -68,15 +58,15 @@
 
     <div class="container body-content grid-body">
         <div class="grid-content">
-        @RenderBody()
+            @RenderBody()
         </div>
         @*<hr />*@
-        <footer class="grid-footer">
+        <footer class="grid-footer standard-hyperlinks">
             @*<ul class="navbar navbar-nav">
-            <li class="">&copy; @DateTime.Now.Year - @SharedLocalizer["SiteName"]</li>
-        </ul>*@
+                    <li class="">&copy; @DateTime.Now.Year - @SharedLocalizer["SiteName"]</li>
+                </ul>*@
 
-            <div class="row footer-row">
+            <div class="row footer-row standard-shadow">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-partial">
                     @await Html.PartialAsync("_AddressPartial")
                 </div>
@@ -88,12 +78,17 @@
                 </div>
             </div>
         </footer>
+        <div class="copyright-footer standard-hyperlinks">
+            <div>&copy; @DateTime.Now.Year - @SharedLocalizer["SiteName"]</div>
+            <div>designed by <a href="http://www.simplifine.be/" target="_blank">Simplifine</a></div>
+        </div>
     </div>
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
+        <script src="~/js/_Layout.js"></script>
     </environment>
     <environment exclude="Development">
         <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
@@ -109,7 +104,19 @@
                 integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113538339-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-113538339-1');
+        </script>
+
     </environment>
+
+
 
     @RenderSection("Scripts", required: false)
 </body>

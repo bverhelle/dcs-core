@@ -1,15 +1,25 @@
-﻿@{
+﻿<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+@{
     ViewData["Title"] = @Localizer["Title"];
 }
+@section css {
+    <link href="~/css/Controllers/HomeController.css" rel="stylesheet" />
+}
 
+@*<div>@Localizer["Title"]</div>*@
 
-
-<div>@Localizer["Title"]</div>
-
-<div class="content">
-    <h3>On Scroll Sticky Header</h3>
-    <p>The header will stick to the top when you reach its scroll position.</p>
-    <p>Scroll back up to remove the sticky effect.</p>
+<div class="content row">
+    <div class="intro-text">
+        <h3>Davina’s Coiffure Shop is hét kapsalon in Oostende.</h3>
+        <p>
+            <div>Met een focus op vakkennis en het gebruik van kwaliteitsproducten gaan wij tot het uiterste om uw droomkapsel te bekomen.</div>
+            <div>Maak nu online een afspraak om bij ons langs te komen!</div>
+        </p>
+        <div class="slogan col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+            <p class="slogan">Uw kapsel,<br />onze passie!</p>
+        </div>
+    </div>
 </div>
 
 

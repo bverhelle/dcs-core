@@ -295,11 +295,29 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to nl.
+        /// </summary>
+        internal static string OptiosBookingCulture {
+            get {
+                return ResourceManager.GetString("OptiosBookingCulture", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 059 730 185.
         /// </summary>
         internal static string PhoneNumber {
             get {
                 return ResourceManager.GetString("PhoneNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Davina&apos;s Coiffure Shop.
+        /// </summary>
+        internal static string SalonName {
+            get {
+                return ResourceManager.GetString("SalonName", resourceCulture);
             }
         }
         
