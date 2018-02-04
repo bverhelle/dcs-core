@@ -61,6 +61,42 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Maak nu een afspraak online of geef ons een belletje als u nog vragen heeft!.
+        /// </summary>
+        internal static string CallToAction {
+            get {
+                return ResourceManager.GetString("CallToAction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Met een focus op vakkennis en het gebruik van kwaliteitsproducten gaan wij tot het uiterste om uw droomkapsel te bekomen..
+        /// </summary>
+        internal static string Focus {
+            get {
+                return ResourceManager.GetString("Focus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Davina&apos;s Coiffure Shop is hét kapsalon in Oostende.
+        /// </summary>
+        internal static string H3Title {
+            get {
+                return ResourceManager.GetString("H3Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Uw kapsel,&lt;br/&gt;onze passie!.
+        /// </summary>
+        internal static string Slogan {
+            get {
+                return ResourceManager.GetString("Slogan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Startpagina.
         /// </summary>
         internal static string Title {

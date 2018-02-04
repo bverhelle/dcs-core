@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CallToAction" xml:space="preserve">
+    <value>Prenez rendez-vous en ligne maintenant ou appelez-nous si vous avez des questions!</value>
+  </data>
+  <data name="Focus" xml:space="preserve">
+    <value>En mettant l'accent sur notre compétence professionalle et l'utilisation de produits de qualité, nous faisons de grands efforts pour obtenir votre coiffure de rêve.</value>
+  </data>
+  <data name="H3Title" xml:space="preserve">
+    <value>Davina's Coiffure Shop est lé salon de coiffure à Ostende</value>
+  </data>
+  <data name="Slogan" xml:space="preserve">
+    <value>Votre coiffure,&lt;br/&gt;notre passion!</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>Page d'accueil</value>
   </data>

@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CallToAction" xml:space="preserve">
+    <value>Make an appointment online now or give us a call if you have any questions!</value>
+  </data>
+  <data name="Focus" xml:space="preserve">
+    <value>With a focus on professional knowledge and the use of quality products, we go to great lengths to obtain your dream hairdo.</value>
+  </data>
+  <data name="H3Title" xml:space="preserve">
+    <value>Davina's Coiffure Shop is thé hair salon in Ostend</value>
+  </data>
+  <data name="Slogan" xml:space="preserve">
+    <value>Your hairstyle,&lt;br/&gt;our passion!</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>Homepage</value>
   </data>
