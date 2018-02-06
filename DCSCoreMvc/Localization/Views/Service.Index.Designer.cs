@@ -22,14 +22,14 @@ namespace DCSCoreMvc.Localization.Views {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Home_Appointment {
+    internal class Service_Index {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Home_Appointment() {
+        internal Service_Index() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace DCSCoreMvc.Localization.Views {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DCSCoreMvc.Localization.Views.Home.Appointment", typeof(Home_Appointment).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DCSCoreMvc.Localization.Views.Service.Index", typeof(Service_Index).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,74 +61,56 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Boek hier online.
+        ///   Looks up a localized string similar to Kinderen.
         /// </summary>
-        internal static string BookOnline {
+        internal static string Children {
             get {
-                return ResourceManager.GetString("BookOnline", resourceCulture);
+                return ResourceManager.GetString("Children", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Telefonisch een afspraak maken.
+        ///   Looks up a localized string similar to Heren.
         /// </summary>
-        internal static string ByTelephone {
+        internal static string Gentlemen {
             get {
-                return ResourceManager.GetString("ByTelephone", resourceCulture);
+                return ResourceManager.GetString("Gentlemen", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tijdens de openingsuren zijn wij steeds telefonisch bereikbaar.&lt;br/&gt;Telefonisch een afspraak maken is mogelijk op het nummer 059 730 185.&lt;br/&gt;Indien u niet kunt bellen kunt u steeds online een afspraak boeken..
+        ///   Looks up a localized string similar to Onderstaand kunt u een overzicht terugvinden van onze beschikbare diensten..
         /// </summary>
-        internal static string ByTelephoneText {
+        internal static string IntroText {
             get {
-                return ResourceManager.GetString("ByTelephoneText", resourceCulture);
+                return ResourceManager.GetString("IntroText", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Maak een afspraak.
+        ///   Looks up a localized string similar to Niet alle diensten konden opgenomen worden. Aarzel niet om ons te contacteren moest u bijkomende vragen hebben..
         /// </summary>
-        internal static string H3Title {
+        internal static string IntroText2 {
             get {
-                return ResourceManager.GetString("H3Title", resourceCulture);
+                return ResourceManager.GetString("IntroText2", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to U kunt bij ons 24/7 boeken via de online boekkingsapp.&lt;br/&gt;Soms is het echter mogelijk dat het programma bepaalde (uitgebreide) afspraken zoals kleuringen moeilijker kan plannen.&lt;br/&gt; Moest u dit ondervinden kunt u ons nog steeds telefonisch contacteren om uw afspraak te maken..
+        ///   Looks up a localized string similar to Dames.
         /// </summary>
-        internal static string InfoText {
+        internal static string Ladies {
             get {
-                return ResourceManager.GetString("InfoText", resourceCulture);
+                return ResourceManager.GetString("Ladies", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Wij werken bij voorkeur op afspraak.&lt;br/&gt;U mag uiteraard steeds langskomen zonder dat u een afspraak heeft,&lt;br/&gt;maar u dient er rekening mee te houden dat onze agenda mogelijk reeds volboekt is.&lt;br/&gt;U reserveert dus best op voorhand..
+        ///   Looks up a localized string similar to Onze diensten.
         /// </summary>
-        internal static string Introduction {
+        internal static string Title {
             get {
-                return ResourceManager.GetString("Introduction", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Online een afspraak maken.
-        /// </summary>
-        internal static string Online {
-            get {
-                return ResourceManager.GetString("Online", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Het is ook mogelijk om online een afspraak te maken.&lt;br/&gt;Klik op onderstaande knop om de boekingsapp te openen..
-        /// </summary>
-        internal static string OnlineText {
-            get {
-                return ResourceManager.GetString("OnlineText", resourceCulture);
+                return ResourceManager.GetString("Title", resourceCulture);
             }
         }
     }

@@ -1,0 +1,232 @@
+﻿
+
+@{
+    ViewData["Title"] = @Localizer["Title"];
+}
+@section css {
+    <link href="~/css/Controllers/ServiceController.css" rel="stylesheet" />
+}
+
+
+<div class="content row standard-hyperlinks">
+    <div class="intro-text">
+        <h2>@Localizer["Title"]</h2>
+        <p>@Localizer["IntroText"]</p>
+        <p>@Localizer["IntroText2"]</p>
+    </div>
+    <div class="services-container">
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a data-toggle="tab" href="#menuWomen">
+                    <div class="text-center service-index-tab">
+                        <img class="img-service-index-tab" src="~/images/ServiceIndex/women.png" />
+                        <div class="name-service-index-tab">@Localizer["Ladies"]</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#menuMen">
+                    <div class="text-center service-index-tab">
+                        <img class="img-service-index-tab" src="~/images/ServiceIndex/men.png" />
+                        <div class="name-service-index-tab">@Localizer["Gentlemen"]</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#menuChildren">
+                    <div class="text-center service-index-tab">
+                        <img class="img-service-index-tab" src="~/images/ServiceIndex/children.png" />
+                        <div class="name-service-index-tab">@Localizer["Children"]</div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="menuWomen" class="standard-shadow tab-pane fade in active">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+                        <h4 class="text-center service-h4"><img src="~/images/ServiceIndex/hairdryer.png" class="service-image" /><span class="service-name">Brushing of watergolf</span></h4>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Kort</span>
+                            <span class="pull-right">€ 20,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Halflang</span>
+                            <span class="pull-right">€ 23,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Lang</span>
+                            <span class="pull-right">€ 26,00</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+                        <h4 class="text-center service-h4"><img src="~/images/ServiceIndex/clips.png" class="service-image" /><span class="service-name">Opsteken</span></h4>
+                        <div class="col-xs-12">
+                            <span class="pull-left">&lt; 30 minuten</span>
+                            <span class="pull-right">€ 20,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">&gt; 30 minuten</span>
+                            <span class="pull-right">€ 30,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">&nbsp;</span>
+                            <span class="pull-right">&nbsp;</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+                        <h4 class="text-center service-h4"><img src="~/images/ServiceIndex/scissors.png" class="service-image" /><span class="service-name">Knippen</span></h4>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Snit</span>
+                            <span class="pull-right">€ 21,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left service-extra-info">te combineren met los drogen, brushing of watergolf</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">&nbsp;</span>
+                            <span class="pull-right">&nbsp;</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+                        <h4 class="text-center service-h4"><img src="~/images/ServiceIndex/brush.png" class="service-image" /><span class="service-name">Kleuren</span></h4>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Uitgroei</span>
+                            <span class="pull-right">vanaf € 42,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Balayage</span>
+                            <span class="pull-right">vanaf € 57,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Mèches</span>
+                            <span class="pull-right">vanaf € 72,00</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+                        <h4 class="text-center service-h4"><img src="~/images/ServiceIndex/rollers.png" class="service-image" /><span class="service-name">(Ont)krullen</span></h4>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Ontkrullen</span>
+                            <span class="pull-right">vanaf € 60,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Permanent</span>
+                            <span class="pull-right">vanaf € 65,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">&nbsp;</span>
+                            <span class="pull-right">&nbsp;</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+                        <h4 class="text-center service-h4"><img src="~/images/ServiceIndex/shampoo.png" class="service-image" /><span class="service-name">Supplementen wassen en verzorgen</span></h4>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Intensief verzoringsmasker</span>
+                            <span class="pull-right">€ 7,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Schoonheidsbad</span>
+                            <span class="pull-right">€ 15,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">&nbsp;</span>
+                            <span class="pull-right">&nbsp;</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">&nbsp;</span>
+                            <span class="pull-right">&nbsp;</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+                        <h4 class="text-center service-h4"><img src="~/images/ServiceIndex/curliron.png" class="service-image" /><span class="service-name">Supplementen afwerking</span></h4>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Stijltang/Steampod</span>
+                            <span class="pull-right">€ 6,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Krultang</span>
+                            <span class="pull-right">€ 10,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Opkammen</span>
+                            <span class="pull-right">€ 7,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Los drogen</span>
+                            <span class="pull-right">€ 11,00</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+                        <h4 class="text-center service-h4"><img src="~/images/ServiceIndex/tube.png" class="service-image" /><span class="service-name">Supplementen kleuren</span></h4>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Voorpigmenteren</span>
+                            <span class="pull-right">€ 17,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Losse mèches (per stuk)</span>
+                            <span class="pull-right">€ 2,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Extra kleur Keune (30g)</span>
+                            <span class="pull-right">€ 12,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Extra kleur Elumen (10g)</span>
+                            <span class="pull-right">€ 7,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menuMen" class="standard-shadow tab-pane fade">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+                        <h4 class="text-center service-h4"><img src="~/images/ServiceIndex/scissors.png" class="service-image" /><span class="service-name">Knippen</span></h4>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Snit</span>
+                            <span class="pull-right">€ 21,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Trimmen</span>
+                            <span class="pull-right">€ 13,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Baard knippen</span>
+                            <span class="pull-right">€ 11,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menuChildren" class="standard-shadow tab-pane fade">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+                        <h4 class="text-center service-h4"><img src="~/images/ServiceIndex/scissors.png" class="service-image" /><span class="service-name">Knippen</span></h4>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Meisjessnit</span>
+                            <span class="pull-right">€ 17,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left service-extra-info">jonger dan 10 jaar</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Jongessnit</span>
+                            <span class="pull-right">€ 13,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left service-extra-info">jonger dan 10 jaar</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left">Babysnit</span>
+                            <span class="pull-right">€ 11,00</span>
+                        </div>
+                        <div class="col-xs-12">
+                            <span class="pull-left service-extra-info">jonger dan 5 jaar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

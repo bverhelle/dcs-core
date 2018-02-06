@@ -45,8 +45,8 @@
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand navbar-brand-logo">@*@SharedLocalizer["SiteName"]*@@*<img src="~/images/dcs_logo.png" />*@</a>
             </div>
             <div class="navbar-collapse collapse" id="navbar-second">
-                <ul class="nav navbar-nav">
-                    @*<li><a asp-area="" asp-controller="Home" asp-action="Services">@SharedLocalizer["Services"]</a></li> *@  @*Needs to be added*@
+                <ul class="nav navbar-nav vertical-align-top-menu main-menu">
+                    <li><a asp-area="" asp-controller="Service" asp-action="Index">@SharedLocalizer["Services"]</a></li>   @*Needs to be added*@
                     @*<li><a asp-area="" asp-controller="Home" asp-action="Extensions">@SharedLocalizer["Extensions"]</a></li> *@  @*Needs to be added*@
                 </ul>
                 @await Html.PartialAsync("_LanguagePartial")

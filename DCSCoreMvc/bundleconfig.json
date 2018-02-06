@@ -7,7 +7,8 @@
     "inputFiles": [
       "wwwroot/css/site.css",
       "wwwroot/css/_Layout.css",
-      "wwwroot/css/Controllers/HomeController.css"
+      "wwwroot/css/Controllers/HomeController.css",
+      "wwwroot/css/Controllers/ServiceController.css"
     ]
     //"inputFiles": [ "wwwroot/**/*(*.css|!(*.min.css)" ]
   },

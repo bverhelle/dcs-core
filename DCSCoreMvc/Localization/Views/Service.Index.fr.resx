@@ -117,28 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BookOnline" xml:space="preserve">
-    <value>Réservez en ligne ici</value>
+  <data name="Children" xml:space="preserve">
+    <value>Enfants</value>
   </data>
-  <data name="ByTelephone" xml:space="preserve">
-    <value>Prendre rendez-vous par téléphone</value>
+  <data name="Gentlemen" xml:space="preserve">
+    <value>Messieurs</value>
   </data>
-  <data name="ByTelephoneText" xml:space="preserve">
-    <value>Vous pouvez nous joindre par téléphone pendant les heures d'ouverture. &lt;br/&gt; Prendre rendez-vous par téléphone est possible au numéro 059 730 185. &lt;br/&gt; Si vous ne pouvez pas nous appeler, vous pouvez toujours prendre rendez-vous en ligne.</value>
+  <data name="IntroText" xml:space="preserve">
+    <value>Vous trouverez ci-dessous un aperçu de nos services disponibles.</value>
   </data>
-  <data name="H3Title" xml:space="preserve">
-    <value>Prendre rendez-vous</value>
+  <data name="IntroText2" xml:space="preserve">
+    <value>Nous n'avons pas pu inclure tous les services. N'hésitez pas à nous contacter si vous avez d'autres questions.</value>
   </data>
-  <data name="InfoText" xml:space="preserve">
-    <value>Vous pouvez prendre rendez-vous 24 heures sur 24, 7 jours sur 7 via l'application de réservation en ligne.&lt;br/&gt;Il est parfois possible que le logiciel a des difficultés à planifier certains rendez-vous (extensifs) tels que les coloriages. &lt;br/&gt;N'hésitez-pas à nous contacter par téléphone si vous rencontrez ceci.</value>
+  <data name="Ladies" xml:space="preserve">
+    <value>Dames</value>
   </data>
-  <data name="Introduction" xml:space="preserve">
-    <value>Nous préférons de travailler sur rendez-vous.&lt;br/&gt;Vous pouvez toujours passer sans rendez-vous, mais dans ce cas il est possible qu'on est déjà complet. &lt;br/&gt;Il vaut donc mieux prendre rendez-vous.</value>
-  </data>
-  <data name="Online" xml:space="preserve">
-    <value>Prendre rendez-vous en ligne</value>
-  </data>
-  <data name="OnlineText" xml:space="preserve">
-    <value>Il est également possible de prendre rendez-vous en ligne. &lt;br/&gt; Cliquez sur le bouton ci-dessous pour ouvrir l'application de réservation.</value>
+  <data name="Title" xml:space="preserve">
+    <value>Nos services</value>
   </data>
 </root>

@@ -340,7 +340,7 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DCS Hairdressers.
+        ///   Looks up a localized string similar to Davina&apos;s Coiffure Shop.
         /// </summary>
         internal static string SiteName {
             get {
