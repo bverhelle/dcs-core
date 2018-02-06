@@ -46,9 +46,18 @@ namespace DCSCoreMvc.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult SetCulture(string culture)
+        public IActionResult SetCulture(string culture, string returnUrl = null)
         {
             Request.HttpContext.Session.SetString("culture", culture);
+            if (returnUrl != null)
+            {
+                return RedirectToAction(returnUrl);
+            }
+            string referer = Request.Headers["Referer"].ToString();
+            if (referer != null)
+            {
+                return Redirect(referer);
+            }
             return RedirectToAction("Index");
         }
     }

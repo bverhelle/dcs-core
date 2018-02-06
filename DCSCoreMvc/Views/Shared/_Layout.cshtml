@@ -28,7 +28,8 @@
         <div class="container">
             <div class="navbar-text callus"><span class="glyphicon glyphicon-earphone"> </span>  @SharedLocalizer["PhoneNumber"]</div>
             <ul class="nav navbar-right navbar-appointment">
-                <a href="http://kapper.optios.net/online_booking/start.php?optios_id=4674&amp;language=@SharedLocalizer["OptiosBookingCulture"]" target="_blank" class="btn btn-danger navbar-btn btn-dcs" rel="#overlay">@SharedLocalizer["MakeAnAppointment"]</a>
+                @*<a href="http://kapper.optios.net/online_booking/start.php?optios_id=4674&amp;language=@SharedLocalizer["OptiosBookingCulture"]" target="_blank" class="btn btn-danger navbar-btn btn-dcs" rel="#overlay">@SharedLocalizer["MakeAnAppointment"]</a>*@
+                <a asp-area="" asp-controller="Home" asp-action="Appointment" class="btn btn-danger navbar-btn btn-dcs">@SharedLocalizer["MakeAnAppointment"]</a>
             </ul>
         </div>
     </nav>
