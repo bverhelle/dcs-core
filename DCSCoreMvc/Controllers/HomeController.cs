@@ -22,19 +22,24 @@ namespace DCSCoreMvc.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Appointment()
         {
-            ViewData["Message"] = "Your application description page.";
-
             return View();
         }
 
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
+        //public IActionResult About()
+        //{
+        //    ViewData["Message"] = "Your application description page.";
 
-            return View();
-        }
+        //    return View();
+        //}
+
+        //public IActionResult Contact()
+        //{
+        //    ViewData["Message"] = "Your contact page.";
+
+        //    return View();
+        //}
 
         public IActionResult Error()
         {

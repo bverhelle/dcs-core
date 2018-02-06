@@ -38,11 +38,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>SharedResources.resx</DependentUpon>
     </Compile>
-    <Compile Update="Localization\Views\Home.Index.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Home.Index.resx</DependentUpon>
-    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -65,6 +60,18 @@
     <EmbeddedResource Update="Localization\SharedResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SharedResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Shared.Error.fr.resx">
+      <LastGenOutput>Home.Error.fr.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Shared.Error.en.resx">
+      <LastGenOutput>Home.Error.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Shared.Error.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Shared.Error.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Localization\Views\Home.Index.en.resx">
       <Generator>ResXFileCodeGenerator</Generator>
