@@ -199,7 +199,7 @@
     <value>Séchage rapide</value>
   </data>
   <data name="Regrowthcolor" xml:space="preserve">
-    <value>Coloration repousse</value>
+    <value>Coloration racines</value>
   </data>
   <data name="SeperateHighlights" xml:space="preserve">
     <value>Mèches séparées (par pièce)</value>
@@ -211,13 +211,13 @@
     <value>à partir de</value>
   </data>
   <data name="Straighten" xml:space="preserve">
-    <value>Redresser</value>
+    <value>Defrisage</value>
   </data>
   <data name="StraighteningIronSteampod" xml:space="preserve">
     <value>Fer à lisser/Steampod</value>
   </data>
   <data name="StraightenOrCurl" xml:space="preserve">
-    <value>Redresser/boucler</value>
+    <value>Défriser/boucler</value>
   </data>
   <data name="Supplements" xml:space="preserve">
     <value>Suppléments</value>
