@@ -61,11 +61,110 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Baard knippen.
+        /// </summary>
+        internal static string BeardTrim {
+            get {
+                return ResourceManager.GetString("BeardTrim", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Schoonheidsbad.
+        /// </summary>
+        internal static string Beautybath {
+            get {
+                return ResourceManager.GetString("Beautybath", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Brushing of watergolf.
+        /// </summary>
+        internal static string BrushingOrRollerWrap {
+            get {
+                return ResourceManager.GetString("BrushingOrRollerWrap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Kinderen.
         /// </summary>
         internal static string Children {
             get {
                 return ResourceManager.GetString("Children", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trimmen.
+        /// </summary>
+        internal static string ClipperCut {
+            get {
+                return ResourceManager.GetString("ClipperCut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kleuren.
+        /// </summary>
+        internal static string Coloring {
+            get {
+                return ResourceManager.GetString("Coloring", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Krultang.
+        /// </summary>
+        internal static string CurlingIron {
+            get {
+                return ResourceManager.GetString("CurlingIron", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Knippen.
+        /// </summary>
+        internal static string Cut {
+            get {
+                return ResourceManager.GetString("Cut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Extra kleur Elumen (10g).
+        /// </summary>
+        internal static string ExtraColorElumen {
+            get {
+                return ResourceManager.GetString("ExtraColorElumen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Extra kleur Keune (30g).
+        /// </summary>
+        internal static string ExtraColorKeune {
+            get {
+                return ResourceManager.GetString("ExtraColorKeune", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to afwerking.
+        /// </summary>
+        internal static string Finishing {
+            get {
+                return ResourceManager.GetString("Finishing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mèches.
+        /// </summary>
+        internal static string FoilHighlights {
+            get {
+                return ResourceManager.GetString("FoilHighlights", resourceCulture);
             }
         }
         
@@ -79,7 +178,61 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Onderstaand kunt u een overzicht terugvinden van onze beschikbare diensten..
+        ///   Looks up a localized string similar to Haarsnit.
+        /// </summary>
+        internal static string Haircut {
+            get {
+                return ResourceManager.GetString("Haircut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Babysnit.
+        /// </summary>
+        internal static string HaircutBaby {
+            get {
+                return ResourceManager.GetString("HaircutBaby", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jongenssnit.
+        /// </summary>
+        internal static string HaircutBoys {
+            get {
+                return ResourceManager.GetString("HaircutBoys", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Meisjessnit.
+        /// </summary>
+        internal static string HaircutGirls {
+            get {
+                return ResourceManager.GetString("HaircutGirls", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Balayage.
+        /// </summary>
+        internal static string Highlights {
+            get {
+                return ResourceManager.GetString("Highlights", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Intensief verzorgingsmasker.
+        /// </summary>
+        internal static string IntensiveCareMask {
+            get {
+                return ResourceManager.GetString("IntensiveCareMask", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Onderstaand kunt u een prijslijst terugvinden van onze basisdiensten..
         /// </summary>
         internal static string IntroText {
             get {
@@ -106,11 +259,191 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Lang.
+        /// </summary>
+        internal static string Long {
+            get {
+                return ResourceManager.GetString("Long", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Halflang.
+        /// </summary>
+        internal static string Medium {
+            get {
+                return ResourceManager.GetString("Medium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Permanent.
+        /// </summary>
+        internal static string Perm {
+            get {
+                return ResourceManager.GetString("Perm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Voorpigmentatie.
+        /// </summary>
+        internal static string PrePigmenting {
+            get {
+                return ResourceManager.GetString("PrePigmenting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Los drogen.
+        /// </summary>
+        internal static string QuickDry {
+            get {
+                return ResourceManager.GetString("QuickDry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Uitgroeikleuring.
+        /// </summary>
+        internal static string Regrowthcolor {
+            get {
+                return ResourceManager.GetString("Regrowthcolor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Losse mèches (per stuk).
+        /// </summary>
+        internal static string SeperateHighlights {
+            get {
+                return ResourceManager.GetString("SeperateHighlights", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kort.
+        /// </summary>
+        internal static string Short {
+            get {
+                return ResourceManager.GetString("Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to vanaf.
+        /// </summary>
+        internal static string StartingFrom {
+            get {
+                return ResourceManager.GetString("StartingFrom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ontkrullen.
+        /// </summary>
+        internal static string Straighten {
+            get {
+                return ResourceManager.GetString("Straighten", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stijltang/Steampod.
+        /// </summary>
+        internal static string StraighteningIronSteampod {
+            get {
+                return ResourceManager.GetString("StraighteningIronSteampod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Ont)krullen.
+        /// </summary>
+        internal static string StraightenOrCurl {
+            get {
+                return ResourceManager.GetString("StraightenOrCurl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Supplementen.
+        /// </summary>
+        internal static string Supplements {
+            get {
+                return ResourceManager.GetString("Supplements", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Onze diensten.
         /// </summary>
         internal static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to te combineren met los drogen, brushing of watergolf.
+        /// </summary>
+        internal static string ToBeCombined {
+            get {
+                return ResourceManager.GetString("ToBeCombined", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Opkammen.
+        /// </summary>
+        internal static string TouchUp {
+            get {
+                return ResourceManager.GetString("TouchUp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Opsteekkapsel.
+        /// </summary>
+        internal static string Updo {
+            get {
+                return ResourceManager.GetString("Updo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to wassen en verzorgen.
+        /// </summary>
+        internal static string WashAndCare {
+            get {
+                return ResourceManager.GetString("WashAndCare", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to minuten werk.
+        /// </summary>
+        internal static string Work {
+            get {
+                return ResourceManager.GetString("Work", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to jonger dan 10 jaar.
+        /// </summary>
+        internal static string YoungerThan10 {
+            get {
+                return ResourceManager.GetString("YoungerThan10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to jonger dan 5 jaar.
+        /// </summary>
+        internal static string YoungerThan5 {
+            get {
+                return ResourceManager.GetString("YoungerThan5", resourceCulture);
             }
         }
     }

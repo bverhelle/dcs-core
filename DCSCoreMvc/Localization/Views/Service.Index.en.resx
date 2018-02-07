@@ -117,14 +117,65 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BeardTrim" xml:space="preserve">
+    <value>Beard trim</value>
+  </data>
+  <data name="Beautybath" xml:space="preserve">
+    <value>Beauty bath</value>
+  </data>
+  <data name="BrushingOrRollerWrap" xml:space="preserve">
+    <value>Blow dry or roller wrap</value>
+  </data>
   <data name="Children" xml:space="preserve">
     <value>Children</value>
+  </data>
+  <data name="ClipperCut" xml:space="preserve">
+    <value>Clipper cut</value>
+  </data>
+  <data name="Coloring" xml:space="preserve">
+    <value>Coloring</value>
+  </data>
+  <data name="CurlingIron" xml:space="preserve">
+    <value>Curling iron</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="ExtraColorElumen" xml:space="preserve">
+    <value>Extra color Elumen (10g)</value>
+  </data>
+  <data name="ExtraColorKeune" xml:space="preserve">
+    <value>Extra color Keune (30g)</value>
+  </data>
+  <data name="Finishing" xml:space="preserve">
+    <value>finishing</value>
+  </data>
+  <data name="FoilHighlights" xml:space="preserve">
+    <value>Foil Highlights</value>
   </data>
   <data name="Gentlemen" xml:space="preserve">
     <value>Gentlemen</value>
   </data>
+  <data name="Haircut" xml:space="preserve">
+    <value>Haircut</value>
+  </data>
+  <data name="HaircutBaby" xml:space="preserve">
+    <value>Haircut babies</value>
+  </data>
+  <data name="HaircutBoys" xml:space="preserve">
+    <value>Haircut boys</value>
+  </data>
+  <data name="HaircutGirls" xml:space="preserve">
+    <value>Haircut girls</value>
+  </data>
+  <data name="Highlights" xml:space="preserve">
+    <value>Balayage</value>
+  </data>
+  <data name="IntensiveCareMask" xml:space="preserve">
+    <value>Intensive care mask</value>
+  </data>
   <data name="IntroText" xml:space="preserve">
-    <value>Below you can find an overview of our available services.</value>
+    <value>Below you can find a price list of our basic services.</value>
   </data>
   <data name="IntroText2" xml:space="preserve">
     <value>Not all services could be included. Do not hesitate to contact us if you have additional questions.</value>
@@ -132,7 +183,67 @@
   <data name="Ladies" xml:space="preserve">
     <value>Ladies</value>
   </data>
+  <data name="Long" xml:space="preserve">
+    <value>Long</value>
+  </data>
+  <data name="Medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="Perm" xml:space="preserve">
+    <value>Perm</value>
+  </data>
+  <data name="PrePigmenting" xml:space="preserve">
+    <value>Pre-pigmentation</value>
+  </data>
+  <data name="QuickDry" xml:space="preserve">
+    <value>Quick dry</value>
+  </data>
+  <data name="Regrowthcolor" xml:space="preserve">
+    <value>Regrowth tint</value>
+  </data>
+  <data name="SeperateHighlights" xml:space="preserve">
+    <value>Seperate highlights (per piece)</value>
+  </data>
+  <data name="Short" xml:space="preserve">
+    <value>Short</value>
+  </data>
+  <data name="StartingFrom" xml:space="preserve">
+    <value>starting from</value>
+  </data>
+  <data name="Straighten" xml:space="preserve">
+    <value>Straighten</value>
+  </data>
+  <data name="StraighteningIronSteampod" xml:space="preserve">
+    <value>Straightening Iron/Steampod</value>
+  </data>
+  <data name="StraightenOrCurl" xml:space="preserve">
+    <value>Straighten/Curl</value>
+  </data>
+  <data name="Supplements" xml:space="preserve">
+    <value>Supplements</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>Our services</value>
+  </data>
+  <data name="ToBeCombined" xml:space="preserve">
+    <value>to be combined with a quick dry, blow dry or roller wrap</value>
+  </data>
+  <data name="TouchUp" xml:space="preserve">
+    <value>Blow dry touch up</value>
+  </data>
+  <data name="Updo" xml:space="preserve">
+    <value>Updo</value>
+  </data>
+  <data name="WashAndCare" xml:space="preserve">
+    <value>wash and care</value>
+  </data>
+  <data name="Work" xml:space="preserve">
+    <value>minutes of work</value>
+  </data>
+  <data name="YoungerThan10" xml:space="preserve">
+    <value>younger than 10 years</value>
+  </data>
+  <data name="YoungerThan5" xml:space="preserve">
+    <value>younger than 10 years</value>
   </data>
 </root>

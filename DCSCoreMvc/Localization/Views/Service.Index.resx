@@ -117,14 +117,65 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BeardTrim" xml:space="preserve">
+    <value>Baard knippen</value>
+  </data>
+  <data name="Beautybath" xml:space="preserve">
+    <value>Schoonheidsbad</value>
+  </data>
+  <data name="BrushingOrRollerWrap" xml:space="preserve">
+    <value>Brushing of watergolf</value>
+  </data>
   <data name="Children" xml:space="preserve">
     <value>Kinderen</value>
+  </data>
+  <data name="ClipperCut" xml:space="preserve">
+    <value>Trimmen</value>
+  </data>
+  <data name="Coloring" xml:space="preserve">
+    <value>Kleuren</value>
+  </data>
+  <data name="CurlingIron" xml:space="preserve">
+    <value>Krultang</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Knippen</value>
+  </data>
+  <data name="ExtraColorElumen" xml:space="preserve">
+    <value>Extra kleur Elumen (10g)</value>
+  </data>
+  <data name="ExtraColorKeune" xml:space="preserve">
+    <value>Extra kleur Keune (30g)</value>
+  </data>
+  <data name="Finishing" xml:space="preserve">
+    <value>afwerking</value>
+  </data>
+  <data name="FoilHighlights" xml:space="preserve">
+    <value>Mèches</value>
   </data>
   <data name="Gentlemen" xml:space="preserve">
     <value>Heren</value>
   </data>
+  <data name="Haircut" xml:space="preserve">
+    <value>Haarsnit</value>
+  </data>
+  <data name="HaircutBaby" xml:space="preserve">
+    <value>Babysnit</value>
+  </data>
+  <data name="HaircutBoys" xml:space="preserve">
+    <value>Jongenssnit</value>
+  </data>
+  <data name="HaircutGirls" xml:space="preserve">
+    <value>Meisjessnit</value>
+  </data>
+  <data name="Highlights" xml:space="preserve">
+    <value>Balayage</value>
+  </data>
+  <data name="IntensiveCareMask" xml:space="preserve">
+    <value>Intensief verzorgingsmasker</value>
+  </data>
   <data name="IntroText" xml:space="preserve">
-    <value>Onderstaand kunt u een overzicht terugvinden van onze beschikbare diensten.</value>
+    <value>Onderstaand kunt u een prijslijst terugvinden van onze basisdiensten.</value>
   </data>
   <data name="IntroText2" xml:space="preserve">
     <value>Niet alle diensten konden opgenomen worden. Aarzel niet om ons te contacteren moest u bijkomende vragen hebben.</value>
@@ -132,7 +183,67 @@
   <data name="Ladies" xml:space="preserve">
     <value>Dames</value>
   </data>
+  <data name="Long" xml:space="preserve">
+    <value>Lang</value>
+  </data>
+  <data name="Medium" xml:space="preserve">
+    <value>Halflang</value>
+  </data>
+  <data name="Perm" xml:space="preserve">
+    <value>Permanent</value>
+  </data>
+  <data name="PrePigmenting" xml:space="preserve">
+    <value>Voorpigmentatie</value>
+  </data>
+  <data name="QuickDry" xml:space="preserve">
+    <value>Los drogen</value>
+  </data>
+  <data name="Regrowthcolor" xml:space="preserve">
+    <value>Uitgroeikleuring</value>
+  </data>
+  <data name="SeperateHighlights" xml:space="preserve">
+    <value>Losse mèches (per stuk)</value>
+  </data>
+  <data name="Short" xml:space="preserve">
+    <value>Kort</value>
+  </data>
+  <data name="StartingFrom" xml:space="preserve">
+    <value>vanaf</value>
+  </data>
+  <data name="Straighten" xml:space="preserve">
+    <value>Ontkrullen</value>
+  </data>
+  <data name="StraighteningIronSteampod" xml:space="preserve">
+    <value>Stijltang/Steampod</value>
+  </data>
+  <data name="StraightenOrCurl" xml:space="preserve">
+    <value>(Ont)krullen</value>
+  </data>
+  <data name="Supplements" xml:space="preserve">
+    <value>Supplementen</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>Onze diensten</value>
+  </data>
+  <data name="ToBeCombined" xml:space="preserve">
+    <value>te combineren met los drogen, brushing of watergolf</value>
+  </data>
+  <data name="TouchUp" xml:space="preserve">
+    <value>Opkammen</value>
+  </data>
+  <data name="Updo" xml:space="preserve">
+    <value>Opsteekkapsel</value>
+  </data>
+  <data name="WashAndCare" xml:space="preserve">
+    <value>wassen en verzorgen</value>
+  </data>
+  <data name="Work" xml:space="preserve">
+    <value>minuten werk</value>
+  </data>
+  <data name="YoungerThan10" xml:space="preserve">
+    <value>jonger dan 10 jaar</value>
+  </data>
+  <data name="YoungerThan5" xml:space="preserve">
+    <value>jonger dan 5 jaar</value>
   </data>
 </root>

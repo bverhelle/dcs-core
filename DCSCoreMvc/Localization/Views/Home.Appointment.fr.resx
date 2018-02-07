@@ -130,7 +130,7 @@
     <value>Prendre rendez-vous</value>
   </data>
   <data name="InfoText" xml:space="preserve">
-    <value>Vous pouvez prendre rendez-vous 24 heures sur 24, 7 jours sur 7 via l'application de réservation en ligne.&lt;br/&gt;Il est parfois possible que le logiciel a des difficultés à planifier certains rendez-vous (extensifs) tels que les coloriages. &lt;br/&gt;N'hésitez-pas à nous contacter par téléphone si vous rencontrez ceci.</value>
+    <value>Vous pouvez prendre rendez-vous 24 heures sur 24, 7 jours sur 7 via l'application de réservation en ligne.&lt;br/&gt;Il est parfois possible que le logiciel a des difficultés à planifier certains rendez-vous (extensifs) tels que les colorations. &lt;br/&gt;N'hésitez-pas à nous contacter par téléphone si vous rencontrez ceci.</value>
   </data>
   <data name="Introduction" xml:space="preserve">
     <value>Nous préférons de travailler sur rendez-vous.&lt;br/&gt;Vous pouvez toujours passer sans rendez-vous, mais dans ce cas il est possible qu'on est déjà complet. &lt;br/&gt;Il vaut donc mieux prendre rendez-vous.</value>
