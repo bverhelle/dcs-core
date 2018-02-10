@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.AspNetCore.Rewrite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -86,7 +87,15 @@ namespace DCSCoreMvc
             else
             {
                 app.UseExceptionHandler("/Home/Error");
+                var options = new RewriteOptions();
+                //options.AddRedirectToHttpsPermanent();
+                //.AddRewrite("www.", "", false);
+                options.Rules.Add(new NonWwwRule());
+                //options.AddRedirectToHttpsPermanent();
+                app.UseRewriter(options);
             }
+
+
 
             //app.UseDeveloperExceptionPage();
             app.UseStaticFiles();
