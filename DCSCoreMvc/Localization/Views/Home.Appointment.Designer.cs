@@ -61,6 +61,15 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Terug naar website.
+        /// </summary>
+        internal static string BackToWebsite {
+            get {
+                return ResourceManager.GetString("BackToWebsite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Boek hier online.
         /// </summary>
         internal static string BookOnline {
