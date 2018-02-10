@@ -1,4 +1,5 @@
 ﻿using DCSCoreMvc.Models;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
@@ -22,8 +23,11 @@ namespace DCSCoreMvc.Controllers
             return View();
         }
 
+        [EnableCors("OptiosPolicy")]
         public IActionResult Appointment()
         {
+            Request.HttpContext.Response.Headers.Add("Access-Control-Allow-Origin", "http://kapper.optios.net");
+            //Request.HttpContext.Response.Headers.Add("Access-Control-Allow-Origin", "*");
             return View();
         }
 

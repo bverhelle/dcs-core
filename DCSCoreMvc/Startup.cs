@@ -1,19 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using DCSCoreMvc.Data;
+﻿using DCSCoreMvc.Data;
 using DCSCoreMvc.Models;
 using DCSCoreMvc.Services;
-using System.Globalization;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Globalization;
 
 namespace DCSCoreMvc
 {
@@ -53,11 +50,24 @@ namespace DCSCoreMvc
             });
 
             services.AddDistributedMemoryCache();
-            
+
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
 
             services.AddLocalization(options => options.ResourcesPath = "Localization");
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("OptiosPolicy",
+                    builder => builder
+                    .WithOrigins("http://kapper.optios.net")
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .SetIsOriginAllowedToAllowWildcardSubdomains()
+                    .WithExposedHeaders("Access-Control-Allow-Origin")
+                    .AllowCredentials()
+                    );
+            });
 
             services
                 .AddMvc()
@@ -77,6 +87,7 @@ namespace DCSCoreMvc
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+
             //app.UseDeveloperExceptionPage();
             app.UseStaticFiles();
 
@@ -104,6 +115,10 @@ namespace DCSCoreMvc
             localizationOptions.RequestCultureProviders.Add(new CultureProviderResolverService());
 
             app.UseRequestLocalization(localizationOptions);
+
+            app.UseCors("OptiosPolicy");
+
+            //app.UseCors(option => option.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseMvc(routes =>
             {

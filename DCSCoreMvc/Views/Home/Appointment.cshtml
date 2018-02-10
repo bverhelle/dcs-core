@@ -8,27 +8,42 @@
 }
 
 
-    <div class="content row">
-        <div class="intro-text">
-            <img src="~/images/HomeAppointment/20180206 - Appointment.png" alt="@Localizer["H3Title"]" title="@Localizer["H3Title"]" />
-            <h2>@Localizer["H3Title"]</h2>
-            <p>@Localizer["Introduction"]</p>
-            <p>@Localizer["InfoText"]</p>
-            <div class="col-md-6">
-                <h3><span class="glyphicon glyphicon-earphone"> </span> @Localizer["ByTelephone"]</h3>
-                <p>@Localizer["ByTelephoneText"]</p>
-            </div>
-            <div class="col-md-6">
-                <h3><span class="glyphicon glyphicon-globe"> </span> @Localizer["Online"]</h3>
-                <p>@Localizer["OnlineText"]</p>
-                <p><a href="http://kapper.optios.net/online_booking/start.php?optios_id=4674&amp;language=@SharedLocalizer["OptiosBookingCulture"]" target="_blank" class="btn btn-danger navbar-btn btn-dcs">@Localizer["BookOnline"]</a></p>
-            </div>
-            @*<p>
-            <div>@Localizer["ByTelephone"]</div>
-            <div>@Localizer["CallToAction"]</div>
-        </p>
-        <div class="slogan col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
-            <p class="slogan">@Localizer["Slogan"]</p>
-        </div>*@
+<div class="content row">
+    <div class="intro-text">
+        <img src="~/images/HomeAppointment/20180206 - Appointment.png" alt="@Localizer["H3Title"]" title="@Localizer["H3Title"]" />
+        <h2>@Localizer["H3Title"]</h2>
+        <p>@Localizer["Introduction"]</p>
+        <p>@Localizer["InfoText"]</p>
+        <div class="col-md-6">
+            <h3><span class="glyphicon glyphicon-earphone"> </span> @Localizer["ByTelephone"]</h3>
+            <p>@Localizer["ByTelephoneText"]</p>
         </div>
+        <div class="col-md-6">
+            <h3><span class="glyphicon glyphicon-globe"> </span> @Localizer["Online"]</h3>
+            <p>@Localizer["OnlineText"]</p>
+            @*<p><a href="http://kapper.optios.net/online_booking/start.php?optios_id=4674&amp;language=@SharedLocalizer["OptiosBookingCulture"]" target="_blank" class="btn btn-danger navbar-btn btn-dcs">@Localizer["BookOnline"]</a></p>*@
+            <p><button class="btn btn-danger navbar-btn btn-dcs" data-toggle="modal" data-target="#myAppointmentModal">@Localizer["BookOnline"]</button></p>
+        </div>
+        <!-- Modal -->
+        @*<div class="modal fade" id="myAppointmentModal" tabindex="-1" role="dialog" aria-labelledby="myAppointmentModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">*@
+        @*<div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myAppointmentModalLabel">@Localizer["BookOnline"]</h4>
+                <p></p>
+            </div>*@
+        @*<div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Sluiten</button>
+                            <iframe src="http://kapper.optios.net/online_booking/start.php?optios_id=4674&amp;language=@SharedLocalizer["OptiosBookingCulture"]" id="info" class="iframe" name="info" seamless=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>*@ <!-- /#myModal -->
+        <!-- Modal -->
+        <div class="modal fade" id="myAppointmentModal" tabindex="-1" role="dialog" aria-labelledby="myAppointmentModalLabel" aria-hidden="true">
+            @*<button type="button" class="close" data-dismiss="modal" aria-hidden="true">Sluiten</button>*@
+            <iframe id="myAppointmentIframe" src="http://kapper.optios.net/online_booking/start.php?optios_id=4674&amp;language=@SharedLocalizer["OptiosBookingCulture"]" class="modal-dialog"></iframe>
+        </div> <!-- /#myModal -->
     </div>
+</div>
