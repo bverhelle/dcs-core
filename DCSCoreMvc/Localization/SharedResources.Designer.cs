@@ -196,6 +196,15 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Hairdreams Extensions.
+        /// </summary>
+        internal static string ExtensionsAndMore {
+            get {
+                return ResourceManager.GetString("ExtensionsAndMore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to https://www.facebook.com/davinascoiffureshop/.
         /// </summary>
         internal static string FacebookLink {

@@ -48,6 +48,7 @@
                 <ul class="nav navbar-nav vertical-align-top-menu main-menu">
                     <li><a asp-area="" asp-controller="Service" asp-action="Index">@SharedLocalizer["Services"]</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Appointment">@SharedLocalizer["MakeAnAppointment"]</a></li>
+                    <li><a asp-area="" asp-controller="Hairdreams" asp-action="Index">@SharedLocalizer["ExtensionsAndMore"]</a></li>
                 </ul>
                 @await Html.PartialAsync("_LanguagePartial")
                 @*@await Html.PartialAsync("_LoginPartial")*@   @*Needs to be added*@

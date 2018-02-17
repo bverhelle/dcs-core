@@ -38,6 +38,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>SharedResources.resx</DependentUpon>
     </Compile>
+    <Compile Update="Localization\Views\Hairdreams.Index.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Hairdreams.Index.resx</DependentUpon>
+    </Compile>
     <Compile Update="Localization\Views\Home.Appointment.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -70,6 +75,16 @@
     <EmbeddedResource Update="Localization\SharedResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SharedResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Hairdreams.Index.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Hairdreams.Index.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Hairdreams.Index.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Hairdreams.Index.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Localization\Views\Home.Appointment.en.resx">
       <Generator>ResXFileCodeGenerator</Generator>

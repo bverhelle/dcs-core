@@ -144,6 +144,9 @@
   <data name="Extensions" xml:space="preserve">
     <value>Extensions</value>
   </data>
+  <data name="ExtensionsAndMore" xml:space="preserve">
+    <value>Extensions and more</value>
+  </data>
   <data name="Friday" xml:space="preserve">
     <value>Friday</value>
   </data>
