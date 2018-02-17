@@ -117,12 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BackToWebsite" xml:space="preserve">
-    <value>Back to website</value>
-  </data>
-  <data name="BookOnline" xml:space="preserve">
-    <value>Book online here</value>
-  </data>
   <data name="ByTelephone" xml:space="preserve">
     <value>Make an appointment by telephone</value>
   </data>

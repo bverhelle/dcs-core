@@ -3,6 +3,7 @@ using DCSCoreMvc.Models;
 using DCSCoreMvc.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -12,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Globalization;
+using Microsoft.Net.Http.Headers;
 
 namespace DCSCoreMvc
 {
@@ -70,6 +72,9 @@ namespace DCSCoreMvc
                     );
             });
 
+            //services.AddResponseCaching();
+            services.AddResponseCompression();
+
             services
                 .AddMvc()
                 .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix, options => options.ResourcesPath = "Localization");
@@ -78,6 +83,21 @@ namespace DCSCoreMvc
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            //app.UseResponseCaching();
+            //app.Use(async (context, next) =>
+            //{
+            //    context.Response.GetTypedHeaders().CacheControl = new CacheControlHeaderValue()
+            //    {
+            //        Public = true,
+            //        MaxAge = TimeSpan.FromSeconds(10)
+            //    };
+            //    context.Response.Headers[HeaderNames.Vary] = new string[] { "Accept-Encoding" };
+
+            //    await next();
+            //});
+
+            app.UseResponseCompression();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -87,18 +107,30 @@ namespace DCSCoreMvc
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                var options = new RewriteOptions();
-                //options.AddRedirectToHttpsPermanent();
-                //.AddRewrite("www.", "", false);
-                options.Rules.Add(new NonWwwRule());
-                //options.AddRedirectToHttpsPermanent();
-                app.UseRewriter(options);
+                //var options = new RewriteOptions();
+                ////options.AddRedirectToHttpsPermanent();
+                ////.AddRewrite("www.", "", false);
+                //options.Rules.Add(new NonWwwRule());
+                ////options.AddRedirectToHttpsPermanent();
+                //app.UseRewriter(options);
             }
 
 
 
             //app.UseDeveloperExceptionPage();
-            app.UseStaticFiles();
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                OnPrepareResponse = (context) =>
+                {
+                    var headers = context.Context.Response.GetTypedHeaders();
+
+                    headers.CacheControl = new CacheControlHeaderValue
+                    {
+                        Public = true,
+                        MaxAge = TimeSpan.FromDays(365)
+                    };
+                }
+            });
 
             app.UseSession();
 

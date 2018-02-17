@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BackToWebsite" xml:space="preserve">
+    <value>Back to website</value>
+  </data>
+  <data name="BookOnline" xml:space="preserve">
+    <value>Book online here</value>
+  </data>
   <data name="CallUs" xml:space="preserve">
     <value>Call Us</value>
   </data>
@@ -157,7 +163,7 @@
     <value>Saturday</value>
   </data>
   <data name="Services" xml:space="preserve">
-    <value>Services</value>
+    <value>Services price list</value>
   </data>
   <data name="SiteName" xml:space="preserve">
     <value>Davina's Coiffure Shop</value>

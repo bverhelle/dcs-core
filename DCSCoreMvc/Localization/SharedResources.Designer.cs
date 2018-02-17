@@ -61,6 +61,24 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Terug naar website.
+        /// </summary>
+        internal static string BackToWebsite {
+            get {
+                return ResourceManager.GetString("BackToWebsite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Boek hier online.
+        /// </summary>
+        internal static string BookOnline {
+            get {
+                return ResourceManager.GetString("BookOnline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Bel ons.
         /// </summary>
         internal static string CallUs {
@@ -331,7 +349,7 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Diensten.
+        ///   Looks up a localized string similar to Prijslijst diensten.
         /// </summary>
         internal static string Services {
             get {
