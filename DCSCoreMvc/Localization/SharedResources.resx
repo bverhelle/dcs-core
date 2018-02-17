@@ -210,6 +210,9 @@
   <data name="PhoneNumber" xml:space="preserve">
     <value>059 730 185</value>
   </data>
+  <data name="PhoneNumberInternational" xml:space="preserve">
+    <value>+3259730185</value>
+  </data>
   <data name="SalonName" xml:space="preserve">
     <value>Davina's Coiffure Shop</value>
   </data>

@@ -331,6 +331,15 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to +3259730185.
+        /// </summary>
+        internal static string PhoneNumberInternational {
+            get {
+                return ResourceManager.GetString("PhoneNumberInternational", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Davina&apos;s Coiffure Shop.
         /// </summary>
         internal static string SalonName {
