@@ -48,6 +48,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Home.Appointment.resx</DependentUpon>
     </Compile>
+    <Compile Update="Localization\Views\Home.Index.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Home.Index.resx</DependentUpon>
+    </Compile>
     <Compile Update="Localization\Views\Service.Index.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
