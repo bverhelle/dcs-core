@@ -61,7 +61,25 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to @.
+        ///   Looks up a localized string similar to Nu reserveren.
+        /// </summary>
+        internal static string HairdreamsBookingButton {
+            get {
+                return ResourceManager.GetString("HairdreamsBookingButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Geïnteresseerd? Maak nu een afspraak voor een GRATIS consultatiegesprek!.
+        /// </summary>
+        internal static string HairdreamsCallToAction {
+            get {
+                return ResourceManager.GetString("HairdreamsCallToAction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Davina&apos;s Coiffure Shop is reeds jaren een trouwe partner van Hairdreams. Met Hairdreams kiezen we voor topkwaliteit op alle fronten. De haren en producten van Hairdreams zijn over de hele lijn van wereldniveau. Gecombineerd met een top-of-the-line trainingsprogramma zitten we op alle vlakken meer dan goed. Het is niet zonder reden dat Hairdreams &apos;s werelds nr. 1 is in haarverlengingen en haarcreatie..
         /// </summary>
         internal static string IntroText {
             get {

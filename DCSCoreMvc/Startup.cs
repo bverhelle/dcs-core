@@ -103,10 +103,25 @@ namespace DCSCoreMvc
                 app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
                 app.UseDatabaseErrorPage();
+                app.UseStaticFiles();
             }
             else
             {
                 app.UseExceptionHandler("/Home/Error");
+                app.UseStaticFiles(new StaticFileOptions
+                {
+                    OnPrepareResponse = (context) =>
+                    {
+                        var headers = context.Context.Response.GetTypedHeaders();
+
+                        headers.CacheControl = new CacheControlHeaderValue
+                        {
+                            Public = true,
+                            MaxAge = TimeSpan.FromDays(365)
+                        };
+                    }
+                });
+
                 //var options = new RewriteOptions();
                 ////options.AddRedirectToHttpsPermanent();
                 ////.AddRewrite("www.", "", false);
@@ -118,19 +133,7 @@ namespace DCSCoreMvc
 
 
             //app.UseDeveloperExceptionPage();
-            app.UseStaticFiles(new StaticFileOptions
-            {
-                OnPrepareResponse = (context) =>
-                {
-                    var headers = context.Context.Response.GetTypedHeaders();
-
-                    headers.CacheControl = new CacheControlHeaderValue
-                    {
-                        Public = true,
-                        MaxAge = TimeSpan.FromDays(365)
-                    };
-                }
-            });
+            app.UseStaticFiles();
 
             app.UseSession();
 

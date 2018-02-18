@@ -196,7 +196,7 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hairdreams Extensions.
+        ///   Looks up a localized string similar to Hairdreams extensions.
         /// </summary>
         internal static string ExtensionsAndMore {
             get {

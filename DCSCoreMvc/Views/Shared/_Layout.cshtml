@@ -28,7 +28,6 @@
         <div class="container">
             <a href="tel:@SharedLocalizer["PhoneNumberInternational"]" class="navbar-text callus no-hover-line"><span class="glyphicon glyphicon-earphone"> </span>  @SharedLocalizer["PhoneNumber"]</a>
             <ul class="nav navbar-right navbar-appointment">
-                @*<a asp-area="" asp-controller="Home" asp-action="Appointment" class="btn btn-danger navbar-btn btn-dcs">@Localizer["BookOnline"]</a>*@
                 <a class="btn btn-danger navbar-btn btn-dcs" data-toggle="modal" data-target="#myAppointmentModal">@SharedLocalizer["BookOnline"]</a>
             </ul>
         </div>
@@ -47,34 +46,24 @@
             <div class="navbar-collapse collapse" id="navbar-second">
                 <ul class="nav navbar-nav vertical-align-top-menu main-menu">
                     <li><a asp-area="" asp-controller="Service" asp-action="Index">@SharedLocalizer["Services"]</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Appointment">@SharedLocalizer["MakeAnAppointment"]</a></li>
                     <li><a asp-area="" asp-controller="Hairdreams" asp-action="Index">@SharedLocalizer["ExtensionsAndMore"]</a></li>
                 </ul>
                 @await Html.PartialAsync("_LanguagePartial")
-                @*@await Html.PartialAsync("_LoginPartial")*@   @*Needs to be added*@
             </div>
         </div>
     </nav>
-
-
-
     <div class="container body-content grid-body">
         <div class="grid-content">
             @RenderBody()
         </div>
         <div class="grid-modals">
             <div class="modal fade" id="myAppointmentModal" tabindex="-1" role="dialog" aria-labelledby="myAppointmentModalLabel" aria-hidden="true">
-                @*<a asp-area="" asp-controller="Home" asp-action="Appointment" class="btn btn-danger navbar-btn btn-dcs backtowebsite pull-right">@SharedLocalizer["BackToWebsite"]</a>*@
                 <a class="btn btn-danger navbar-btn btn-dcs backtowebsite pull-right" data-toggle="modal" data-target="#myAppointmentModal">@SharedLocalizer["BackToWebsite"]</a>
                 <iframe id="myAppointmentIframe" src="https://kapper.optios.net/online_booking/start.php?optios_id=4674&amp;language=@SharedLocalizer["OptiosBookingCulture"]" class="modal-dialog"></iframe>
             </div>
         </div>
         @*<hr />*@
         <footer class="grid-footer standard-hyperlinks">
-            @*<ul class="navbar navbar-nav">
-                    <li class="">&copy; @DateTime.Now.Year - @SharedLocalizer["SiteName"]</li>
-                </ul>*@
-
             <div class="row footer-row standard-shadow">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-partial">
                     @await Html.PartialAsync("_AddressPartial")
@@ -92,7 +81,6 @@
             <div>designed by <a href="http://www.simplifine.be/" target="_blank">Simplifine</a></div>
         </div>
     </div>
-
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
@@ -122,14 +110,12 @@
 
             gtag('config', 'UA-113538339-1');
         </script>
-
-
         <!-- Facebook Pixel Code -->
         <script>
             !function (f, b, e, v, n, t, s) {
                 if (f.fbq) return; n = f.fbq = function () {
                     n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
                 };
                 if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
                 n.queue = []; t = b.createElement(e); t.async = !0;
@@ -145,11 +131,7 @@
                  src="https://www.facebook.com/tr?id=247647752443681&ev=PageView&noscript=1" />
         </noscript>
         <!-- End Facebook Pixel Code -->
-
     </environment>
-
-
-
     @RenderSection("Scripts", required: false)
 </body>
 </html>

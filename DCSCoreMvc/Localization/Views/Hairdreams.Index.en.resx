@@ -117,6 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="HairdreamsBookingButton" xml:space="preserve">
+    <value>Book now</value>
+  </data>
+  <data name="HairdreamsCallToAction" xml:space="preserve">
+    <value>Interested? Book your appointment for a FREE consultation right now.</value>
+  </data>
+  <data name="IntroText" xml:space="preserve">
+    <value>Davina’s Coiffure Shop has been a loyal Hairdreams partner for years. With Hairdreams we made a choice for top-notch quality in every way. The Hairdreams hair and products are all world class. Combine this with an excellent training program and we are set in every respect. It is not without reason that Hairdreams is the no. 1 in the world when it comes to hair extensions and creation.</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>Hairdreams extensions and more</value>
   </data>
