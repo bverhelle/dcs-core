@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AvailableSoon" xml:space="preserve">
+    <value>Binnenkort beschikbaar</value>
+  </data>
   <data name="BackToWebsite" xml:space="preserve">
     <value>Terug naar website</value>
   </data>
@@ -176,6 +179,12 @@
   </data>
   <data name="InstagramLink" xml:space="preserve">
     <value>https://www.instagram.com/davinascoiffureshop/</value>
+  </data>
+  <data name="LongHairdreams" xml:space="preserve">
+    <value>Long Hairdreams</value>
+  </data>
+  <data name="LongHairdreamsText" xml:space="preserve">
+    <value>Haarverlenging</value>
   </data>
   <data name="MakeAnAppointment" xml:space="preserve">
     <value>Maak een afspraak</value>
@@ -239,6 +248,12 @@
   </data>
   <data name="TwitterLink" xml:space="preserve">
     <value>https://twitter.com/DsCoiffureShop</value>
+  </data>
+  <data name="VolumeHairdreams" xml:space="preserve">
+    <value>Volume Hairdreams</value>
+  </data>
+  <data name="VolumeHairdreamsText" xml:space="preserve">
+    <value>Haarverdikking</value>
   </data>
   <data name="Wednesday" xml:space="preserve">
     <value>woensdag</value>

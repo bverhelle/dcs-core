@@ -117,25 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CallToAction" xml:space="preserve">
-    <value>Maak nu een afspraak online of geef ons een belletje als u nog vragen heeft!</value>
-  </data>
-  <data name="Focus" xml:space="preserve">
-    <value>Met een focus op vakkennis en het gebruik van kwaliteitsproducten gaan wij tot het uiterste om uw droomkapsel te bekomen.</value>
-  </data>
-  <data name="H3Title" xml:space="preserve">
-    <value>Davina's Coiffure Shop is hét kapsalon in Oostende</value>
-  </data>
-  <data name="Next" xml:space="preserve">
-    <value>Volgende</value>
-  </data>
-  <data name="Previous" xml:space="preserve">
-    <value>Vorige</value>
-  </data>
-  <data name="Slogan" xml:space="preserve">
-    <value>Uw kapsel,&lt;br/&gt;onze passie!</value>
-  </data>
   <data name="Title" xml:space="preserve">
-    <value>Uw kapper in Oostende</value>
+    <value>Hairdreams apport de densité</value>
   </data>
 </root>

@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AvailableSoon" xml:space="preserve">
+    <value>Available soon</value>
+  </data>
   <data name="BackToWebsite" xml:space="preserve">
     <value>Back to website</value>
   </data>
@@ -150,6 +153,9 @@
   <data name="Friday" xml:space="preserve">
     <value>Friday</value>
   </data>
+  <data name="LongHairdreamsText" xml:space="preserve">
+    <value>Length creation</value>
+  </data>
   <data name="MakeAnAppointment" xml:space="preserve">
     <value>Make an appointment</value>
   </data>
@@ -179,6 +185,9 @@
   </data>
   <data name="Tuesday" xml:space="preserve">
     <value>Tuesday</value>
+  </data>
+  <data name="VolumeHairdreamsText" xml:space="preserve">
+    <value>Volume creation</value>
   </data>
   <data name="Wednesday" xml:space="preserve">
     <value>Wednesday</value>

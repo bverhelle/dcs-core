@@ -126,10 +126,16 @@
   <data name="H3Title" xml:space="preserve">
     <value>Davina's Coiffure Shop est lé salon de coiffure à Ostende</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Prochain</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Précédent</value>
+  </data>
   <data name="Slogan" xml:space="preserve">
     <value>Votre coiffure,&lt;br/&gt;notre passion!</value>
   </data>
   <data name="Title" xml:space="preserve">
-    <value>Page d'accueil</value>
+    <value>Votre coiffeur à Ostende</value>
   </data>
 </root>

@@ -5,15 +5,61 @@
     <link href="~/css/Controllers/HairdreamsController.css" rel="stylesheet" />
 }
 
-<div class="content row standard-hyperlinks hairdreams-index">
-    <div class="clearfix intro-text">
-        <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="~/images/Hairdreams/Index/HairdreamsLogo.png" alt="Hairdreams Logo" title="Hairdreams Logo"/>
-        <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">@Localizer["IntroText"]</div>
+
+    <div class="content row standard-hyperlinks hairdreams-index">
+        <h1>@Localizer["Title"]</h1>
+        <div class="clearfix intro-text">
+            <img class="col-lg-3 col-md-4 col-sm-6 col-xs-12" src="~/images/Hairdreams/Index/HairdreamsLogo.png" alt="Hairdreams Logo" title="Hairdreams Logo" />
+            <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">@Localizer["IntroText"]</div>
+        </div>
+
+        <div class="text-center">
+            <a class="btn btn-default navbar-btn close-video" data-toggle="modal" data-target="#hairdreams-video-modal"><span class="glyphicon glyphicon-play"></span> @Localizer["GetInspired"]</a>
+        </div>
+
+
+
+        <div class="call-to-action">
+            <div class="call-to-action-text">@Localizer["HairdreamsCallToAction"]</div>
+            <div class="booking-path">dames > extensions > consultatie</div>
+            <a class="btn btn-danger navbar-btn btn-dcs" data-toggle="modal" data-target="#myAppointmentModal">@Localizer["HairdreamsBookingButton"]</a>
+        </div>
     </div>
 
-    <div class="call-to-action">
-        <div class="call-to-action-text">@Localizer["HairdreamsCallToAction"]</div>
-        <div class="booking-path">dames > extensions > consultatie</div>
-        <a class="btn btn-danger navbar-btn btn-dcs" data-toggle="modal" data-target="#myAppointmentModal">@Localizer["HairdreamsBookingButton"]</a>
+<div class="row standard-hyperlinks">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <a class="tile-link" asp-area="" asp-controller="Hairdreams" asp-action="Long">
+            <div class="tile standard-shadow">
+                <div class="img-wrapper">
+                    <img class="img-responsive" src="~/images/Hairdreams/Index/long.png" />
+                </div>
+                <div class="text-wrapper">
+                    <h3 class="text">
+                        @*@SharedLocalizer["LongHairdreams"]<br />*@
+                        @SharedLocalizer["LongHairdreamsText"]
+                    </h3>
+                </div>
+            </div>
+        </a>
     </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <a class="tile-link" asp-area="" asp-controller="Hairdreams" asp-action="Volume">
+            <div class="tile standard-shadow">
+                <div class="img-wrapper">
+                    <img class="img-responsive" src="~/images/Hairdreams/Index/volume.png" />
+                </div>
+                <div class="text-wrapper">
+                    <h3 class="text">
+                        @*@SharedLocalizer["VolumeHairdreams"]<br />*@
+                        @SharedLocalizer["VolumeHairdreamsText"]
+                    </h3>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="modal fade" id="hairdreams-video-modal" tabindex="-1" role="dialog" aria-labelledby="hairdreams-video-label" aria-hidden="true">
+    <a class="btn btn-danger navbar-btn btn-dcs backtowebsite pull-right" data-toggle="modal" data-target="#hairdreams-video-modal">@SharedLocalizer["BackToWebsite"]</a>
+    <iframe id="myAppointmentIframe" src="" class="modal-dialog"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>

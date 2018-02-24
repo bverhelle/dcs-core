@@ -43,6 +43,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Hairdreams.Index.resx</DependentUpon>
     </Compile>
+    <Compile Update="Localization\Views\Hairdreams.Long.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Hairdreams.Long.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Localization\Views\Hairdreams.Volume.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Hairdreams.Volume.resx</DependentUpon>
+    </Compile>
     <Compile Update="Localization\Views\Home.Appointment.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -90,6 +100,26 @@
     <EmbeddedResource Update="Localization\Views\Hairdreams.Index.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Hairdreams.Index.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Hairdreams.Long.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Hairdreams.Long.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Hairdreams.Long.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Hairdreams.Long.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Hairdreams.Volume.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Hairdreams.Volume.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Hairdreams.Volume.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Hairdreams.Volume.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Localization\Views\Home.Appointment.en.resx">
       <Generator>ResXFileCodeGenerator</Generator>

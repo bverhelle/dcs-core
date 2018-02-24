@@ -12,5 +12,15 @@ namespace DCSCoreMvc.Controllers
         {
             return View();
         }
+
+        public IActionResult Long()
+        {
+            return View();
+        }
+
+        public IActionResult Volume()
+        {
+            return View();
+        }
     }
 }

@@ -61,6 +61,15 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Binnenkort beschikbaar.
+        /// </summary>
+        internal static string AvailableSoon {
+            get {
+                return ResourceManager.GetString("AvailableSoon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Terug naar website.
         /// </summary>
         internal static string BackToWebsite {
@@ -228,6 +237,24 @@ namespace DCSCoreMvc.Localization {
         internal static string InstagramLink {
             get {
                 return ResourceManager.GetString("InstagramLink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Long Hairdreams.
+        /// </summary>
+        internal static string LongHairdreams {
+            get {
+                return ResourceManager.GetString("LongHairdreams", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Haarverlenging.
+        /// </summary>
+        internal static string LongHairdreamsText {
+            get {
+                return ResourceManager.GetString("LongHairdreamsText", resourceCulture);
             }
         }
         
@@ -417,6 +444,24 @@ namespace DCSCoreMvc.Localization {
         internal static string TwitterLink {
             get {
                 return ResourceManager.GetString("TwitterLink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volume Hairdreams.
+        /// </summary>
+        internal static string VolumeHairdreams {
+            get {
+                return ResourceManager.GetString("VolumeHairdreams", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Haarverdikking.
+        /// </summary>
+        internal static string VolumeHairdreamsText {
+            get {
+                return ResourceManager.GetString("VolumeHairdreamsText", resourceCulture);
             }
         }
         

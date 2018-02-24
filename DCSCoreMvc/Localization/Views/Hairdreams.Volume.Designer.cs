@@ -22,14 +22,14 @@ namespace DCSCoreMvc.Localization.Views {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Hairdreams_Index {
+    internal class Hairdreams_Volume {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Hairdreams_Index() {
+        internal Hairdreams_Volume() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace DCSCoreMvc.Localization.Views {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DCSCoreMvc.Localization.Views.Hairdreams.Index", typeof(Hairdreams_Index).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DCSCoreMvc.Localization.Views.Hairdreams.Volume", typeof(Hairdreams_Volume).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,43 +61,7 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Laat u inspireren!.
-        /// </summary>
-        internal static string GetInspired {
-            get {
-                return ResourceManager.GetString("GetInspired", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Nu reserveren.
-        /// </summary>
-        internal static string HairdreamsBookingButton {
-            get {
-                return ResourceManager.GetString("HairdreamsBookingButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Geïnteresseerd? Maak nu een afspraak voor een GRATIS consultatiegesprek!.
-        /// </summary>
-        internal static string HairdreamsCallToAction {
-            get {
-                return ResourceManager.GetString("HairdreamsCallToAction", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Davina&apos;s Coiffure Shop is reeds jaren een trouwe partner van Hairdreams. Met Hairdreams kiezen we voor topkwaliteit op alle fronten. De haren en producten van Hairdreams zijn over de hele lijn van wereldniveau. Gecombineerd met een top-of-the-line trainingsprogramma zitten we op alle vlakken meer dan goed. Het is niet zonder reden dat Hairdreams &apos;s werelds nr. 1 is in haarverlengingen en haarcreatie..
-        /// </summary>
-        internal static string IntroText {
-            get {
-                return ResourceManager.GetString("IntroText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Hairdreams: The art of hair creation.
+        ///   Looks up a localized string similar to Hairdreams haarverdikkingen.
         /// </summary>
         internal static string Title {
             get {

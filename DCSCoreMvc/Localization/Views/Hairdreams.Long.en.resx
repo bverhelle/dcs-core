@@ -117,25 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CallToAction" xml:space="preserve">
-    <value>Maak nu een afspraak online of geef ons een belletje als u nog vragen heeft!</value>
+  <data name="ArticleLongHairdreamsParagraph1" xml:space="preserve">
+    <value>Environmental factors, stress, chemical treatments and burden on the hair tend to worsen its condition. Hair should always be trimmed, therefore, only with great care and patience, (hair grows approximately one centimetre per month) can the dream of long, healthy and natural hair be fulfilled. Natural predisposition and dietary habits also play a significant role.</value>
   </data>
-  <data name="Focus" xml:space="preserve">
-    <value>Met een focus op vakkennis en het gebruik van kwaliteitsproducten gaan wij tot het uiterste om uw droomkapsel te bekomen.</value>
+  <data name="ArticleLongHairdreamsParagraph2" xml:space="preserve">
+    <value>Many women do not believe that “extensions“ are the solution to their issues because they don‘t look or feel natural and because it damages the hair.  Furthermore, everybody sees that they are fake...</value>
   </data>
-  <data name="H3Title" xml:space="preserve">
-    <value>Davina's Coiffure Shop is hét kapsalon in Oostende</value>
+  <data name="ArticleLongHairdreamsParagraph3" xml:space="preserve">
+    <value>Nothing is further from the truth ...</value>
   </data>
-  <data name="Next" xml:space="preserve">
-    <value>Volgende</value>
+  <data name="ArticleLongHairdreamsSolution" xml:space="preserve">
+    <value>Hairdreams offers the solution</value>
   </data>
-  <data name="Previous" xml:space="preserve">
-    <value>Vorige</value>
+  <data name="ArticleLongHairdreamsSolutionParagraph" xml:space="preserve">
+    <value>Hairdreams hair creations offer a fast and convenient answer to your dreams. It’s virtually indistinguishable from natural hair and, in only a few hours, makes hair length, volume and almost any desired hair style possible!</value>
   </data>
-  <data name="Slogan" xml:space="preserve">
-    <value>Uw kapsel,&lt;br/&gt;onze passie!</value>
+  <data name="ArticleLongHairdreamsSubTitle" xml:space="preserve">
+    <value>Long hair has always been considered the epitome of feminine beauty. Nothing has changed… The dream of long hair perfection is, sadly, often met with great difficulties.</value>
+  </data>
+  <data name="ArticleLongHairdreamsTitle" xml:space="preserve">
+    <value>Hairdreams makes your long hair dreams come true</value>
+  </data>
+  <data name="LongHairdreams" xml:space="preserve">
+    <value>Long Hairdreams</value>
+  </data>
+  <data name="LongHairdreamsText" xml:space="preserve">
+    <value>Hair "extensions“ are so yesterday. Hair "creations" are what it's all about today! Hair lengthening at its highest level with 100% real human hair.</value>
   </data>
   <data name="Title" xml:space="preserve">
-    <value>Uw kapper in Oostende</value>
+    <value>Hairdreams length creation</value>
   </data>
 </root>

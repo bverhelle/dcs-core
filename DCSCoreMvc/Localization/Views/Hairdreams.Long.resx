@@ -117,25 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CallToAction" xml:space="preserve">
-    <value>Maak nu een afspraak online of geef ons een belletje als u nog vragen heeft!</value>
+  <data name="ArticleLongHairdreamsParagraph1" xml:space="preserve">
+    <value>Milieufactoren, stress en chemische behandelingen hebben een invloed op de kwaliteit van uw haren. Ermee rekening houdend dat haar ook regelmatig moet geknipt worden om gezond te houden kan het lang duren (haar groeit ca. 1 cm per maand) vooraleer de droom van lang en gezond natuurlijk haar wordt verwezenlijkt. Vergeet daarnaast ook niet dat natuurlijke aanleg en eetgewoonten een belangrijke rol spelen.</value>
   </data>
-  <data name="Focus" xml:space="preserve">
-    <value>Met een focus op vakkennis en het gebruik van kwaliteitsproducten gaan wij tot het uiterste om uw droomkapsel te bekomen.</value>
+  <data name="ArticleLongHairdreamsParagraph2" xml:space="preserve">
+    <value>Veel vrouwen geloven niet dat “extensies” de oplossing bieden voor hun problemen, want het lijkt onnatuurlijk of beschadigd het haar. Wat meer is, ze gaan ervan uit dat iedereen kan zien dat het haar kunstmatig is...</value>
   </data>
-  <data name="H3Title" xml:space="preserve">
-    <value>Davina's Coiffure Shop is hét kapsalon in Oostende</value>
+  <data name="ArticleLongHairdreamsParagraph3" xml:space="preserve">
+    <value>Niets is minder waar…</value>
   </data>
-  <data name="Next" xml:space="preserve">
-    <value>Volgende</value>
+  <data name="ArticleLongHairdreamsSolution" xml:space="preserve">
+    <value>Hairdreams biedt de oplossing</value>
   </data>
-  <data name="Previous" xml:space="preserve">
-    <value>Vorige</value>
+  <data name="ArticleLongHairdreamsSolutionParagraph" xml:space="preserve">
+    <value>Hairdreams haarcreaties bieden nu sneller en eenvoudiger dan ooit een antwoord op al uw dromen. De strengen zijn vrijwel niet te onderscheiden van natuurlijk haar en kunnen in slechts een paar uur worden aangebracht. U kunt nu naar wens lengte en volume aan uw haar toevoegen en vrijwel elke droomkapsel bekomen.</value>
   </data>
-  <data name="Slogan" xml:space="preserve">
-    <value>Uw kapsel,&lt;br/&gt;onze passie!</value>
+  <data name="ArticleLongHairdreamsSubTitle" xml:space="preserve">
+    <value>Lang haar is altijd al de belichaming van vrouwelijke schoonheid geweest. Er is nog niets veranderd, maar tijdens het nastreven van deze droom wordt men vaak met diverse obstakels geconfronteerd.</value>
+  </data>
+  <data name="ArticleLongHairdreamsTitle" xml:space="preserve">
+    <value>Hairdreams laat u dromen over lang haar</value>
+  </data>
+  <data name="LongHairdreams" xml:space="preserve">
+    <value>Long Hairdreams</value>
+  </data>
+  <data name="LongHairdreamsText" xml:space="preserve">
+    <value>"Extenties" behoren tot het verleden. Nu is het tijd om kapsels te "creëren"!
+Haarverlenging op het hoogste niveau met 100% echt menselijk haar.</value>
   </data>
   <data name="Title" xml:space="preserve">
-    <value>Uw kapper in Oostende</value>
+    <value>Hairdreams haarverlengingen</value>
   </data>
 </root>
