@@ -159,6 +159,12 @@
   <data name="ContactUs" xml:space="preserve">
     <value>Contacteer ons</value>
   </data>
+  <data name="CookieButton" xml:space="preserve">
+    <value>Verdergaan</value>
+  </data>
+  <data name="CookieText" xml:space="preserve">
+    <value>Deze website maakt gebruik van cookies om uw gebruikerservaring te verbeteren.</value>
+  </data>
   <data name="Culture" xml:space="preserve">
     <value>nl</value>
   </data>
@@ -176,6 +182,12 @@
   </data>
   <data name="Friday" xml:space="preserve">
     <value>vrijdag</value>
+  </data>
+  <data name="HairdreamsBookingButton" xml:space="preserve">
+    <value>Nu reserveren</value>
+  </data>
+  <data name="HairdreamsCallToAction" xml:space="preserve">
+    <value>Geïnteresseerd? Maak nu een afspraak voor een GRATIS consultatiegesprek!</value>
   </data>
   <data name="InstagramLink" xml:space="preserve">
     <value>https://www.instagram.com/davinascoiffureshop/</value>

@@ -144,6 +144,12 @@
   <data name="ContactUs" xml:space="preserve">
     <value>Contactez nous</value>
   </data>
+  <data name="CookieButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="CookieText" xml:space="preserve">
+    <value>En poursuivant, vous acceptez l'utilisation des cookies.</value>
+  </data>
   <data name="Culture" xml:space="preserve">
     <value>fr</value>
   </data>
@@ -155,6 +161,12 @@
   </data>
   <data name="Friday" xml:space="preserve">
     <value>vendredi</value>
+  </data>
+  <data name="HairdreamsBookingButton" xml:space="preserve">
+    <value>Reserver maintenant</value>
+  </data>
+  <data name="HairdreamsCallToAction" xml:space="preserve">
+    <value>Interessé? Réservez votre rendez-vous pour une consultation GRATUITE maintenant.</value>
   </data>
   <data name="LongHairdreamsText" xml:space="preserve">
     <value>Apport de longueur</value>

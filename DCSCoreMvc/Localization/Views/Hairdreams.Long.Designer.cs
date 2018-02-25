@@ -97,7 +97,7 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hairdreams haarcreaties bieden nu sneller en eenvoudiger dan ooit een antwoord op al uw dromen. De strengen zijn vrijwel niet te onderscheiden van natuurlijk haar en kunnen in slechts een paar uur worden aangebracht. U kunt nu naar wens lengte en volume aan uw haar toevoegen en vrijwel elke droomkapsel bekomen..
+        ///   Looks up a localized string similar to Hairdreams haarcreaties bieden nu sneller en eenvoudiger dan ooit een antwoord op al uw dromen. De strengen zijn vrijwel niet te onderscheiden van natuurlijk haar en kunnen in slechts een paar uur worden aangebracht. U kunt nu naar wens lengte en volume aan uw haar toevoegen en vrijwel elk droomkapsel bekomen..
         /// </summary>
         internal static string ArticleLongHairdreamsSolutionParagraph {
             get {

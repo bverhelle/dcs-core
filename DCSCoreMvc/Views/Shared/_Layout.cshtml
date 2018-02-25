@@ -22,6 +22,28 @@
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
         @{IgnoreSection("css");}
     </environment>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#525050"
+                    },
+                    "button": {
+                        "background": "#ff0009"
+                    }
+                },
+                "showLink": false,
+                "theme": "classic",
+                "content": {
+                    "message": "@SharedLocalizer["CookieText"]",
+                    "dismiss": "@SharedLocalizer["CookieButton"]"
+                }
+            })
+        });
+    </script>
 </head>
 <body>
     <nav class="navbar navbar-fixed-top navbar-first standard-shadow">

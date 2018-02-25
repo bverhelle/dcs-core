@@ -187,6 +187,24 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Verdergaan.
+        /// </summary>
+        internal static string CookieButton {
+            get {
+                return ResourceManager.GetString("CookieButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Deze website maakt gebruik van cookies om uw gebruikerservaring te verbeteren..
+        /// </summary>
+        internal static string CookieText {
+            get {
+                return ResourceManager.GetString("CookieText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to info@coiffureshop.com.
         /// </summary>
         internal static string Email {
@@ -228,6 +246,24 @@ namespace DCSCoreMvc.Localization {
         internal static string Friday {
             get {
                 return ResourceManager.GetString("Friday", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nu reserveren.
+        /// </summary>
+        internal static string HairdreamsBookingButton {
+            get {
+                return ResourceManager.GetString("HairdreamsBookingButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Geïnteresseerd? Maak nu een afspraak voor een GRATIS consultatiegesprek!.
+        /// </summary>
+        internal static string HairdreamsCallToAction {
+            get {
+                return ResourceManager.GetString("HairdreamsCallToAction", resourceCulture);
             }
         }
         
