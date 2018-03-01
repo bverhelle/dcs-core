@@ -133,8 +133,8 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &quot;Extenties&quot; behoren tot het verleden. Nu is het tijd om kapsels te &quot;creëren&quot;!
-        ///Haarverlenging op het hoogste niveau met 100% echt menselijk haar..
+        ///   Looks up a localized string similar to &quot;Extensies&quot; behoren tot het verleden. Men spreekt niet meer over de &quot;verlenging&quot;, maar over de &quot;creatie&quot; van kapsels!
+        ///Haarverlenging wordt op een hoger niveau getild met het 100% echt menselijk haar van Hairdreams..
         /// </summary>
         internal static string LongHairdreamsText {
             get {
