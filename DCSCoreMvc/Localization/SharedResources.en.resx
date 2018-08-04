@@ -145,7 +145,7 @@
     <value>Got it!</value>
   </data>
   <data name="CookieText" xml:space="preserve">
-    <value>This website uses cookies to ensure you get the best experience on our website. Read our &lt;a asp-area="" asp-controller="Home" asp-action="PrivacyPolicy"&gt;@SharedLocalizer["PrivacyPolicyTitle"]&lt;/a&gt; for more information.</value>
+    <value>This website uses cookies to ensure you get the best experience on our website. Read our Privacy Policy for more information.</value>
   </data>
   <data name="Culture" xml:space="preserve">
     <value>en</value>

@@ -148,7 +148,7 @@
     <value>OK</value>
   </data>
   <data name="CookieText" xml:space="preserve">
-    <value>En poursuivant, vous acceptez l'utilisation des cookies. Lisez notre &lt;a asp-area="" asp-controller="Home" asp-action="PrivacyPolicy"&gt;@SharedLocalizer["PrivacyPolicyTitle"]&lt;/a&gt; pour des informations supplémentaires.</value>
+    <value>En poursuivant, vous acceptez l'utilisation des cookies. Pour plus d'informations, lisez notre déclaration de confidentialité.</value>
   </data>
   <data name="Culture" xml:space="preserve">
     <value>fr</value>

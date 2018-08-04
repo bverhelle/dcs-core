@@ -196,7 +196,7 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Deze website maakt gebruik van cookies om uw gebruikerservaring te verbeteren. Lees onze &lt;a asp-area=&quot;&quot; asp-controller=&quot;Home&quot; asp-action=&quot;PrivacyPolicy&quot;&gt;@SharedLocalizer[&quot;PrivacyPolicyTitle&quot;]&lt;/a&gt; voor meer informatie..
+        ///   Looks up a localized string similar to Deze website maakt gebruik van cookies om uw gebruikerservaring te verbeteren. Voor meer informatie kunt u onze privacyverklaring lezen..
         /// </summary>
         internal static string CookieText {
             get {

@@ -163,7 +163,7 @@
     <value>Verdergaan</value>
   </data>
   <data name="CookieText" xml:space="preserve">
-    <value>Deze website maakt gebruik van cookies om uw gebruikerservaring te verbeteren. Lees onze &lt;a asp-area="" asp-controller="Home" asp-action="PrivacyPolicy"&gt;@SharedLocalizer["PrivacyPolicyTitle"]&lt;/a&gt; voor meer informatie.</value>
+    <value>Deze website maakt gebruik van cookies om uw gebruikerservaring te verbeteren. Voor meer informatie kunt u onze privacyverklaring lezen.</value>
   </data>
   <data name="Culture" xml:space="preserve">
     <value>nl</value>
