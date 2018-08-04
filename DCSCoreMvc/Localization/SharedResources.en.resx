@@ -145,7 +145,7 @@
     <value>Got it!</value>
   </data>
   <data name="CookieText" xml:space="preserve">
-    <value>This website uses cookies to ensure you get the best experience on our website.</value>
+    <value>This website uses cookies to ensure you get the best experience on our website. Read our &lt;a asp-area="" asp-controller="Home" asp-action="PrivacyPolicy"&gt;@SharedLocalizer["PrivacyPolicyTitle"]&lt;/a&gt; for more information.</value>
   </data>
   <data name="Culture" xml:space="preserve">
     <value>en</value>
@@ -179,6 +179,63 @@
   </data>
   <data name="OptiosBookingCulture" xml:space="preserve">
     <value>en_US.UTF-8</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>&lt;h4&gt;Privacy Policy&lt;/h4&gt;
+&lt;p&gt;We respect the privacy of the visitors of our website and ensure that the personal information you provide is treated confidentially. The processing of personal data takes place in a manner that is in accordance with the requirements set by the GDPR regulation. By using the information and services on this website, you agree to our privacy policy and the terms and conditions contained herein.&lt;/p&gt;
+&lt;h4&gt;Purposes of data processing&lt;/h4&gt;
+&lt;p&gt;Your personal data will be processed by us for the execution of your enquiries and applications, including the execution of activities aimed at increasing our customer base.&lt;/p&gt;
+&lt;p&gt;If you fill in a contact or application form on the website, or send us an e-mail, the data you send will be kept for as long as they are required to meet the nature of your request.&lt;/p&gt;
+&lt;h4&gt;Visitor behavior&lt;/h4&gt;
+&lt;p&gt;General visitor data is recorded by the site. In this context, the IP address of your computer, a possible username, the time of retrieval and data that the browser of a visitor sends, can be registered and used for statistical analyses of visitor behaviour on this website.&lt;/p&gt;
+&lt;p&gt;We try to anonymize this data as much as possible. This information is not provided to third parties.&lt;/p&gt;
+&lt;h4&gt;Google Analytics and Facebook Analytics&lt;/h4&gt;
+&lt;p&gt;We use Google Analytics and Facebook Analytics to track how visitors use our website and how effective our Google Adwords ads and Facebook ads are performing. The information thus obtained, including the address of your computer (IP address), is transferred to and stored by Google and Facebook on servers in the United States. Please read the &lt;a href="https://policies.google.com/privacy" target="_blank"&gt;Google privacy policy&lt;/a&gt; and the &lt;a href="https://www.facebook.com/policy.php" target="_blank"&gt;Facebook privacy policy&lt;/a&gt; for more information as well as the specific &lt;a href="https://policies.google.com/privacy?hl=en" target="_blank"&gt;Google Analytics privacy policy&lt;/a&gt; and the specific &lt;a href="https://www.facebook.com/full_data_use_policy" target="_blank"&gt;Facebook Analytics privacy policy.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Google and Facebook use this information to keep track of how our website is used, to provide reports about the website to us and to provide its advertisers with information about the effectiveness of their campaigns. Google or Facebook may provide this information to third parties if Google or Facebook are legally obliged to do so, or insofar as these third parties process the information on behalf of Google or Facebook. We have no influence on this. We have not allowed Google or Facebook to use the obtained analytics information for other services.&lt;/p&gt;
+&lt;h4&gt;Retargeting&lt;/h4&gt;
+&lt;p&gt;We use retargeting technologies. With this technique it is possible to offer internet users who have shown an interest in our brand and our products advertising messages on the websites of our partners. The display of these advertisements is done using cookie technologies and is completely anonymous.&lt;/p&gt;
+&lt;h4&gt;Google, Facebook and Twitter&lt;/h4&gt;
+&lt;p&gt;Insofar as this site contains buttons for promoting or sharing pages on social networks such as Google+, Facebook and Twitter, these buttons have been realized by code supplied by Google, Facebook and Twitter itself. This code places, among other things, a cookie.&lt;/p&gt;
+&lt;p&gt;Please read the privacy statements of &lt;a href="https://www.google.com/intl/nl/policies/" target="_blank"&gt;Google&lt;/a&gt;, &lt;a href="https://www.facebook.com/policy.php" target="_blank"&gt;Facebook&lt;/a&gt; and &lt;a href="https://twitter.com/privacy" target="_blank"&gt;Twitter&lt;/a&gt; (which can change regularly) to see what they do with your personal data processed by this code.&lt;/p&gt;
+&lt;h4&gt;Nieuwsbrief&lt;/h4&gt;
+&lt;p&gt;We offer a newsletter with which we want to inform interested parties about news, our services and related matters. Your e-mail address will only be added to the list of subscribers with your explicit permission. Each newsletter contains a link with which you can unsubscribe. Subscriber info is not provided to third parties.&lt;/p&gt;
+&lt;h4&gt;Orders&lt;/h4&gt;
+&lt;p&gt;When processing placed orders, the data deemed necessary for this will be processed. This information is not provided to third parties.&lt;/p&gt;
+&lt;h4&gt;Use of cookies&lt;/h4&gt;
+&lt;p&gt;We use cookies when offering electronic services. You can disable the processing and storing of cookies via your browser. You can also set your browser so that you receive a warning when a cookie is installed or set it in such a way that received cookies are deleted after your browser session ends. You will find more information on the website of the provider of your browser.&lt;/p&gt;
+&lt;p&gt;We use both 'first party cookies' and 'third party cookies'.&lt;/p&gt;
+&lt;p&gt;The 'first party cookies' are cookies that are placed by our website itself in the context of authentication and authorization of our own offered services, as well as the optimal functioning of the website, such as saving preferences that were set during a previous visit or saving data entered in a form.&lt;/p&gt;
+&lt;p&gt;'Third party cookies' are cookies that do not originate from the website itself, but from third parties. Through our website such cookies are issued by the American companies Facebook and Google, as part of their respective 'Analytics' services. We use these services to keep track of visitors and to get reports on how our website is used. Facebook and Google may provide this information to third parties if they are legally obliged to do so, or in so far as third parties process the information on their behalf. We have no influence on this.&lt;/p&gt;
+&lt;h4&gt;Inspection, correction and right of opposition&lt;/h4&gt;
+&lt;p&gt;If you have a relationship with our company, you have the possibility, after written request, to view your personal details. If the overview provided by us contains inaccuracies, you can ask us in writing to change the data or have it removed. You can also inform us in writing if you do not want to be contacted with information regarding our products and services by means of contacting us on the following address:&lt;/p&gt;
+&lt;p&gt;
+    Davina’s Coiffure &amp; Schoonheidssalon BVBA&lt;br /&gt;
+    Wittenonnenstraat 34&lt;br /&gt;
+    8400 Ostend&lt;br /&gt;
+    Tel: 059 730 185&lt;br /&gt;
+    E-mail: info@coiffureshop.com
+&lt;/p&gt;
+&lt;h4&gt;Data security&lt;/h4&gt;
+&lt;p&gt;Personal information collected by this website is stored in a secure environment that is not accessible by the general public. In the unlikely occurrence of a data breach, this will always be communicated within 72 hours in accordance with the ‘duty to warn’ law.&lt;/p&gt;
+&lt;h4&gt;Data exchange with third parties&lt;/h4&gt;
+&lt;p&gt;Personal information you provide is not exchanged with third parties and also not treated outside of Europe.&lt;/p&gt;
+&lt;h4&gt;Areas not covered by our privacy policy&lt;/h4&gt;
+&lt;p&gt;Personal information that you provide via chat sessions or standard email exchanges is not covered by this privacy statement. We protect your privacy to the best of our ability by monitoring the sessions, but keep in mind that you must always be careful when sharing personal information this way.&lt;/p&gt;
+&lt;h4&gt;Privacy statement adjustments&lt;/h4&gt;
+&lt;p&gt;We reserve the right to modify this privacy statement. Changes will be published on this website.&lt;/p&gt;
+&lt;h4&gt;Privacy Commission&lt;/h4&gt;
+&lt;p&gt;If you have any questions regarding our policies, please contact us (see our contact details above). In addition, you can always contact the Privacy Commission if you do not agree with one or more of these policies or if you wish to file a complaint.&lt;/p&gt;
+&lt;h4&gt;Terminology&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Privacy statement, privacy declaration, privacy policy: The document in which the procedures, business rules and activities concerning information security of a company are explained.&lt;/li&gt;
+    &lt;li&gt;Data leak, data breach, data spill: Obtaining irregular access to, change, destroy, process or disclose personal data.&lt;/li&gt;
+    &lt;li&gt;GDPR regulation: General Data Protection Regulation, the new European privacy rules, effective May 25, 2018.&lt;/li&gt;
+    &lt;li&gt;Cookies: Small packets of information that a web server sends to a browser and that is stored by this browser on the hard disk of your computer with the intention that this information is to be sent back to the server on a subsequent visit. These are used, among other things, to remember your settings and preferences.&lt;/li&gt;
+    &lt;li&gt;IP-adres: an IP address, in which IP stands for Internet Protocol, is an address with which a NIC or network card can be uniquely identified and addressed in a network based on the TCP/IP model, the current standard for the Internet.&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="PrivacyPolicyTitle" xml:space="preserve">
+    <value>Privacy Policy</value>
   </data>
   <data name="Saturday" xml:space="preserve">
     <value>Saturday</value>

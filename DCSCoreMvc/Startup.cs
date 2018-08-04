@@ -14,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Globalization;
 using Microsoft.Net.Http.Headers;
+using Robotify.AspNetCore;
 
 namespace DCSCoreMvc
 {
@@ -75,6 +76,8 @@ namespace DCSCoreMvc
             //services.AddResponseCaching();
             services.AddResponseCompression();
 
+            //services.AddRobotify();
+
             services
                 .AddMvc()
                 .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix, options => options.ResourcesPath = "Localization");
@@ -122,15 +125,16 @@ namespace DCSCoreMvc
                     }
                 });
 
-                //var options = new RewriteOptions();
-                ////options.AddRedirectToHttpsPermanent();
-                ////.AddRewrite("www.", "", false);
-                //options.Rules.Add(new NonWwwRule());
-                ////options.AddRedirectToHttpsPermanent();
-                //app.UseRewriter(options);
+                var options = new RewriteOptions()
+                .Add(new WwwRule())
+                /*.AddRedirectToHttps()*/;
+                //options.AddRedirectToHttpsPermanent();
+                //.AddRewrite("www.", "", false);
+                //options.Rules.Add(new WwwRule());
+                //options.AddRedirectToHttpsPermanent();
+                app.UseRewriter(options);
             }
-
-
+            
 
             //app.UseDeveloperExceptionPage();
             app.UseStaticFiles();
@@ -170,6 +174,8 @@ namespace DCSCoreMvc
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            //app.UseRobotify("Robotify");
         }
     }
 }

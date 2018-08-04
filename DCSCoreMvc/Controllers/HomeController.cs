@@ -23,6 +23,11 @@ namespace DCSCoreMvc.Controllers
             return View();
         }
 
+        public IActionResult PrivacyPolicy()
+        {
+            return View();
+        }
+
         [EnableCors("OptiosPolicy")]
         public IActionResult Appointment()
         {

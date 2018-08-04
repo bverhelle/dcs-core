@@ -196,7 +196,7 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Deze website maakt gebruik van cookies om uw gebruikerservaring te verbeteren..
+        ///   Looks up a localized string similar to Deze website maakt gebruik van cookies om uw gebruikerservaring te verbeteren. Lees onze &lt;a asp-area=&quot;&quot; asp-controller=&quot;Home&quot; asp-action=&quot;PrivacyPolicy&quot;&gt;@SharedLocalizer[&quot;PrivacyPolicyTitle&quot;]&lt;/a&gt; voor meer informatie..
         /// </summary>
         internal static string CookieText {
             get {
@@ -408,6 +408,26 @@ namespace DCSCoreMvc.Localization {
         internal static string PhoneNumberInternational {
             get {
                 return ResourceManager.GetString("PhoneNumberInternational", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;h4&gt;Privacyverklaring&lt;/h4&gt;
+        ///&lt;p&gt;Wij respecteren de privacy van bezoekers van de website en dragen er zorg voor dat de persoonlijke informatie die u ons verschaft vertrouwelijk wordt behandeld. Verwerking van de persoonsgegevens gebeurt op een wijze, die in overeenstemming is met de eisen die de GDPR-reglementering stelt. Door de informatie en diensten op deze website te gebruiken, gaat u akkoord met onze privacyverklaring en de voorwaarden die hierin zijn opgenomen.&lt;/p&gt;
+        ///&lt;h4&gt;Doeleinden van de gegevensverwerk [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string PrivacyPolicy {
+            get {
+                return ResourceManager.GetString("PrivacyPolicy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Privacyverklaring.
+        /// </summary>
+        internal static string PrivacyPolicyTitle {
+            get {
+                return ResourceManager.GetString("PrivacyPolicyTitle", resourceCulture);
             }
         }
         

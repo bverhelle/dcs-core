@@ -163,7 +163,7 @@
     <value>Verdergaan</value>
   </data>
   <data name="CookieText" xml:space="preserve">
-    <value>Deze website maakt gebruik van cookies om uw gebruikerservaring te verbeteren.</value>
+    <value>Deze website maakt gebruik van cookies om uw gebruikerservaring te verbeteren. Lees onze &lt;a asp-area="" asp-controller="Home" asp-action="PrivacyPolicy"&gt;@SharedLocalizer["PrivacyPolicyTitle"]&lt;/a&gt; voor meer informatie.</value>
   </data>
   <data name="Culture" xml:space="preserve">
     <value>nl</value>
@@ -236,6 +236,63 @@
   </data>
   <data name="PhoneNumberInternational" xml:space="preserve">
     <value>+3259730185</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>&lt;h4&gt;Privacyverklaring&lt;/h4&gt;
+&lt;p&gt;Wij respecteren de privacy van bezoekers van de website en dragen er zorg voor dat de persoonlijke informatie die u ons verschaft vertrouwelijk wordt behandeld. Verwerking van de persoonsgegevens gebeurt op een wijze, die in overeenstemming is met de eisen die de GDPR-reglementering stelt. Door de informatie en diensten op deze website te gebruiken, gaat u akkoord met onze privacyverklaring en de voorwaarden die hierin zijn opgenomen.&lt;/p&gt;
+&lt;h4&gt;Doeleinden van de gegevensverwerking&lt;/h4&gt;
+&lt;p&gt;Uw persoonsgegevens worden door ons verwerkt voor het uitvoeren van uw aanvragen, met inbegrip het uitvoeren van activiteiten gericht op de vergroting van het klantenbestand.&lt;/p&gt;
+&lt;p&gt;Als u een contact- of aanvraagformulier op de website invult, of ons een e-mail stuurt, dan worden de gegevens die u ons toestuurt bewaard zolang als naar de aard van het formulier of de inhoud van uw e-mail nodig is voor de volledige beantwoording en afhandeling daarvan.&lt;/p&gt;
+&lt;h4&gt;Klikgedrag en bezoekgegevens&lt;/h4&gt;
+&lt;p&gt;Op de website worden algemene bezoekgegevens bijgehouden. In dit kader kan met name het IP-adres van uw computer, de eventuele gebruikersnaam, het tijdstip van opvraging en gegevens die de browser van een bezoeker meestuurt, worden geregistreerd en worden gebruikt voor statistische analyses van bezoek- en klikgedrag op de website. Tevens optimaliseren wij hiermee de werking van de website.&lt;/p&gt;
+&lt;p&gt;Wij proberen deze gegevens zo veel mogelijk te anonimiseren. Deze gegevens worden niet aan derden verstrekt.&lt;/p&gt;
+&lt;h4&gt;Google Analytics en Facebook Analytics&lt;/h4&gt;
+&lt;p&gt;Wij maken gebruik van Google Analytics en Facebook Analytics om bij te houden hoe gebruikers onze website gebruiken en hoe effectief onze Google Adwords-advertenties en Facebook-advertenties zijn. De aldus verkregen informatie wordt, met inbegrip van het adres van uw computer (IP-adres), overgebracht naar en door Google &amp; Facebook opgeslagen op servers in de Verenigde Staten. Lees het &lt;a href="https://www.google.com/intl/nl/policies/" target="_blank"&gt;privacybeleid van Google&lt;/a&gt; en het &lt;a href="https://www.facebook.com/policy.php" target="_blank"&gt;privacybeleid van Facebook&lt;/a&gt; voor meer informatie, alsook het specifieke &lt;a href="https://www.google.com/intl/nl/policies/privacy/" target="_blank"&gt;privacybeleid van Google Analytics&lt;/a&gt; en het specifieke &lt;a href="https://www.facebook.com/full_data_use_policy" target="_blank"&gt;privacybeleid van Facebook Analytics&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Google en Facebook gebruiken deze informatie om bij te houden hoe onze website gebruikt wordt, om rapporten over de website aan ons te kunnen verstrekken en om haar adverteerders informatie over de effectiviteit van hun campagnes te kunnen bieden. Google of Facebook kunnen deze informatie aan derden verschaffen indien Google of Facebook hiertoe wettelijk worden verplicht, of voor zover deze derden de informatie namens Google of Facebook verwerken. Wij hebben hier geen invloed op. Wij hebben Google of Facebook niet toegestaan de verkregen analytics informatie te gebruiken voor andere diensten.&lt;/p&gt;
+&lt;h4&gt;Retargeting&lt;/h4&gt;
+&lt;p&gt;Wij maken gebruik van retargeting technologieën. Met deze techniek is het mogelijk om internetgebruikers die eerder interesse hebben getoond in ons merk en onze producten, op de websites van onze partners reclame-uitingen aan te bieden. Het weergeven van deze reclame-uitingen gebeurt aan de hand van cookie-technologieen en is volledig anoniem.&lt;/p&gt;
+&lt;h4&gt;Google, Facebook en Twitter&lt;/h4&gt;
+&lt;p&gt;Voor zover op deze site knoppen zijn opgenomen om pagina’s te kunnen promoten of delen op sociale netwerken Google+, Facebook en Twitter, zijn deze knoppen gerealiseerd door code die wordt aangeleverd door Google, Facebook en Twitter zelf. Deze code plaatst onder meer een cookie.&lt;/p&gt;
+&lt;p&gt;Leest u de privacyverklaring van &lt;a href="https://www.google.com/intl/nl/policies/" target="_blank"&gt;Google&lt;/a&gt;, &lt;a href="https://www.facebook.com/policy.php" target="_blank"&gt;Facebook&lt;/a&gt; en van &lt;a href="https://twitter.com/privacy" target="_blank"&gt;Twitter&lt;/a&gt; (welke regelmatig kunnen wijzigen) om te zien wat zij met uw persoonsgegevens doen die zij met deze code verwerken.&lt;/p&gt;
+&lt;h4&gt;Nieuwsbrief&lt;/h4&gt;
+&lt;p&gt;Wij bieden een nieuwsbrief waarmee wij geïnteresseerden willen informeren over nieuws, onze diensten en aanverwante zaken. Uw e-mailadres wordt alleen met uw expliciete toestemming toegevoegd aan de lijst van abonnees. Iedere nieuwsbrief bevat een link waarmee u zich kunt afmelden. Het abonneebestand van de nieuwsbrief wordt niet aan derden verstrekt.&lt;/p&gt;
+&lt;h4&gt;Bestellingen&lt;/h4&gt;
+&lt;p&gt;Bij het verwerken van geplaatste bestellingen worden de hiervoor nodig geachte gegevens vereist en verwerkt. Deze gegevens worden niet aan derden verschaft.&lt;/p&gt;
+&lt;h4&gt;Gebruik van cookies&lt;/h4&gt;
+&lt;p&gt;Wij maken bij het aanbieden van elektronische diensten gebruik van cookies. U kunt het verwerken en opslaan van cookies uitzetten via uw browser. U kunt uw browser ook instellen zodanig dat u een waarschuwing ontvangt wanneer een cookie geïnstalleerd wordt, of instellen zodanig dat ontvangen cookies worden verwijderd na het beëindigen van uw browsersessie. U vindt hieromtrent meer informatie op de website van de aanbieder van uw browser.&lt;/p&gt;
+&lt;p&gt;Wij maken gebruik van zowel ‘first party cookies’ als ‘third party cookies’.&lt;/p&gt;
+&lt;p&gt;De ‘first party cookies’ zijn cookies die door onze website zelf worden geplaatst in het kader van authenticatie en authorisatie van eigen aangeboden diensten, alsook het optimaal laten functioneren van de website, zoals het opslaan van instellingen die gedaan werden bij een vorig bezoek of het opslaan van gegevens ingevuld in een formulier.&lt;/p&gt;
+&lt;p&gt;‘Third party cookies’ zijn cookies die niet afkomstig zijn van de website zelf, maar wel van derden. Via onze website worden dergelijke cookies geplaatst van de Amerikaanse bedrijven Facebook en Google, als deel van hun respetievelijke ‘Analytics’-diensten. Wij gebruiken deze diensten om bij te houden en rapportages te krijgen over hoe bezoekers de website gebruiken. Facebook en Google kunnen deze informatie aan derden verschaffen indien zij hiertoe wettelijk worden verplicht, of voor zover derden de informatie namens hen verwerken. Wij hebben hier geen invloed op.&lt;/p&gt;
+&lt;h4&gt;Inzage, correctie en recht van verzet&lt;/h4&gt;
+&lt;p&gt;Indien u een relatie met ons bedrijf heeft, heeft u na schriftelijk verzoek de mogelijkheid uw persoonlijke gegevens in te zien. Indien het door ons verstrekte overzicht onjuistheden bevat, kunt u ons schriftelijk verzoeken de gegevens te wijzigen of te laten verwijderen. Daarnaast kunt u ons schriftelijk op de hoogte stellen, indien u niet wilt worden benaderd met informatie over onze producten en diensten door dit te melden bij navolgend adres:&lt;/p&gt;
+&lt;p&gt;
+    Davina’s Coiffure &amp; Schoonheidssalon BVBA&lt;br /&gt;
+    Wittenonnenstraat 34&lt;br /&gt;
+    8400 Oostende&lt;br /&gt;
+    Tel: 059 730 185&lt;br /&gt;
+    E-mail: info@coiffureshop.com
+&lt;/p&gt;
+&lt;h4&gt;Beveiling van gegevens&lt;/h4&gt;
+&lt;p&gt;Persoonlijke informatie verzameld door deze website wordt opgeslagen in een beveiligde omgeving die niet beschikbaar is voor publiek. In het onwaarschijnlijke voorval van een datalek, wordt dit steeds gecommuniceerd binnen de 72 uur conform de wet rond de meldingsplicht.&lt;/p&gt;
+&lt;h4&gt;Gegevensuitwisseling met derden&lt;/h4&gt;
+&lt;p&gt;Persoonlijke informatie die u verstrekt wordt niet uitgewisseld met derden en ook niet behandeld buiten Europa.&lt;/p&gt;
+&lt;h4&gt;Gebieden niet gedekt door ons privacybeleid&lt;/h4&gt;
+&lt;p&gt;Persoonlijke informatie die u verstrekt via chatsessies of standaard emailuitwisselingen worden niet gedekt door deze privacyverklaring. Wij beschermen uw privacy naar ons beste vermogen door controle van de sessies, maar houd er rekening mee dat u steeds voorzichtig moet zijn bij de verspreiding van uw persoonlijke informatie op deze manier.&lt;/p&gt;
+&lt;h4&gt;Aanpassen privacy statement&lt;/h4&gt;
+&lt;p&gt;Wij behouden ons het recht voor deze privacyverklaring aan te passen. Wijzigingen zullen op deze website worden gepubliceerd.&lt;/p&gt;
+&lt;h4&gt;Privacycommissie&lt;/h4&gt;
+&lt;p&gt;Indien u vragen heeft omtrent onze procedures verzoeken wij u ons te contacteren (zie bovenvermelde contactgegevens). Daarnaast kunt u steeds terecht bij de Privacycommissie indien u het niet eens bent met één of meerdere van deze procedures of indien u een klaccht wenst neer te leggen.&lt;/p&gt;
+&lt;h4&gt;Terminologie&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Privacy statement, privacy policy, privacybeleid: Het document waarin de procedures, bedrijfsregels en activiteiten op gebied van informatiebeveiliging van een bedrijf worden uiteengezet.&lt;/li&gt;
+    &lt;li&gt;Datalek: Het onregelmatig toegang krijgen tot, wijzigen, vernietigen, verwerken of openbaar maken van persoonsgegevens.&lt;/li&gt;
+    &lt;li&gt;GDPR-reglementering: General Data Protection Regulation, de nieuwe Europese privacyregels. Effectief van invoering op 25 mei 2018.&lt;/li&gt;
+    &lt;li&gt;Cookies: Kleine pakketjes informatie die een webserver naar een browser stuurt en die door uw browser op de harde schijf van uw computer worden opgeslagen met de bedoeling dat deze informatie bij een volgend bezoek weer naar de server teruggestuurd wordt. Deze worden onder meer gebruikt om uw instellingen en voorkeuren te onthouden.&lt;/li&gt;
+    &lt;li&gt;IP-adres: een IP-adres, waarin IP staat voor internet protocol, is in een computernetwerk een adres waarmee een NIC, of in het Nederlands ‘netwerkkaart’, van een host in het netwerk eenduidig geadresseerd kan worden binnen het TCP/IP-model, de standaard van ‘het’ internet.&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="PrivacyPolicyTitle" xml:space="preserve">
+    <value>Privacyverklaring</value>
   </data>
   <data name="SalonName" xml:space="preserve">
     <value>Davina's Coiffure Shop</value>

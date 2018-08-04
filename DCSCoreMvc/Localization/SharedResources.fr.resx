@@ -148,7 +148,7 @@
     <value>OK</value>
   </data>
   <data name="CookieText" xml:space="preserve">
-    <value>En poursuivant, vous acceptez l'utilisation des cookies.</value>
+    <value>En poursuivant, vous acceptez l'utilisation des cookies. Lisez notre &lt;a asp-area="" asp-controller="Home" asp-action="PrivacyPolicy"&gt;@SharedLocalizer["PrivacyPolicyTitle"]&lt;/a&gt; pour des informations supplémentaires.</value>
   </data>
   <data name="Culture" xml:space="preserve">
     <value>fr</value>
@@ -182,6 +182,63 @@
   </data>
   <data name="OptiosBookingCulture" xml:space="preserve">
     <value>fr_FR.utf8</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>&lt;h4&gt;Déclaration de confidentialité&lt;/h4&gt;
+&lt;p&gt;Nous respectons la vie privée des visiteurs du site et veillons à ce que les informations personnelles que vous fournissez soient traitées de manière confidentielle. Le traitement des données personnelles se déroule d’une manière conforme aux exigences fixées par la réglementation GDPR. En utilisant les informations et les services sur ce site, vous acceptez notre declaration de confidentialité et les termes et conditions contenus dans ce document.&lt;/p&gt;
+&lt;h4&gt;Buts du traitement des données&lt;/h4&gt;
+&lt;p&gt;Vos données personnelles seront traitées par nous pour l’execution de vos applications, y compris l’exécution d’activités visant à augmenter la clientele.&lt;/p&gt;
+&lt;p&gt;Si vous remplissez un formulaire de contact ou de demande sur le site, ou si vous envoyez un courrier électronique, les données que vous nous enverrez seront conservées tant que la nature du formulaire ou le contenu de votre courier électronique sont requis les répondre et les traiter.&lt;/p&gt;
+&lt;h4&gt;Utilisation du site et données de visite&lt;/h4&gt;
+&lt;p&gt;Les données générales des visiteurs sont conservées sur le site. Dans ce context, notamment l’adresse IP de votre ordinateur, le nom d’utilisateur possible, l’heure de récupération et les données envoyées par le navigateur d’un visiteur peuvent être enregistrés et utilisés pour des analyses statistiques de l’utilisation de sur notre site et optimation du fonctionnement du site.&lt;/p&gt;
+&lt;p&gt;Nous essayons d’anonymiser ces données autant que possible. Ces informations ne sont pas fournies à des tiers.&lt;/p&gt;
+&lt;h4&gt;Google Analytics et Facebook Analytics&lt;/h4&gt;
+&lt;p&gt;Nous utilisons Google Analytics et Facebook Analytics pour suivre la mnière dont les visiteurs utilisent notre site et l’efficacité de nos publicités sur Google Adwords et Facebook. Les informations ainsi obtenues, y compris l’adresse de votre ordinateur (adresse IP), sont transférées et stockées par Google et Facebook sur des serveurs aux États-Unis. Lisez &lt;a href="https://policies.google.com/privacy?hl=fr" target="_blank"&gt;les règles de confidentialité de Google&lt;/a&gt; et &lt;a href="https://www.facebook.com/policy.php" target="_blank"&gt;les règles de confidentialité de Facebook&lt;/a&gt; pour plus d’informations, ainsi que &lt;a href="https://policies.google.com/privacy?hl=fr" target="_blank"&gt;les règles de confidentialité spécifique de Google Analytics&lt;/a&gt; et &lt;a href="https://www.facebook.com/full_data_use_policy" target="_blank"&gt;les règles de confidentialité spécifique de Facebook Analytics&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Google et Facebook utlisent ces informations pour suivre l’utilisation de notre site, pour nous fournir des rapports sur le site et pour fournir à ses annonceurs des infos sur l’efficacité de leur campagnes. Google ou Facebook peuvent fournir ces informations à des tiers si Google ou Facebook sont légalement tenus de le faire, ou dans la mesure où ces tiers traitent ces informations pour leur compte. Nous n’avons aucune influence sur cela. Nous n’avons pas autorisé Google ou Facebook à utiliser les informations d’analyse obtenues pour d’autres services.&lt;/p&gt;
+&lt;h4&gt;Reciblage publicitaire&lt;/h4&gt;
+&lt;p&gt;Nous utilisons des technologies de reciblage publicitaire. Avec cette technique, il est possible d’offrir aux internautes ayant manifesté un intérêt pour notre marque et nos produits sur les sites de nos partenaires des messages publicitaires. L’affichage de ces publicités se fait à l’aide de technologies de cookies et est totalement anonyme.&lt;/p&gt;
+&lt;h4&gt;Google, Facebook et Twitter&lt;/h4&gt;
+&lt;p&gt;Dans la mesure où ce site contient des boutons permettant de promouvoir ou de partager des pages sur des reseaux sociaux tells que Google+, Facebook et Twitter, ces boutons ont été réalisés par code fourni par Google, Facebook. Ce code place, entre autres, un cookie.&lt;/p&gt;
+&lt;p&gt;Veuillez lire les règles de confidentialité de &lt;a href="https://www.google.com/intl/nl/policies/" target="_blank"&gt;Google&lt;/a&gt;, &lt;a href="https://www.facebook.com/policy.php" target="_blank"&gt;Facebook&lt;/a&gt; et &lt;a href="https://twitter.com/privacy" target="_blank"&gt;Twitter&lt;/a&gt; (qui peuvent changer régulièrement) pour voir ce qu’ils font avec vos données personnelles qu’ils traitent avec ce code.&lt;/p&gt;
+&lt;h4&gt;Bulletin d’information&lt;/h4&gt;
+&lt;p&gt;Nous offrons un bulletin d’information avec lequel nous souhaitons informer les parties intéressées de l’actualité, de nos services et des questions connexes. Votre adresse e-mail ne sera ajoutée à la liste des abonnés qu’avec votre authorisation explicite. Chaque newsletter contient un lien avec lequel vous pouvez vous désabonner. Le fichiers des abonnés de ce bulletin ne sont pas fournis à des tiers.&lt;/p&gt;
+&lt;h4&gt;Commandes&lt;/h4&gt;
+&lt;p&gt;Lors du traitement des commandes passes, les données jugées nécessaires à cet effet sont requises et traitées. Ces informations ne sont pas fournies à des tiers.&lt;/p&gt;
+&lt;h4&gt;Utilisation de cookies&lt;/h4&gt;
+&lt;p&gt;Nous utilisons des cookies lors de l’offre de services électroniques. Vous pouvez désactiver le traitement et le stockage des cookies via votre navigateur. Vous pouvez également configurer votre navigateur pour recevoir un avertissement lorsqu’un cookie est installé ou le configure de telle manière que les cookies reçus soient supprimés à la fin de votre session de navigation. Vous trouverez plus d’informations sur le site du fournisseur de votre navigateur.&lt;/p&gt;
+&lt;p&gt;Nous utilisons à la fois des ‘cookies internes’ et des ‘cookies tiers’.&lt;/p&gt;
+&lt;p&gt;Les ‘cookies internes’ sont des cookies places par notre site lui-même dans le cadre de l’authentification et de l’autorisation de nos propres services proposés, ainsi que du fonctionnement optimal du site, tells que l’enregistrement de configurations lors d’une visite précédente ou sauvegarde des données saisies dans un formulaire.&lt;/p&gt;
+&lt;p&gt;Les ‘cookies tiers’ sont des cookies qui ne proviennent pas du site mais de tiers. Ces cookies sont envoyés par les sociétés américaines Facebook et Google, dans le cadre de leurs services ‘Analytics’ respectifs. Nous utilisons ces services pour suivre et obtenir des rapports sur la manière don’t les visiteurs utilisent notre site. Facebook et Google peuvent fournir ces informations à des tiers s’ils sont légalement tenus de le faire ou dans la mesure où des tiers traitent ces informations en leur nom. Nous n’avons aucune influence sur cela.&lt;/p&gt;
+&lt;h4&gt;Inspection, correction et droit d’opposition&lt;/h4&gt;
+&lt;p&gt;Si vous avez un relation avec notre société, vous avez la possibilité, après demande écrite, de consulter vos informations personnelles. Si l’aperçu fourni par nous contient des inexactitudes, vous pouvez nous demander par écrit de modifier les données ou de les supprimer. Vous pouvez également nous informer par écrit si vous ne souhaitez pas être contacté avec des informations sur nos produits et services en le signalant à l’adresse suivante:&lt;/p&gt;
+&lt;p&gt;
+    Davina’s Coiffure &amp; Schoonheidssalon BVBA&lt;br /&gt;
+    34, Rue Witte Nonnen&lt;br /&gt;
+    8400 Ostende&lt;br /&gt;
+    Tel: 059 730 185&lt;br /&gt;
+    E-mail: info@coiffureshop.com
+&lt;/p&gt;
+&lt;h4&gt;Sécurité des données&lt;/h4&gt;
+&lt;p&gt;Les informations personnelles collectées par ce site sont stockées dans un environnement sécurisé non accessible au public. Dans le cas peu probable d’une fuite de données, celle-ci est toujours communiquée dans les 72 heures conformément à la loi relative à l’obligation de declaration.&lt;/p&gt;
+&lt;h4&gt;Échange de données avec des tiers&lt;/h4&gt;
+&lt;p&gt;Les informations personnelles que vous fournissez ne sont pas échangées avec des tiers et ne sont pas traitées en dehors de l’Europe.&lt;/p&gt;
+&lt;h4&gt;Zones non couvertes par nos règles de confidentialité&lt;/h4&gt;
+&lt;p&gt;Les informations personnelles que vous fournissez via des sessions de messagerie instantanée ou des échanges d’e-mail standard ne sont pas couvertes par cette declaration de confidentialité. Nous protégeons votre vie privée le mieux possible en surveillant les sessions, mais gardez à l’esprit que vous devez toujours faire prevue de prudence lorsque vous diffusez vos informations personnelles de cette manière.&lt;/p&gt;
+&lt;h4&gt;Ajuster la declaration de confidentialité&lt;/h4&gt;
+&lt;p&gt;Nous nous réservons le droit de modifier cette déclaration de confidentialité. Les modifications seront publiées sur ce site.&lt;/p&gt;
+&lt;h4&gt;Commision de la protection de la vie privée&lt;/h4&gt;
+&lt;p&gt;Si vous avez des questions concernant nos procedures, veuillez nous contacter (voir les coordonnées ci-dessus). En outre, vous pouvez toujours contacter la Commission de la protection de la vie privée si vous n’êtes pas d’accord avec une ou plusieurs de ces procedures ou si vous souhaitez deposer une plainte.&lt;/p&gt;
+&lt;h4&gt;Terminologie&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Déclaration de confidentialité, politique de confidentialité, règles de confidentialités:le document dans lequel les procedures, règles de gestions et activités dans le domaine de la sécurité des informations d’une entreprise sont expliquées.&lt;/li&gt;
+    &lt;li&gt;Fuite de données: accès irrégulier à, modifier, détruire, ou divulguer des données personnelles.&lt;/li&gt;
+    &lt;li&gt;Réglementation GDPR: General Data Protection Regulation, réglement général sur la protection des données, les nouvelles règles européennes en matière de confidentialité. Mise en œuvre effective le 25 mai 2018.&lt;/li&gt;
+    &lt;li&gt;Cookies: petits paquets d’informations qu’un serveur Web envoie à un navigateur et qui sont stockées par ce navigateur sur le disque dur de votre ordinateur dans le but que ces informations soient renvoyées au serveur lors d’une visite ultérieur. Celles-ci servent notamment à mémoriser vos paramètres et vos préférences.&lt;/li&gt;
+    &lt;li&gt;Adresse IP: une adresse IP dans laquelle IP signifie Internet Protocol est l’adresse avec laquelle une carte reseau peut être addressee sans ambiguïté dans un reseau informatique selon le modèle TCP/IP, le standard de ‘l’internet’.&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="PrivacyPolicyTitle" xml:space="preserve">
+    <value>Déclaration de confidentialité</value>
   </data>
   <data name="Saturday" xml:space="preserve">
     <value>samedi</value>
