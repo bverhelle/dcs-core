@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Parking" xml:space="preserve">
-    <value>&lt;h1&gt;Parking in Oostend&lt;/h1&gt;
+    <value>&lt;h1&gt;Parking in Ostend&lt;/h1&gt;
 &lt;div class="col-md-8 map"&gt;
     &lt;div class="mapouter"&gt;
         &lt;div class="responsive-map"&gt;
@@ -132,7 +132,7 @@
         Wittenonnenstraat 34&lt;br /&gt;
         8400 Ostend
     &lt;/p&gt;
-    &lt;h4&gt;GPS-coördinaten:&lt;/h4&gt;
+    &lt;h4&gt;GPS coordinates:&lt;/h4&gt;
     &lt;ul&gt;
         &lt;li&gt;
             Latitude: N 51° 13’47.066” (51.22974055)
@@ -152,7 +152,7 @@
 &lt;div class="col-xs-12"&gt;
     &lt;h3 class="text-center"&gt;Where can I park my car?&lt;/h3&gt;
     &lt;div class="text-center"&gt;&lt;p&gt;&lt;img class="img-responsive logo_oostende" src="/images/HomeParking/oostende_logo.png" /&gt;&lt;/p&gt;&lt;/div&gt;
-    &lt;div class="text-center"&gt;&lt;p&gt;&lt;a class="btn btn-default navbar-btn" target="_blank" href="https://www.visitoostende.be/nl/praktisch/waar-kan-ik-parkeren-oostende"&gt;Click here&lt;/a&gt; to for the full overview of parking options in Ostend.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class="text-center"&gt;&lt;p&gt;&lt;a class="btn btn-default navbar-btn" target="_blank" href="https://www.visitoostende.be/nl/praktisch/waar-kan-ik-parkeren-oostende"&gt;Click here&lt;/a&gt; for the full overview of parking options in Ostend.&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;</value>
   </data>
   <data name="Title" xml:space="preserve">

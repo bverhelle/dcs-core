@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Parking" xml:space="preserve">
-    <value>&lt;h1&gt;Parking à Oostende&lt;/h1&gt;
+    <value>&lt;h1&gt;Parking à Ostende&lt;/h1&gt;
 &lt;div class="col-md-8 map"&gt;
     &lt;div class="mapouter"&gt;
         &lt;div class="responsive-map"&gt;
@@ -132,7 +132,7 @@
         34, Rue Witte Nonnen&lt;br /&gt;
         8400 Ostende
     &lt;/p&gt;
-    &lt;h4&gt;Coordonnées GPS&lt;/h4&gt;
+    &lt;h4&gt;Coordonnées GPS:&lt;/h4&gt;
     &lt;ul&gt;
         &lt;li&gt;
             Latitude: N 51° 13’47.066” (51.22974055)
