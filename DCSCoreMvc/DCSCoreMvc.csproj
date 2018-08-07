@@ -64,6 +64,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Home.Index.resx</DependentUpon>
     </Compile>
+    <Compile Update="Localization\Views\Home.Parking.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Home.Parking.resx</DependentUpon>
+    </Compile>
     <Compile Update="Localization\Views\Service.Index.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -131,6 +136,16 @@
     <EmbeddedResource Update="Localization\Views\Home.Appointment.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Home.Appointment.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Home.Parking.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Home.Parking.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\Home.Parking.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Home.Parking.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Localization\Views\Service.Index.en.resx">
       <Generator>ResXFileCodeGenerator</Generator>

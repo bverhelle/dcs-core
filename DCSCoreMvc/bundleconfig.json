@@ -9,7 +9,8 @@
       "wwwroot/css/_Layout.css",
       "wwwroot/css/Controllers/HomeController.css",
       "wwwroot/css/Controllers/ServiceController.css",
-      "wwwroot/css/Controllers/HairdreamsController.css"
+      "wwwroot/css/Controllers/HairdreamsController.css",
+      "wwwroot/css/styling.scss"
     ]
     //"inputFiles": [ "wwwroot/**/*(*.css|!(*.min.css)" ]
   },

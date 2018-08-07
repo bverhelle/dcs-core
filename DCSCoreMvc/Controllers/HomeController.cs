@@ -23,6 +23,11 @@ namespace DCSCoreMvc.Controllers
             return View();
         }
 
+        public IActionResult Parking()
+        {
+            return View();
+        }
+
         public IActionResult PrivacyPolicy()
         {
             return View();
