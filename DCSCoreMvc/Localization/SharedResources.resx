@@ -231,6 +231,9 @@
   <data name="OptiosBookingCulture" xml:space="preserve">
     <value>nl</value>
   </data>
+  <data name="Parking" xml:space="preserve">
+    <value>Parkeren</value>
+  </data>
   <data name="PhoneNumber" xml:space="preserve">
     <value>059 730 185</value>
   </data>

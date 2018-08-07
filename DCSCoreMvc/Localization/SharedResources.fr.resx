@@ -183,6 +183,9 @@
   <data name="OptiosBookingCulture" xml:space="preserve">
     <value>fr_FR.utf8</value>
   </data>
+  <data name="Parking" xml:space="preserve">
+    <value>Parking</value>
+  </data>
   <data name="PrivacyPolicy" xml:space="preserve">
     <value>&lt;h4&gt;Déclaration de confidentialité&lt;/h4&gt;
 &lt;p&gt;Nous respectons la vie privée des visiteurs du site et veillons à ce que les informations personnelles que vous fournissez soient traitées de manière confidentielle. Le traitement des données personnelles se déroule d’une manière conforme aux exigences fixées par la réglementation GDPR. En utilisant les informations et les services sur ce site, vous acceptez notre declaration de confidentialité et les termes et conditions contenus dans ce document.&lt;/p&gt;

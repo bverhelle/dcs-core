@@ -117,6 +117,44 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Parking" xml:space="preserve">
+    <value>&lt;h1&gt;Parking in Oostend&lt;/h1&gt;
+&lt;div class="col-md-8 map"&gt;
+    &lt;div class="mapouter"&gt;
+        &lt;div class="responsive-map"&gt;
+            &lt;iframe id="gmap_canvas" src="https://maps.google.com/maps?q=davina's%20coiffure%20shop&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed"&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-4"&gt;
+    &lt;h3&gt;Davina's Coiffure Shop&lt;/h3&gt;
+    &lt;p&gt;
+        Wittenonnenstraat 34&lt;br /&gt;
+        8400 Ostend
+    &lt;/p&gt;
+    &lt;h4&gt;GPS-coördinaten:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            Latitude: N 51° 13’47.066” (51.22974055)
+        &lt;/li&gt;
+        &lt;li&gt;
+            Longitude: O 2° 55’ 6.4222” (2.91845067)
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="col-xs-12"&gt;
+    &lt;p&gt;Our salon is located at the heart of Ostend on the corner of Wittenonnenstraat and Christinastraat.&lt;/p&gt;
+    &lt;p&gt;
+        Because the salon is located in a pedestrian zone cars are not allowed. However, both the corner of Wittenonnenstraat with Lijnbaanstraat or the corner of Wittenonnenstraat with Aartshertoginnestraat can be reached by car and are only 10 meters away.
+        If you wish to park the car in the neighborhood, there are numerous options. Tourism Ostend has made a nice overview (see link below). Those who want to minimize their ecological footprint will experience little inconvenience on foot or by bicycle.
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="col-xs-12"&gt;
+    &lt;h3 class="text-center"&gt;Where can I park my car?&lt;/h3&gt;
+    &lt;div class="text-center"&gt;&lt;p&gt;&lt;img class="img-responsive logo_oostende" src="/images/HomeParking/oostende_logo.png" /&gt;&lt;/p&gt;&lt;/div&gt;
+    &lt;div class="text-center"&gt;&lt;p&gt;&lt;a class="btn btn-default navbar-btn" target="_blank" href="https://www.visitoostende.be/nl/praktisch/waar-kan-ik-parkeren-oostende"&gt;Click here&lt;/a&gt; to for the full overview of parking options in Ostend.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>Parking in Ostend</value>
   </data>

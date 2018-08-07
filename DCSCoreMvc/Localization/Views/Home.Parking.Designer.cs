@@ -61,6 +61,32 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;h1&gt;Parkeren in Oostende&lt;/h1&gt;
+        ///&lt;div class=&quot;col-md-8 map&quot;&gt;
+        ///    &lt;div class=&quot;mapouter&quot;&gt;
+        ///        &lt;div class=&quot;responsive-map&quot;&gt;
+        ///            &lt;iframe id=&quot;gmap_canvas&quot; src=&quot;https://maps.google.com/maps?q=davina&apos;s%20coiffure%20shop&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed&quot;&gt;&lt;/iframe&gt;
+        ///        &lt;/div&gt;
+        ///    &lt;/div&gt;
+        ///&lt;/div&gt;
+        ///&lt;div class=&quot;col-md-4&quot;&gt;
+        ///    &lt;h3&gt;Davina&apos;s Coiffure Shop&lt;/h3&gt;
+        ///    &lt;p&gt;
+        ///        Wittenonnenstraat 34&lt;br /&gt;
+        ///        8400 Oostende
+        ///    &lt;/p&gt;
+        ///    &lt;h4&gt;GPS-coördinaten:&lt;/h4&gt;
+        ///    &lt;ul&gt;
+        ///        &lt;li&gt;
+        ///          [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Parking {
+            get {
+                return ResourceManager.GetString("Parking", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Parkeren in Oostende.
         /// </summary>
         internal static string Title {

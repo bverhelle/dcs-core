@@ -117,6 +117,44 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Parking" xml:space="preserve">
+    <value>&lt;h1&gt;Parking à Oostende&lt;/h1&gt;
+&lt;div class="col-md-8 map"&gt;
+    &lt;div class="mapouter"&gt;
+        &lt;div class="responsive-map"&gt;
+            &lt;iframe id="gmap_canvas" src="https://maps.google.com/maps?q=davina's%20coiffure%20shop&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed"&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-4"&gt;
+    &lt;h3&gt;Davina's Coiffure Shop&lt;/h3&gt;
+    &lt;p&gt;
+        34, Rue Witte Nonnen&lt;br /&gt;
+        8400 Ostende
+    &lt;/p&gt;
+    &lt;h4&gt;Coordonnées GPS&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            Latitude: N 51° 13’47.066” (51.22974055)
+        &lt;/li&gt;
+        &lt;li&gt;
+            Longitude: O 2° 55’ 6.4222” (2.91845067)
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="col-xs-12"&gt;
+    &lt;p&gt;Notre salon est situé au coeur d'Ostende au coin de la rue Witte Nonnen et la rue Christina.&lt;/p&gt;
+    &lt;p&gt;
+        Parce que le salon est situé dans une zone piétonne, le passage est interdit aux voitures. Cependant, le coin de la rue Witte Nonnen avec la rue Lijnbaan ou la rue Wittenonnen avec la rue Aartshertoginne peut être atteint en voiture et est à seulement 10 mètres du salon.
+        Si vous souhaitez garer la voiture dans le quartier, il existe de nombreuses options. Tourism Ostend en a fait un bel aperçu (voir le lien ci-dessous). Ceux qui veulent minimaliser leur empreinte écologique subiront peu de dérangement à pied ou à vélo.
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="col-xs-12"&gt;
+    &lt;h3 class="text-center"&gt;Où puis-je garer ma voiture?&lt;/h3&gt;
+    &lt;div class="text-center"&gt;&lt;p&gt;&lt;img class="img-responsive logo_oostende" src="/images/HomeParking/oostende_logo.png" /&gt;&lt;/p&gt;&lt;/div&gt;
+    &lt;div class="text-center"&gt;&lt;p&gt;&lt;a class="btn btn-default navbar-btn" target="_blank" href="https://www.visitoostende.be/fr/ou-garer-ma-voiture-ostende"&gt;Cliquer ici&lt;/a&gt; pour voir l'aperçu complet des possibilités de stationnement à Ostende.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>Parking à Ostende</value>
   </data>

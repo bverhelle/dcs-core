@@ -394,6 +394,15 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Parkeren.
+        /// </summary>
+        internal static string Parking {
+            get {
+                return ResourceManager.GetString("Parking", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 059 730 185.
         /// </summary>
         internal static string PhoneNumber {

@@ -180,6 +180,9 @@
   <data name="OptiosBookingCulture" xml:space="preserve">
     <value>en_US.UTF-8</value>
   </data>
+  <data name="Parking" xml:space="preserve">
+    <value>Parking</value>
+  </data>
   <data name="PrivacyPolicy" xml:space="preserve">
     <value>&lt;h4&gt;Privacy Policy&lt;/h4&gt;
 &lt;p&gt;We respect the privacy of the visitors of our website and ensure that the personal information you provide is treated confidentially. The processing of personal data takes place in a manner that is in accordance with the requirements set by the GDPR regulation. By using the information and services on this website, you agree to our privacy policy and the terms and conditions contained herein.&lt;/p&gt;
