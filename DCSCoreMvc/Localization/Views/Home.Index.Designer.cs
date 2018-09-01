@@ -79,7 +79,7 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Davina&apos;s Coiffure Shop is hét kapsalon in Oostende.
+        ///   Looks up a localized string similar to Davina&apos;s Coiffure Shop is hét kapsalon voor u in Oostende.
         /// </summary>
         internal static string H3Title {
             get {
