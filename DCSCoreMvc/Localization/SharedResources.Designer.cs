@@ -322,7 +322,7 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 08:00 - 20:00.
+        ///   Looks up a localized string similar to 08:00 - 18:00.
         /// </summary>
         internal static string OpeningHoursFriday {
             get {
@@ -358,7 +358,7 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 09:00 - 21:00.
+        ///   Looks up a localized string similar to 09:00 - 18:00.
         /// </summary>
         internal static string OpeningHoursThursday {
             get {
@@ -376,7 +376,7 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 09:00 - 18:30.
+        ///   Looks up a localized string similar to 09:00 - 18:00.
         /// </summary>
         internal static string OpeningHoursWednesday {
             get {

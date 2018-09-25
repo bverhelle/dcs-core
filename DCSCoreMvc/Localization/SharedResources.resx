@@ -208,7 +208,7 @@
     <value>Openingsuren</value>
   </data>
   <data name="OpeningHoursFriday" xml:space="preserve">
-    <value>08:00 - 20:00</value>
+    <value>08:00 - 18:00</value>
   </data>
   <data name="OpeningHoursMonday" xml:space="preserve">
     <value>12:00 - 17:00</value>
@@ -220,13 +220,13 @@
     <value>09:00 - 11:00</value>
   </data>
   <data name="OpeningHoursThursday" xml:space="preserve">
-    <value>09:00 - 21:00</value>
+    <value>09:00 - 18:00</value>
   </data>
   <data name="OpeningHoursTuesday" xml:space="preserve">
     <value>10:00 - 16:00</value>
   </data>
   <data name="OpeningHoursWednesday" xml:space="preserve">
-    <value>09:00 - 18:30</value>
+    <value>09:00 - 18:00</value>
   </data>
   <data name="OptiosBookingCulture" xml:space="preserve">
     <value>nl</value>
