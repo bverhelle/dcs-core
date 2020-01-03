@@ -1,0 +1,93 @@
+﻿.hairdreams-index, .hairdreams-index .intro-text {
+    text-align: left;
+}
+
+    .hairdreams-index .intro-text img {
+        max-width: 350px;
+        margin-bottom: 15px;
+    }
+
+.book-extensions-partial {
+    text-align: center;
+    align-content: center;
+    margin-top: 15px;
+    font-variant: small-caps;
+}
+
+.book-extensions-partial .call-to-action-text {
+    font-size: larger;
+}
+
+
+    .book-extensions-partial a, .book-extensions-partial a:link, .book-extensions-partial a:visited, .book-extensions-partial a:hover, .book-extensions-partial a:active {
+        color: #fff;
+        font-variant: normal;
+    }
+
+.booking-path {
+    color: #515050;
+    font-style: italic;
+    font-size: medium;
+}
+
+
+/*region hairdreams-long*/
+/*.hairdreams-long .background-image {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    margin-left: -50vw;
+    left: 50%;
+    top: 0px;
+    background-position: right -200px top 0px;
+    background-image: url(../../images/hairdreams/long/eva-long.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-color: #f8f7f5;
+}*/
+
+.hairdreams-long aside .wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    color: white;
+    padding: 15px;
+}
+
+    .hairdreams-long aside .wrapper h1, .hairdreams-long aside .wrapper h2 {
+        color: white;
+    }
+    
+    .hairdreams-long article .wrapper {
+        background: rgba(255, 255, 255, 0.75);
+        border: 1px solid black;
+        color: black;
+        padding: 15px;
+    }
+
+/*.hairdreams-long h1, .hairdreams-long h2 {
+    border-bottom: 2px solid #ff7700;
+    overflow: hidden;
+    padding-bottom: 5px;
+}*/
+
+    /*.hairdreams-long h1:after, .hairdreams-long h2:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        margin-right: -100%;
+        border-bottom: 4px solid #ff7700;
+        margin-left: 5px;
+    }*/
+
+.hairdreams-long h3 {
+    color: #525050;
+}
+
+.hairdreams-long .wrapper{
+    margin-top: 15px;
+}
+
+/*endregion hairdreams-long*/

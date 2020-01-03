@@ -1,0 +1,400 @@
+﻿body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-first {
+    background-color: #d9d9d9;
+    height: 50px;
+}
+
+.navbar-second {
+    top: 50px;
+    /*border-top: 1px solid black;*/
+    /*border-bottom: 2px solid black;*/
+    background-color: #f5f5f5;
+    height: 90px;
+}
+
+.callus {
+    color: #515050 !important;
+    text-transform: uppercase;
+    /*font-family: 'Arial Black', sans-serif;*/
+    font-size: large;
+    margin-top: 12px;
+}
+
+.body-content {
+    margin-top: 90px;
+}
+
+body {
+    background-image: url('../images/achtergrond.gif');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 250px 133px;
+    margin-top: 140px;
+    background-position: top 0px left 0px;
+}
+
+.navbar-collapse {
+    top: 50px;
+}
+
+.navbar-brand-logo {
+    background-image: url('../images/dcs_logo.png');
+    background-size: 300px 59px;
+    height: 66px;
+    margin: 15px;
+    margin-bottom: 5px;
+    margin-left: -4px !important;
+    width: 320px;
+    background-repeat: no-repeat;
+}
+
+.navbar-toggle {
+    border: 1px solid #515050;
+    margin-top: 25px;
+}
+
+    .navbar-toggle .icon-bar {
+        background-color: #515050;
+    }
+
+.navbar-collapse {
+    background-color: #f5f5f5
+}
+
+.navbar-text {
+    float: left;
+}
+
+.navbar-appointment {
+    float: right;
+}
+
+@media (max-width: 989.99px) {
+    .navbar-brand-logo {
+        background-size: 200px 40px;
+        height: 66px;
+        margin: -1px;
+        margin-left: 8px !important;
+        margin-top: 25px;
+        width: 220px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand-logo {
+        background-size: 200px 40px;
+        height: 66px;
+        margin: 0px;
+        margin-left: 8px !important;
+        margin-top: 25px;
+        width: 220px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 287px) {
+    .navbar-brand-logo {
+        background-size: 150px 30px;
+        height: 66px;
+        margin: 0px;
+        margin-left: 8px !important;
+        margin-top: 30px;
+        width: 170px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 237px) {
+    .navbar-brand-logo {
+        background-size: 100px 20px;
+        height: 66px;
+        margin: 0px;
+        margin-left: 8px !important;
+        margin-top: 30px;
+        width: 120px;
+        background-repeat: no-repeat;
+    }
+}
+
+.vertical-align-top-menu {
+    padding-top: 20px;
+    padding-right: 5px;
+}
+
+.social-media-link-images {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.footer-row {
+    background-color: #f5f5f5;
+    color: #525252;
+    /*border-top: 2px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;*/
+}
+
+.footer-partial {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.language-menu {
+    text-transform: uppercase;
+}
+
+.standard-hyperlinks a, .standard-hyperlinks a:link, .standard-hyperlinks a:visited, .standard-hyperlinks a:hover, .standard-hyperlinks a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.standard-hyperlinks a {
+    transition: transform .2s;
+}
+
+    .standard-hyperlinks a:hover {
+        color: inherit;
+        /*transform: scale(1.05) !important;*/
+    }
+
+.standard-shadow {
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+}
+
+.opening-hours-table td.left {
+    padding-right: 30px;
+    text-align: right;
+}
+
+.opening-hours-table td.right {
+    text-align: center;
+}
+
+.copyright-footer {
+    text-align: center;
+    margin: 15px;
+}
+
+
+.contact-glyphicon-margins {
+    margin-right: 5px;
+}
+
+img.grey-hover {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    transition: transform .2s; /* Animation */
+}
+
+    img.grey-hover:hover {
+        filter: none;
+        -webkit-filter: grayscale(0%);
+        transform: scale(1.1);
+    }
+
+
+.btn-dcs {
+    background-color: #e10000;
+    border-color: #e10000;
+}
+
+.grid-content {
+    margin: 20px;
+}
+
+h3 {
+    color: #9c9c9c;
+}
+
+.main-menu {
+    text-transform: uppercase;
+}
+
+/*Appointment modal*/
+.modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.modal-content {
+    /*height: auto;
+    min-height: 100%;
+    border-radius: 0;
+    background-color: transparent;
+    display:flex;
+    align-items: stretch;*/
+}
+
+/*.modal-body{
+    flex-grow:1;
+    display:flex;
+}
+
+.modal-body iframe{
+    flex-grow:1;
+}*/
+
+#myAppointmentModal {
+    padding: 0 !important;
+}
+
+/*#myAppointmentModal iframe .close-widget{
+    display:none;
+}
+
+.close{
+    position:absolute;
+    z-index: 9999;
+    top: 15px;
+    right: 15px;
+    opacity:1;
+    font-size:40px;
+    color:white;
+}*/
+
+@media (max-width: 445px) {
+    .backtowebsite {
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 445px) {
+    .backtowebsite {
+        position: absolute;
+        z-index: 9999;
+        top: 0px;
+        right: 15px;
+        opacity: 1;
+    }
+}
+
+a.no-hover-line:hover, a.no-hover-line:visited, a.no-hover-line:active, a.no-hover-line:focus {
+    text-decoration: none;
+}
+
+
+/*Link tiles*/
+.tile {
+    border: 1px solid #515050;
+    align-content: center;
+    text-align: center;
+    background: #fff;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    position: relative;
+    width: auto;
+}
+
+    .tile img {
+        max-height: 170px;
+        max-width: 170px;
+        margin: 0 auto;
+    }
+
+    .tile .text-wrapper {
+        /*position: absolute;
+        bottom: 5px;
+        right: 50%;
+        width: 100%;*/
+        font-variant: small-caps;
+    }
+
+    .tile .text {
+        /*position:relative;*/
+        /*right:-50%;*/
+    }
+
+.tile-link .tile:hover {
+    -webkit-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
+}
+
+@media (max-width: 768px) {
+    .tile {
+        width: auto;
+    }
+}
+/*legend link tiles*/
+
+
+h1, h2 {
+    overflow: hidden;
+    padding-bottom: 5px;
+    /*margin-left: -5px;*/
+    color: #525050;
+}
+
+    h1:after, h2:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        margin-right: -100%;
+        border-bottom: 4px solid #ff7700;
+        margin-left: 5px;
+    }
+
+    h1:before, h2:before {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        margin-left: -100%;
+        border-bottom: 4px solid #ff7700;
+        /*margin-right: 5px;*/
+    }
+
+
+.home .parking h1 {
+    text-align: center;
+}
+
+.home .parking p, .home .parking div {
+    font-size: 16px;
+}
+
+.home .parking p {
+    font-size: 16px;
+}
+
+.home .parking .logo_oostende {
+    max-width: 300px;
+    margin: 15px auto;
+}
+
+.home .parking .mapouter {
+    margin: 0px 0px 15px 0px;
+    border: 2px solid #ff7700;
+}
+
+.home .parking .map .responsive-map {
+    overflow: hidden;
+    padding-bottom: 70%;
+    position: relative;
+    height: 0;
+}
+
+    .home .parking .map .responsive-map iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        border: none;
+    }

@@ -1,0 +1,31 @@
+﻿/*Home.Index*/
+.content {
+    color: #525252;
+    /*font-size: larger;*/
+}
+
+.intro-text {
+    text-align: center;
+}
+
+.slogan {
+    font-family: 'Permanent Marker', cursive;
+    -moz-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    text-align: right;
+    font-size: larger;
+}
+
+div.slogan {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.no-background {
+    background-image: none !important;
+}
+
+
