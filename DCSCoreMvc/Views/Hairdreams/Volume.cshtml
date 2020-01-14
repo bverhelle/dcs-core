@@ -1,35 +1,73 @@
-﻿@{
+﻿
+
+@{
     ViewData["Title"] = @Localizer["Title"];
 }
-
 @section css {
+    <link href="~/css/Controllers/ServiceController.css" rel="stylesheet" />
     <link href="~/css/Controllers/HairdreamsController.css" rel="stylesheet" />
 }
 
-<div class="content standard-hyperlinks hairdreams-volume">
-    <div class="background-image"></div>
-    <div class="row">
-        <h1>@Localizer["Title"]</h1>
-        <p>@SharedLocalizer["AvailableSoon"]</p>
-        @*<aside class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="wrapper standard-shadow">
-                <img class="img-responsive" src="~/images/Hairdreams/Long/vanessa-length-web.jpg" alt="Long Hairdreams" />
-                <h2>@Localizer["LongHairdreams"]</h2>
-                <p>@Localizer["LongHairdreamsText"]</p>
-            </div>
-        </aside>*@
-        @*<article class="col-xs-12 col-sm-6 col-md-8 col-lg-9">
-            <div class="wrapper standard-shadow">
-                <h2>@SharedLocalizer["ArticleLongHairdreamsTitle"]</h2>
-                <h3>@Localizer["ArticleLongHairdreamsSubTitle"]</h3>
 
-                <p>@Localizer["ArticleLongHairdreamsParagraph1"]</p>
-                <p>@Localizer["ArticleLongHairdreamsParagraph2"]</p>
-                <p>@Localizer["ArticleLongHairdreamsParagraph3"]</p>
+<div class="content row standard-hyperlinks">
+    <div class="intro-text">
+        <h1>@Localizer["TitleText"]</h1>
+        <h3>@Localizer["IntroText"]</h3>
+        <p>@Localizer["IntroText2"]</p>
+    </div>
+    <div class="services-container">
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a data-toggle="tab" href="#menuMicrolines">
+                    <div class="text-center service-index-tab">
+                        <img class="img-service-index-tab" src="~/images/Hairdreams/Index/microlines.png" />
+                        <div class="name-service-index-tab">@Localizer["Microlines"]</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#menuHighlines">
+                    <div class="text-center service-index-tab">
+                        <img class="img-service-index-tab" src="~/images/Hairdreams/Index/highlines.png" />
+                        <div class="name-service-index-tab">@Localizer["Highlines"]</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#menuTophair">
+                    <div class="text-center service-index-tab">
+                        <img class="img-service-index-tab" src="~/images/Hairdreams/Index/tophair.png" />
+                        <div class="name-service-index-tab">@Localizer["Tophair"]</div>
+                    </div>
+                </a>
+            </li>
+        </ul>
 
-                <h3>@Localizer["ArticleLongHairdreamsSolution"]</h3>
-                <p>@Localizer["ArticleLongHairdreamsSolutionParagraph"]</p>
+        <div class="tab-content">
+            <div id="menuMicrolines" class="standard-shadow tab-pane fade in active">
+                <div class="row">
+                  <h2>@Localizer["MicrolinesTitle"]</h2>
+                  <h3>@Localizer["MicrolinesIntroText"]</h3>
+                  <p>@Localizer["MicrolinesIntroText2"]</p> 
+                  @await Html.PartialAsync("_BookExtensionsPartial")
+                </div>
             </div>
-        </article>*@
+            <div id="menuHighlines" class="standard-shadow tab-pane fade">
+                <div class="row">
+                  <h2>@Localizer["HighlinesTitle"]</h2>
+                  <h3>@Localizer["HighlinesIntroText"]</h3>
+                  <p>@Localizer["HighlinesIntroText2"]</p> 
+                  @await Html.PartialAsync("_BookExtensionsPartial")
+                </div>
+            </div>
+            <div id="menuTophair" class="standard-shadow tab-pane fade">
+                <div class="row">
+                  <h2>@Localizer["TophairTitle"]</h2>
+                  <h3>@Localizer["TophairIntroText"]</h3>
+                  <p>@Localizer["TophairIntroText2"]</p> 
+                  @await Html.PartialAsync("_BookExtensionsPartial")
+                </div>
+            </div>
+        </div>
     </div>
 </div>
