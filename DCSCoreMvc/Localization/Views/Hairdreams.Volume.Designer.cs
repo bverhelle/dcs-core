@@ -19,7 +19,7 @@ namespace DCSCoreMvc.Localization.Views {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Hairdreams_Volume {
@@ -61,11 +61,146 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Highlines.
+        /// </summary>
+        internal static string Highlines {
+            get {
+                return ResourceManager.GetString("Highlines", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to De Hairdreams Highlines geeft volume aan dun en schaars haar in het bovenste deel van het hoofd door aan eigen haar van de cliënte een onzichtbare, speciale net te plaatsen, waarin hoogwaardige echte haren worden ingevlochten..
+        /// </summary>
+        internal static string HighlinesIntroText {
+            get {
+                return ResourceManager.GetString("HighlinesIntroText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indien gewenst kan een andere kleur van extra strengen gekozen worden om een aantrekkelijke kleur effect te creëren.
+        /// </summary>
+        internal static string HighlinesIntroText2 {
+            get {
+                return ResourceManager.GetString("HighlinesIntroText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hairdreams Volume+ HighLines.
+        /// </summary>
+        internal static string HighlinesTitle {
+            get {
+                return ResourceManager.GetString("HighlinesTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to De Volume+ methode van haarverdikking geeft meteen volume aan dun en schaars haar. De Volume+ methode  omvat verschillende methoden van haarverdikking en biedt de optimale oplossing voor elk individueel geval - van normaal en dun haar  tot schaars haar..
+        /// </summary>
+        internal static string IntroText {
+            get {
+                return ResourceManager.GetString("IntroText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dankzij Hairdreams, zelfs in het geval van geavanceerde haaruitval, kunnen de mensen die worstelen met het probleem van plaatselijke kaalheid van dik haar genieten. Eigen haar wordt ingevuld en verdikt met een hoogwaardig echt haar dat aan handmatige selectie werd onderwerpen. Dit haar wordt afgestemd op cliënte’s eigen haar in termen van kleur, lengte en structuur om volledig natuurlijke uitzicht te creëren. Het verbindingsproces verloopt op een wijze die zacht en onschadelijk is voor het haar. De klant vo [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string IntroText2 {
+            get {
+                return ResourceManager.GetString("IntroText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Microlines.
+        /// </summary>
+        internal static string Microlines {
+            get {
+                return ResourceManager.GetString("Microlines", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MicroLines methode is ideaal geschikt om op natuurlijke wijze haar op de hoofd te verdikken, zelfs bij geavanceerde haaruitval..
+        /// </summary>
+        internal static string MicrolinesIntroText {
+            get {
+                return ResourceManager.GetString("MicrolinesIntroText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MicroLines is een net gemaakt met vrijwel onzichtbare, speciale, zeer dunne garen, waarop hoogwaardig echt haar bevestigd zijn. Ze worden aan haar van de klant toegepast in termen van kleur, lengte en structuur, dus ze worden op een onzichtbare manier gemengd met cliente’s haar. Het resultaat is een volledig natuurlijk kapsel, die van natuurlijk haar kan niet worden onderscheiden.
+        /// </summary>
+        internal static string MicrolinesIntroText2 {
+            get {
+                return ResourceManager.GetString("MicrolinesIntroText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hairdreams Volume+ MicroLines.
+        /// </summary>
+        internal static string MicrolinesTitle {
+            get {
+                return ResourceManager.GetString("MicrolinesTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Hairdreams haarverdikkingen.
         /// </summary>
         internal static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hairdreams Volume+ Haarverdikking.
+        /// </summary>
+        internal static string TitleText {
+            get {
+                return ResourceManager.GetString("TitleText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tophair.
+        /// </summary>
+        internal static string Tophair {
+            get {
+                return ResourceManager.GetString("Tophair", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to De innovatieve TopHair methode van Hairdreams is snel, comfortabel en flexibel, en ideaal om snel en probleemlos dun en schaars haar op de bovenste gedeelte van het hoofd op te vullen. Door het speciale ontwerp, het is perfect om lang haar te verkrijgen en kapsels met een scheiding..
+        /// </summary>
+        internal static string TophairIntroText {
+            get {
+                return ResourceManager.GetString("TophairIntroText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Het wordt gemaakt uit een moderne, ademende net met ingevlochten strengen van Hairdreams, die worden bevestigd aan haar van de klant in de bovenste gedeelte van het hoofd. Andere strengen worden onzichbaar verbonden met eigen haar, waardoor de zachte en natuurlijke kapsels ontstaan met langere haren, evenals scheidingen en een pony..
+        /// </summary>
+        internal static string TophairIntroText2 {
+            get {
+                return ResourceManager.GetString("TophairIntroText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hairdreams Volume+ Top Hair.
+        /// </summary>
+        internal static string TophairTitle {
+            get {
+                return ResourceManager.GetString("TophairTitle", resourceCulture);
             }
         }
     }
