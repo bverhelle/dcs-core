@@ -221,5 +221,59 @@ namespace DCSCoreMvc.Localization.Views {
                 return ResourceManager.GetString("VolumeHairdreamsText", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volume+ HighLines – hoe het werk:.
+        /// </summary>
+        internal static string VolumeHighlinesHairdreamsHow {
+            get {
+                return ResourceManager.GetString("VolumeHighlinesHairdreamsHow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to De Highlines is vast bevestigd aan de bovenkant van de kop met een speciale lijn. De haren van cliente zijn meegesleurd door de grote mazen van het net en worden mooi gemengd met de strengen van Hairdreams. Deze methode maakt het mogelijk om elke kapsel te maken, die dik haar in de bovenste gedeelte van het hoofd vereist. Een draagperiode van HighLines is ca. 6-8 maanden..
+        /// </summary>
+        internal static string VolumeHighlinesHairdreamsHowText {
+            get {
+                return ResourceManager.GetString("VolumeHighlinesHairdreamsHowText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volume+ MicroLines – hoe het werk:.
+        /// </summary>
+        internal static string VolumeMicrolinesHairdreamsHow {
+            get {
+                return ResourceManager.GetString("VolumeMicrolinesHairdreamsHow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to De MicroLines methode verdikt cliënte’s haar met een vrijwel onzichtbaar fijn haarnet. Speciale garen gemaakt van kristallijn polymeer wordt voorzichtig maar stevig in haar bevestigd, waarop de hoogwaardige echte haren verbonden worden, die in kleur en haarlengte aan cliënte’s haar worden aangepast. Zo krijgt het haar van cliënte meer natuurlijk volume op de hoofd. Draagperiode van MicroLines is ca. 6-8 maanden..
+        /// </summary>
+        internal static string VolumeMicrolinesHairdreamsHowText {
+            get {
+                return ResourceManager.GetString("VolumeMicrolinesHairdreamsHowText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volume+ TopHair – hoe dit werk.
+        /// </summary>
+        internal static string VolumeTophairHairdreamsHow {
+            get {
+                return ResourceManager.GetString("VolumeTophairHairdreamsHow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to De Hairdreams Tophair worden aan het haar van de cliënte in het bovenste gedeelte van het hoofd bevestigd met de klemmen. Deze methode maakt het mogelijk om het haar op deze plaatsen te verdikken en te verlengen en het maken van kapsels met nauwkeurige scheidingen. De cliënte kan ze zelf eenvoudig verwijderen en opnieuw opzetten. Tophair kan ookpermanent bevestigd worden met behulp van een speciale lijn. Een draagperiode is ong. 6-8 maanden..
+        /// </summary>
+        internal static string VolumeTophairHairdreamsHowText {
+            get {
+                return ResourceManager.GetString("VolumeTophairHairdreamsHowText", resourceCulture);
+            }
+        }
     }
 }

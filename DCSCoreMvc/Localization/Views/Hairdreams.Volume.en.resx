@@ -171,4 +171,22 @@
   <data name="VolumeHairdreamsText" xml:space="preserve">
     <value>Dream volume with hair lengthening and thickening systems by Hairdreams!</value>
   </data>
+  <data name="VolumeHighlinesHairdreamsHow" xml:space="preserve">
+    <value>Hairdreams HighLines - this is how it works:</value>
+  </data>
+  <data name="VolumeHighlinesHairdreamsHowText" xml:space="preserve">
+    <value>The HighLines is permanently attached to the crown area via the Bonding ring technique. The client’s own hair is pulled through the extra-wide net, and thus blends beautifully with the Hairdreams hair. With the HighLines System, any hair style requiring fullness and volume in the crown area is possible. The HighLines can be used for about 6-8 months.</value>
+  </data>
+  <data name="VolumeMicrolinesHairdreamsHow" xml:space="preserve">
+    <value>Hairdreams MicroLines - this is how it works:</value>
+  </data>
+  <data name="VolumeMicrolinesHairdreamsHowText" xml:space="preserve">
+    <value>The MicroLines method integrates a micro-fine, virtually “invisible” hair net into the client’s existing hair. A special Bonding ring, made from a special crystal polymer material, is gently and durably worked into the client’s hair. The MicroLines have high-grade human hair attached to them, which matches the client’s own hair in color and length. This is how natural volume is added to the client’s hair in the crown area. The MicroLines lasts approx. 6-8 months.</value>
+  </data>
+  <data name="VolumeTophairHairdreamsHow" xml:space="preserve">
+    <value>Hairdreams TopHair - this is how it works:</value>
+  </data>
+  <data name="VolumeTophairHairdreamsHowText" xml:space="preserve">
+    <value>The Hairdreams TopHair is simply attached to the client’s crown with clips. It thickens and lengthens the client’s hair in the crown area, and allows for styles with exact partings. The client can easily remove it herself and reattach it as desired. It can also be attached permanently with the use of the Bonding ring technique. The TopHair can be used for approx. 6-8 months.</value>
+  </data>
 </root>
