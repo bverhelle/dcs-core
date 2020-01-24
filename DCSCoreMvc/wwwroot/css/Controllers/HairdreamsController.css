@@ -103,3 +103,8 @@
 .widen-image {
   width: 100%;
 }
+
+/* styles for the images inside a tab pane */
+.local-image {
+  border: 1px solid black;
+}
