@@ -98,3 +98,8 @@
 .row {
   margin: 10px;
 }
+
+/* widen images that don't have enough width to be completely responsive */
+.widen-image {
+  width: 100%;
+}

@@ -9,11 +9,23 @@
 }
 
 
-<div class="content row standard-hyperlinks">
-    <div class="intro-text">
+<div class="content row standard-hyperlinks hairdreams-long" onload="changeBackground('url(../../images/hairdreams/volume/daniela-volume.jpg', 'right -200px top 0px', 'fixed', 'no-repeat', 'cover', '#f8f7f5')">
+    <div class="row">
         <h1>@Localizer["TitleText"]</h1>
-        <h3>@Localizer["IntroText"]</h3>
-        <p>@Localizer["IntroText2"]</p>
+      <aside class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="wrapper standard-shadow">
+          <img class="img-responsive widen-image" src="~/images/Hairdreams/Volume/volume-main-01.jpg" alt="Volume Hairdreams"/>
+          <h2>@Localizer["VolumeHairdreams"]</h2>
+          <p>@Localizer["VolumeHairdreamsText"]</p>
+        </div>
+      </aside>
+      <article class="col-xs-12 col-sm-6 col-md-8 col-lg-9">
+        <div class="wrapper standard-shadow">
+          <h3>@Localizer["IntroText"]</h3>
+          <p>@Localizer["IntroText2"]</p>
+          @await Html.PartialAsync("_BookExtensionsPartial")
+        </div>
+      </article>
     </div>
     <div class="services-container">
         <ul class="nav nav-tabs">

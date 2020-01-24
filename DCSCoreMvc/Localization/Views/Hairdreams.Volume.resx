@@ -165,4 +165,10 @@
   <data name="TophairTitle" xml:space="preserve">
     <value>Hairdreams Volume+ Top Hair</value>
   </data>
+  <data name="VolumeHairdreams" xml:space="preserve">
+    <value>Volume Hairdreams</value>
+  </data>
+  <data name="VolumeHairdreamsText" xml:space="preserve">
+    <value>Droomvolume verkregen door de HAIRDREAMS methode van haarverlenging en verdikking</value>
+  </data>
 </root>

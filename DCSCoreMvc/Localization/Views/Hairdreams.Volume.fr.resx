@@ -165,4 +165,10 @@
   <data name="TophairTitle" xml:space="preserve">
     <value>Hairdreams Top Hair</value>
   </data>
+  <data name="VolumeHairdreams" xml:space="preserve">
+    <value>Volume Hairdreams</value>
+  </data>
+  <data name="VolumeHairdreamsText" xml:space="preserve">
+    <value>Une chevelure plus dense grâce aux systèmes en cheveux naturels Hairdreams!</value>
+  </data>
 </root>

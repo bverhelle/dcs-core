@@ -203,5 +203,23 @@ namespace DCSCoreMvc.Localization.Views {
                 return ResourceManager.GetString("TophairTitle", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volume Hairdreams.
+        /// </summary>
+        internal static string VolumeHairdreams {
+            get {
+                return ResourceManager.GetString("VolumeHairdreams", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Droomvolume verkregen door de HAIRDREAMS methode van haarverlenging en verdikking.
+        /// </summary>
+        internal static string VolumeHairdreamsText {
+            get {
+                return ResourceManager.GetString("VolumeHairdreamsText", resourceCulture);
+            }
+        }
     }
 }
