@@ -19,7 +19,7 @@ namespace DCSCoreMvc.Localization.Views {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Home_Index {
@@ -66,6 +66,15 @@ namespace DCSCoreMvc.Localization.Views {
         internal static string CallToAction {
             get {
                 return ResourceManager.GetString("CallToAction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;br/&gt;Beste klant,&lt;br/&gt;&lt;br/&gt;Wegens de COVID-19 pandemie zijn wij momenteel gesloten.&lt;br/&gt;We missen jullie, maar momenteel moeten we de gezondheid van iedereen voorop stellen.&lt;br/&gt;Hopelijk mogen we jullie spoedig opnieuw ontvangen.&lt;br/&gt;&lt;br/&gt;Dikke knuffel&lt;br/&gt;Het DCS-team&lt;br/&gt;&lt;br/&gt;.
+        /// </summary>
+        internal static string Covid19 {
+            get {
+                return ResourceManager.GetString("Covid19", resourceCulture);
             }
         }
         
