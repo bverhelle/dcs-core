@@ -117,7 +117,76 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Highlines" xml:space="preserve">
+    <value>Highlines</value>
+  </data>
+  <data name="HighlinesIntroText" xml:space="preserve">
+    <value>The Hairdreams HighLines gives very fine and slightly thinning hair significantly more volume in the crown area. This is done with micro-fine, invisible special threads with high-grade real hair attached to them, which are integrated into the client’s own hair.</value>
+  </data>
+  <data name="HighlinesIntroText2" xml:space="preserve">
+    <value>If desired, then a different color can be chosen for the additional strands in order to get attractive color effects such as highlight or lowlights.</value>
+  </data>
+  <data name="HighlinesTitle" xml:space="preserve">
+    <value>Hairdreams HighLines</value>
+  </data>
+  <data name="IntroText" xml:space="preserve">
+    <value>Hairdreams Hair Thickening provides more volume for fine and thinning hair at the drop of a hat. The Hairdreams MICROLINES System includes various hair thickening methods and provides optimal solutions for any individual case, ranging from normal/fine hair all the way to thinning hair.</value>
+  </data>
+  <data name="IntroText2" xml:space="preserve">
+    <value>Even cases with serious hair loss and bald spots can receive perfect hair volume with Hairdreams. The client’s own hair is supplemented and filled in with high-grade, hand-selected 100% real human hair. This hair matches the client’s hair in terms of color, lengths and structure, creating an absolutely natural-looking result. The integration process is gentle and non-damaging. The additional hair feels like the client’s own hair and can be worn without any noteworthy lifestyle limitations. The additional hair volume is indistinguishable from the client’s natural hair.</value>
+  </data>
+  <data name="Microlines" xml:space="preserve">
+    <value>Microlines</value>
+  </data>
+  <data name="MicrolinesIntroText" xml:space="preserve">
+    <value>The MicroLines method is ideally suited to give people with thin hair in the crown area their natural hair fullness back, even with advanced hair loss.</value>
+  </data>
+  <data name="MicrolinesIntroText2" xml:space="preserve">
+    <value>Micro-fine, virtually invisible special threads, the so-called “MicroLines”, with high-grade real hair attached to them, are worked into the client’s existing hair. The added hair matches the client’s hair in terms of color, structure and length, and thus invisibly integrates into the client’s hair. The result is an absolutely natural real head of hair, which looks just like the client’s own.</value>
+  </data>
+  <data name="MicrolinesTitle" xml:space="preserve">
+    <value>Hairdreams MicroLines</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>Hairdreams volume creation</value>
+  </data>
+  <data name="TitleText" xml:space="preserve">
+    <value>Hairdreams MicroLines System</value>
+  </data>
+  <data name="Tophair" xml:space="preserve">
+    <value>Tophair</value>
+  </data>
+  <data name="TophairIntroText" xml:space="preserve">
+    <value>The innovative TopHair System by Hairdreams is especially fast, convenient and flexible in its application, and is ideally suited for quick and effortless thickening of fine and thin hair in the crown area. Due to its special construction it works especially well for styles with longer hair on top, or if the client desires a parting.</value>
+  </data>
+  <data name="TophairIntroText2" xml:space="preserve">
+    <value>It is made of an innovative, breathable high-tech mesh with Hairdreams hair attached to it, which is integrated into the client’s own hair at the crown. The additional hair inconspicuously blends with the client’s hair and results in wonderfully soft and natural hair styles with longer hair, as well as partings and bangs.</value>
+  </data>
+  <data name="TophairTitle" xml:space="preserve">
+    <value>Hairdreams Top Hair</value>
+  </data>
+  <data name="VolumeHairdreams" xml:space="preserve">
+    <value>Volume Hairdreams</value>
+  </data>
+  <data name="VolumeHairdreamsText" xml:space="preserve">
+    <value>Dream volume with hair lengthening and thickening systems by Hairdreams!</value>
+  </data>
+  <data name="VolumeHighlinesHairdreamsHow" xml:space="preserve">
+    <value>Hairdreams HighLines - this is how it works:</value>
+  </data>
+  <data name="VolumeHighlinesHairdreamsHowText" xml:space="preserve">
+    <value>The HighLines is permanently attached to the crown area via the Bonding ring technique. The client’s own hair is pulled through the extra-wide net, and thus blends beautifully with the Hairdreams hair. With the HighLines System, any hair style requiring fullness and volume in the crown area is possible. The HighLines can be used for about 6-8 months.</value>
+  </data>
+  <data name="VolumeMicrolinesHairdreamsHow" xml:space="preserve">
+    <value>Hairdreams MicroLines - this is how it works:</value>
+  </data>
+  <data name="VolumeMicrolinesHairdreamsHowText" xml:space="preserve">
+    <value>The MicroLines method integrates a micro-fine, virtually “invisible” hair net into the client’s existing hair. A special Bonding ring, made from a special crystal polymer material, is gently and durably worked into the client’s hair. The MicroLines have high-grade human hair attached to them, which matches the client’s own hair in color and length. This is how natural volume is added to the client’s hair in the crown area. The MicroLines lasts approx. 6-8 months.</value>
+  </data>
+  <data name="VolumeTophairHairdreamsHow" xml:space="preserve">
+    <value>Hairdreams TopHair - this is how it works:</value>
+  </data>
+  <data name="VolumeTophairHairdreamsHowText" xml:space="preserve">
+    <value>The Hairdreams TopHair is simply attached to the client’s crown with clips. It thickens and lengthens the client’s hair in the crown area, and allows for styles with exact partings. The client can easily remove it herself and reattach it as desired. It can also be attached permanently with the use of the Bonding ring technique. The TopHair can be used for approx. 6-8 months.</value>
   </data>
 </root>

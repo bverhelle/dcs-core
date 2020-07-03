@@ -12,35 +12,36 @@ using Microsoft.Extensions.Logging;
 
 namespace DCSCoreMvc
 {
-    public class Program
+  public class Program
+  {
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
+      var host = BuildWebHost(args);
+
+      using (var scope = host.Services.CreateScope())
+      {
+        var services = scope.ServiceProvider;
+        try
         {
-            var host = BuildWebHost(args);
-
-            using (var scope = host.Services.CreateScope())
-            {
-                var services = scope.ServiceProvider;
-                try
-                {
-                    var context = services.GetRequiredService<ApplicationDbContext>();
-                    DbInitializer.Initialize(context);
-                }
-                catch (Exception ex)
-                {
-                    var logger = services.GetRequiredService<ILogger<Program>>();
-                    logger.LogError(ex, "An error occurred while seeding the database.");
-                }
-            }
-
-            host.Run();
+          var context = services.GetRequiredService<ApplicationDbContext>();
+          DbInitializer.Initialize(context);
         }
+        catch (Exception ex)
+        {
+          var logger = services.GetRequiredService<ILogger<Program>>();
+          logger.LogError(ex, "An error occurred while seeding the database.");
+        }
+      }
 
-        public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-            .CaptureStartupErrors(true)
-            .UseStartup<Startup>()
-            .UseApplicationInsights()
-            .Build();
+      host.Run();
     }
+
+    public static IWebHost BuildWebHost(string[] args) =>
+        WebHost.CreateDefaultBuilder(args)
+        .UseUrls("http://localhost:5000", "http://*:80")
+        .CaptureStartupErrors(true)
+        .UseStartup<Startup>()
+        .UseApplicationInsights()
+        .Build();
+  }
 }

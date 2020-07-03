@@ -1,35 +1,38 @@
-﻿.hairdreams-index, .hairdreams-index .intro-text {
-    text-align: left;
+﻿.hairdreams-index,
+.hairdreams-index .intro-text {
+  text-align: left;
 }
 
-    .hairdreams-index .intro-text img {
-        max-width: 350px;
-        margin-bottom: 15px;
-    }
+.hairdreams-index .intro-text img {
+  max-width: 350px;
+  margin-bottom: 15px;
+}
 
 .book-extensions-partial {
-    text-align: center;
-    align-content: center;
-    margin-top: 15px;
-    font-variant: small-caps;
+  text-align: center;
+  align-content: center;
+  margin-top: 15px;
+  font-variant: small-caps;
 }
 
 .book-extensions-partial .call-to-action-text {
-    font-size: larger;
+  font-size: larger;
 }
 
-
-    .book-extensions-partial a, .book-extensions-partial a:link, .book-extensions-partial a:visited, .book-extensions-partial a:hover, .book-extensions-partial a:active {
-        color: #fff;
-        font-variant: normal;
-    }
+.book-extensions-partial a,
+.book-extensions-partial a:link,
+.book-extensions-partial a:visited,
+.book-extensions-partial a:hover,
+.book-extensions-partial a:active {
+  color: #fff;
+  font-variant: normal;
+}
 
 .booking-path {
-    color: #515050;
-    font-style: italic;
-    font-size: medium;
+  color: #515050;
+  font-style: italic;
+  font-size: medium;
 }
-
 
 /*region hairdreams-long*/
 /*.hairdreams-long .background-image {
@@ -49,22 +52,23 @@
 }*/
 
 .hairdreams-long aside .wrapper {
-    background: rgba(0, 0, 0, 0.5);
-    border: 1px solid black;
-    color: white;
-    padding: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+  color: white;
+  padding: 15px;
 }
 
-    .hairdreams-long aside .wrapper h1, .hairdreams-long aside .wrapper h2 {
-        color: white;
-    }
-    
-    .hairdreams-long article .wrapper {
-        background: rgba(255, 255, 255, 0.75);
-        border: 1px solid black;
-        color: black;
-        padding: 15px;
-    }
+.hairdreams-long aside .wrapper h1,
+.hairdreams-long aside .wrapper h2 {
+  color: white;
+}
+
+.hairdreams-long article .wrapper {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid black;
+  color: black;
+  padding: 15px;
+}
 
 /*.hairdreams-long h1, .hairdreams-long h2 {
     border-bottom: 2px solid #ff7700;
@@ -72,7 +76,7 @@
     padding-bottom: 5px;
 }*/
 
-    /*.hairdreams-long h1:after, .hairdreams-long h2:after {
+/*.hairdreams-long h1:after, .hairdreams-long h2:after {
         content: '';
         display: inline-block;
         width: 100%;
@@ -83,11 +87,24 @@
     }*/
 
 .hairdreams-long h3 {
-    color: #525050;
+  color: #525050;
 }
 
-.hairdreams-long .wrapper{
-    margin-top: 15px;
+.hairdreams-long .wrapper {
+  margin-top: 15px;
 }
 
 /*endregion hairdreams-long*/
+.row {
+  margin: 10px;
+}
+
+/* widen images that don't have enough width to be completely responsive */
+.widen-image {
+  width: 100%;
+}
+
+/* styles for the images inside a tab pane */
+.local-image {
+  border: 1px solid black;
+}

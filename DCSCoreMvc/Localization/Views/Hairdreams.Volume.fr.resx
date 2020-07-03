@@ -117,7 +117,76 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Highlines" xml:space="preserve">
+    <value>Highlines</value>
+  </data>
+  <data name="HighlinesIntroText" xml:space="preserve">
+    <value>Le Hairdreams-HighLines apporte aux cheveux fins, ou légèrement clairsemés, plus de volume sur le dessus de la tête. Ainsi des chaînettes ultra-fines et quasiment invisibles, sur lesquelles sont noués des cheveux Hairdreams de très haute qualité, sont intégrées à la chevelure.</value>
+  </data>
+  <data name="HighlinesIntroText2" xml:space="preserve">
+    <value>Le HighLines vous offre également la possibilité d'obtenir un effet méché plus ou moins soutenu, si vous optez pour une couleur différente de la vôtre.</value>
+  </data>
+  <data name="HighlinesTitle" xml:space="preserve">
+    <value>Hairdreams HighLines</value>
+  </data>
+  <data name="IntroText" xml:space="preserve">
+    <value>Les produits du Hairdreams MicroLines System redonnent en un tour de main un beau volume naturel aux cheveux fins et clairsemés. Ils comprennent différentes méthodes d'épaississement et proposent pour chaque problème, une solution optimale et appropriée, que vos cheveux soient fins, cassants ou clairsemés.</value>
+  </data>
+  <data name="IntroText2" xml:space="preserve">
+    <value>Même en cas de chute de cheveux importante ou d'alopécie partielle, vous retrouvez grâce aux produits du Hairdreams MicroLines System, une chevelure plus belle et plus dense. Pour cela, des cheveux sains, naturels, tous sélectionnés un à un à la main, vont être intégrés à votre propre chevelure. Ils sont identiques à vos cheveux dans leur couleur, leur longueur et leur structure afin de se marier de façon harmonieuse à votre chevelure. Ils se mélangent si bien qu´il est difficile de dissocier les cheveux Hairdreams de vos cheveux. Cette intégration se passe doucement et dans le respect de vos propres cheveux.  Votre nouvelle chevelure se porte 24 h / 24 ou selon vos envies, sans contrainte ni restriction dans votre mode de vie.</value>
+  </data>
+  <data name="Microlines" xml:space="preserve">
+    <value>Microlines</value>
+  </data>
+  <data name="MicrolinesIntroText" xml:space="preserve">
+    <value>La méthode MicroLines est la solution idéale pour redonner corps et volume aux chevelures clairsemées ou pour recouvrir les alopécies partielles sur le dessus de tête.</value>
+  </data>
+  <data name="MicrolinesIntroText2" xml:space="preserve">
+    <value>Les MicroLines sont des micro-chaînettes, presque invisibles, sur lesquelles sont noués à la main des cheveux Hairdreams. Une fois la couleur et la structure choisies, elles sont fixées à vos cheveux et s´intègrent discrètement, dans une harmonie parfaite à la chevelure. C´est ainsi, par l´apport de cheveux Hairdreams, que l´on densifie la chevelure et ce système apporte un très beau volume naturel.</value>
+  </data>
+  <data name="MicrolinesTitle" xml:space="preserve">
+    <value>Hairdreams MicroLines</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>Hairdreams apport de densité</value>
+  </data>
+  <data name="TitleText" xml:space="preserve">
+    <value>Les produits du Hairdreams Microlines System</value>
+  </data>
+  <data name="Tophair" xml:space="preserve">
+    <value>Tophair</value>
+  </data>
+  <data name="TophairIntroText" xml:space="preserve">
+    <value>Le système innovant Hairdreams TopHair est idéal pour les cheveux fins et clairsemés sur le dessus de la tête. Il se pose et s'enlève au gré de vos envies, de manière simple et rapide. Etant donné sa forme particulière, il privilégie des coiffures avec une raie bien nette, une frange, un tombé naturel et un apport de volume dans les longueurs et les pointes.</value>
+  </data>
+  <data name="TophairIntroText2" xml:space="preserve">
+    <value>Le TopHair est composé d´une structure thermo-active issue de hautes technologies, à laquelle sont implantés des cheveux naturels Hairdreams. Il est placé sur le dessus de la tête et s´intègre parfaitement à vos cheveux pour créer des coiffures avec un tombé très souple et naturel avec une raie bien marquée ou une frange.</value>
+  </data>
+  <data name="TophairTitle" xml:space="preserve">
+    <value>Hairdreams Top Hair</value>
+  </data>
+  <data name="VolumeHairdreams" xml:space="preserve">
+    <value>Volume Hairdreams</value>
+  </data>
+  <data name="VolumeHairdreamsText" xml:space="preserve">
+    <value>Une chevelure plus dense grâce aux systèmes en cheveux naturels Hairdreams!</value>
+  </data>
+  <data name="VolumeHighlinesHairdreamsHow" xml:space="preserve">
+    <value>Hairdreams HighLines - Mode d'emploi</value>
+  </data>
+  <data name="VolumeHighlinesHairdreamsHowText" xml:space="preserve">
+    <value>Le HighLines est fixé sur le dessus de la tête de manière permanente, à l'aide d'un Bondingring. Vos cheveux vont être ressortis au travers des larges mailles et se fondent parfaitement aux cheveux Hairdreams. Avec le système HighLines, toutes les coiffures avec du volume sur le dessus de la tête, sont réalisables. Le HighLines peut être porté 6 à 8 mois environ.</value>
+  </data>
+  <data name="VolumeMicrolinesHairdreamsHow" xml:space="preserve">
+    <value>Hairdreams MicroLines - Mode d'emploi</value>
+  </data>
+  <data name="VolumeMicrolinesHairdreamsHowText" xml:space="preserve">
+    <value>La méthode MicroLines consiste à intégrer à la chevelure, une structure de cheveux souple et ultra-fine, presque "invisible".  A l'aide d'un "Bondingring", élaboré avec un polymère de cristal, cette structure va être appliquée de manière permanente dans le plus grand respect des propres cheveux. Les cheveux noués sur le MicroLines sont des cheveux naturels de haute qualité, qui correspondent exactement à la couleur et à la longueur de vos cheveux et qui permettent de redensifier le dessus de la tête de manière très naturelle. Le MicroLines peut être porté 6 à 8 mois environ.</value>
+  </data>
+  <data name="VolumeTophairHairdreamsHow" xml:space="preserve">
+    <value>Hairdreams TopHair - Mode d'emploi</value>
+  </data>
+  <data name="VolumeTophairHairdreamsHowText" xml:space="preserve">
+    <value>Le Hairdreams TopHair vous offre un recouvrement idéal sur le dessus de tête en apportant de la matière dans vos longueurs et pointes. Il est également adapté pour des coiffures avec une raie bien nette. Le TopHair peut être porté 6 à 8 mois environ.</value>
   </data>
 </root>
