@@ -39,10 +39,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>SharedResources.resx</DependentUpon>
     </Compile>
-    <Compile Update="Localization\Views\Hairdreams.Index.Designer.cs">
+    <Compile Update="Localization\Views\BabyList - Copy.Index.Designer.cs">
+      <DependentUpon>BabyList.Index.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Localization\Views\Hairdreams - Copy.Index.Designer.cs">
       <DependentUpon>Hairdreams.Index.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Localization\Views\BabyList.Enlist.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BabyList.Enlist.resx</DependentUpon>
     </Compile>
     <Compile Update="Localization\Views\Hairdreams.Long.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -97,6 +107,26 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SharedResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\BabyList.Enlist.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\BabyList.Enlist.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\BabyList.Enlist.resx">
+      <LastGenOutput>BabyList.Enlist.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\BabyList.Index.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\BabyList.Index.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Views\BabyList.Index.resx">
+      <LastGenOutput>BabyList.Enlist.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Localization\Views\Hairdreams.Index.en.resx">
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
@@ -105,7 +135,7 @@
     </EmbeddedResource>
     <EmbeddedResource Update="Localization\Views\Hairdreams.Index.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Hairdreams.Index.Designer.cs</LastGenOutput>
+      <LastGenOutput>BabyList.Index.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Localization\Views\Hairdreams.Long.en.resx">
       <Generator>ResXFileCodeGenerator</Generator>
