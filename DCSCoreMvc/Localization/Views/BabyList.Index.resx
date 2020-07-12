@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="EnterEmail" xml:space="preserve">
-    <value>Voer je email in</value>
+    <value>Voer je gegevens in</value>
   </data>
   <data name="IntroText" xml:space="preserve">
     <value>Thor is klaar om Mjölnir in de hand te nemen en wat donder en bliksem in het leven van Brecht en Davina te brengen. Ben jij klaar, laat het ons weten!</value>

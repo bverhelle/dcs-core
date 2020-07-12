@@ -61,7 +61,7 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Enter email.
+        ///   Looks up a localized string similar to Voer je gegevens in.
         /// </summary>
         internal static string EnterEmail {
             get {
@@ -75,6 +75,15 @@ namespace DCSCoreMvc.Localization.Views {
         internal static string IntroText {
             get {
                 return ResourceManager.GetString("IntroText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bevestigen.
+        /// </summary>
+        internal static string Submit {
+            get {
+                return ResourceManager.GetString("Submit", resourceCulture);
             }
         }
         

@@ -22,14 +22,14 @@ namespace DCSCoreMvc.Localization.Views {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class BabyList_Enlist {
+    internal class BabyList_AlreadyEnlisted {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal BabyList_Enlist() {
+        internal BabyList_AlreadyEnlisted() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace DCSCoreMvc.Localization.Views {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DCSCoreMvc.Localization.Views.BabyList.Enlist", typeof(BabyList_Enlist).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DCSCoreMvc.Localization.Views.BabyList.AlreadyEnlisted", typeof(BabyList_AlreadyEnlisted).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,16 +61,7 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Enter email.
-        /// </summary>
-        internal static string EnterEmail {
-            get {
-                return ResourceManager.GetString("EnterEmail", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Thor is klaar om Mjölnir in de hand te nemen en wat donder en bliksem in het leven van Brecht en Davina te brengen. Ben jij klaar, laat het ons weten!.
+        ///   Looks up a localized string similar to Je hebt je email al opgegeven voor deze lijst.
         /// </summary>
         internal static string IntroText {
             get {
@@ -79,7 +70,7 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Thor is op komst.
+        ///   Looks up a localized string similar to Je staat al op de lijst.
         /// </summary>
         internal static string Title {
             get {
