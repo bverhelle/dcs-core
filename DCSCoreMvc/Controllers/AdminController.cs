@@ -17,37 +17,41 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 
-namespace DCSCoreMvc.Controllers {
-  public class AdminController : BaseController {
+namespace DCSCoreMvc.Controllers
+{
+  public class AdminController : BaseController
+  {
     private IHostingEnvironment Env { get; set; }
 
-    public AdminController (
+    public AdminController(
       ApplicationDbContext context,
       RoleManager<IdentityRole> roleManager,
       UserManager<ApplicationUser> userManager,
       IConfiguration configuration,
-      IHostingEnvironment env) : base (context, roleManager, userManager, configuration) {
+      IHostingEnvironment env) : base(context, roleManager, userManager, configuration)
+    {
       Env = env;
     }
 
-    [HttpGet ("Migrate")]
+    [HttpGet("Migrate")]
     // [Authorize]
-    public async Task<Object> Migrate () {
+    public async Task<Object> Migrate()
+    {
       // var isAdmin = await CurrentUserIsAdmin();
       // if (!isAdmin)
       // {
       //   return new UnauthorizedResult();
       // }
-      try {
-        var test = dbContext.Database.GetMigrations ();
-
-        await dbContext.Database.MigrateAsync ();
-
-      } catch (System.Exception e) {
+      try
+      {
+        await dbContext.Database.MigrateAsync();
+      }
+      catch (System.Exception e)
+      {
         return new Object[] { "error", e };
         throw;
       }
-      string now = DateTimeOffset.Now.ToString ();
+      string now = DateTimeOffset.Now.ToString();
       return new string[] { "Migrate succesfull", now };
     }
 
