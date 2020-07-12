@@ -40,9 +40,10 @@ namespace DCSCoreMvc.Controllers
         var alreadyEnlisted = dbContext.Set<BabyListEntry>().Where(e => e.Email == model.Email).Count() > 0;
         if (!alreadyEnlisted)
         {
-          dbContext.Set<BabyListEntry>().Add(new BabyListEntry() { Email = model.Email, CreatedDate = DateTimeOffset.Now });
+          dbContext.Set<BabyListEntry>().Add(new BabyListEntry() { Email = model.Email, Name = model.Name, Client = true, CreatedDate = DateTimeOffset.Now });
           await dbContext.SaveChangesAsync();
           TempData["Email"] = model.Email;
+          TempData["Name"] = model.Name;
           return RedirectToAction(nameof(Enlisted));
         }
         if (alreadyEnlisted)
@@ -60,6 +61,7 @@ namespace DCSCoreMvc.Controllers
     public IActionResult Enlisted()
     {
       ViewData["Email"] = TempData["Email"];
+      ViewData["Name"] = TempData["Name"];
 
       return View();
     }
