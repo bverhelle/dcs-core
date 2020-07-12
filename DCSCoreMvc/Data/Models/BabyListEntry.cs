@@ -12,6 +12,8 @@ namespace DCSCoreMvc.Data.Models
   public class BabyListEntry : BaseModel
   {
     public string Email { get; set; }
+    public string Name { get; set; }
+    public bool Client { get; set; }
   }
 
   public class BabyListEntryConfiguration : IEntityTypeConfiguration<BabyListEntry>

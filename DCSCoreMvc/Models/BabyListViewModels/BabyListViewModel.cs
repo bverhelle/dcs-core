@@ -14,6 +14,12 @@ namespace DCSCoreMvc.Models
     {
       get; set;
     }
+
+    [Required]
+    public string Name
+    {
+      get; set;
+    }
   }
 
 }

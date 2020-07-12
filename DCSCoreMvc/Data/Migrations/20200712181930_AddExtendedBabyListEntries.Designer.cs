@@ -11,8 +11,8 @@ using System;
 namespace DCSCoreMvc.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200712102647_AddBabyListEntries")]
-    partial class AddBabyListEntries
+    [Migration("20200712181930_AddExtendedBabyListEntries")]
+    partial class AddExtendedBabyListEntries
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -26,6 +26,8 @@ namespace DCSCoreMvc.Data.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<bool>("Client");
+
                     b.Property<DateTimeOffset>("CreatedDate");
 
                     b.Property<bool>("Deleted");
@@ -33,6 +35,8 @@ namespace DCSCoreMvc.Data.Migrations
                     b.Property<string>("Email");
 
                     b.Property<DateTimeOffset?>("LastModifiedDate");
+
+                    b.Property<string>("Name");
 
                     b.HasKey("Id");
 
