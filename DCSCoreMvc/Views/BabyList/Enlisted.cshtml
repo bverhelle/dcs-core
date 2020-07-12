@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = @Localizer["Title"];
+}
+@section css {
+    <link href="~/css/Controllers/BabyListController.css" rel="stylesheet" />
+}
+
+
+    <div class="content row standard-hyperlinks">
+        <h1>@Localizer["Title"]</h1>
+        <div class="clearfix intro-text">
+            <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">@Localizer["IntroText"]</div>
+            <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">@Localizer["YourData"]
+              <ul>
+                <li>@ViewData["Email"]</li>
+              </ul>
+            </div>
+        </div>
+    </div>
+
+<div class="row standard-hyperlinks">
+</div>
