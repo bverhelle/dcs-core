@@ -23,10 +23,19 @@ namespace DCSCoreMvc.Controllers
     {
     }
 
+    [HttpGet("Prive")]
+    [AllowAnonymous]
+    public IActionResult Prive()
+    {
+      return RedirectToAction("Index", new { c = "0" });
+    }
+
     [HttpGet]
     [AllowAnonymous]
-    public IActionResult Index()
+    public IActionResult Index(string c)
     {
+
+      TempData["IsClient"] = c;
       return View();
     }
 
@@ -40,7 +49,8 @@ namespace DCSCoreMvc.Controllers
         var alreadyEnlisted = dbContext.Set<BabyListEntry>().Where(e => e.Email == model.Email).Count() > 0;
         if (!alreadyEnlisted)
         {
-          dbContext.Set<BabyListEntry>().Add(new BabyListEntry() { Email = model.Email, Name = model.Name, Client = true, CreatedDate = DateTimeOffset.Now });
+          var isClient = TempData["IsClient"] as string == "0" ? false : true;
+          dbContext.Set<BabyListEntry>().Add(new BabyListEntry() { Email = model.Email, Name = model.Name, Client = isClient, CreatedDate = DateTimeOffset.Now });
           await dbContext.SaveChangesAsync();
           TempData["Email"] = model.Email;
           TempData["Name"] = model.Name;
