@@ -59,7 +59,10 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema id="root" 
+    xmlns="" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -172,19 +175,19 @@
     <value>Droomvolume verkregen door de HAIRDREAMS methode van haarverlenging en verdikking</value>
   </data>
   <data name="VolumeHighlinesHairdreamsHow" xml:space="preserve">
-    <value>Volume+ HighLines – hoe het werk:</value>
+    <value>Volume+ HighLines – Hoe werkt het:</value>
   </data>
   <data name="VolumeHighlinesHairdreamsHowText" xml:space="preserve">
     <value>De Highlines is vast bevestigd aan de bovenkant van de kop met een speciale lijn. De haren van cliente zijn meegesleurd door de grote mazen van het net en worden mooi gemengd met de strengen van Hairdreams. Deze methode maakt het mogelijk om elke kapsel te maken, die dik haar in de bovenste gedeelte van het hoofd vereist. Een draagperiode van HighLines is ca. 6-8 maanden.</value>
   </data>
   <data name="VolumeMicrolinesHairdreamsHow" xml:space="preserve">
-    <value>Volume+ MicroLines – hoe het werk:</value>
+    <value>Volume+ MicroLines – Hoe werkt het:</value>
   </data>
   <data name="VolumeMicrolinesHairdreamsHowText" xml:space="preserve">
     <value>De MicroLines methode verdikt cliënte’s haar met een vrijwel onzichtbaar fijn haarnet. Speciale garen gemaakt van kristallijn polymeer wordt voorzichtig maar stevig in haar bevestigd, waarop de hoogwaardige echte haren verbonden worden, die in kleur en haarlengte aan cliënte’s haar worden aangepast. Zo krijgt het haar van cliënte meer natuurlijk volume op de hoofd. Draagperiode van MicroLines is ca. 6-8 maanden.</value>
   </data>
   <data name="VolumeTophairHairdreamsHow" xml:space="preserve">
-    <value>Volume+ TopHair – hoe dit werk</value>
+    <value>Volume+ TopHair – Hoe werkt het</value>
   </data>
   <data name="VolumeTophairHairdreamsHowText" xml:space="preserve">
     <value>De Hairdreams Tophair worden aan het haar van de cliënte in het bovenste gedeelte van het hoofd bevestigd met de klemmen. Deze methode maakt het mogelijk om het haar op deze plaatsen te verdikken en te verlengen en het maken van kapsels met nauwkeurige scheidingen. De cliënte kan ze zelf eenvoudig verwijderen en opnieuw opzetten. Tophair kan ookpermanent bevestigd worden met behulp van een speciale lijn. Een draagperiode is ong. 6-8 maanden.</value>

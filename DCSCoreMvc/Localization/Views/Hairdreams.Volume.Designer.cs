@@ -223,7 +223,7 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Volume+ HighLines – hoe het werk:.
+        ///   Looks up a localized string similar to Volume+ HighLines – Hoe werkt het:.
         /// </summary>
         internal static string VolumeHighlinesHairdreamsHow {
             get {
@@ -241,7 +241,7 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Volume+ MicroLines – hoe het werk:.
+        ///   Looks up a localized string similar to Volume+ MicroLines – Hoe werkt het:.
         /// </summary>
         internal static string VolumeMicrolinesHairdreamsHow {
             get {
@@ -259,7 +259,7 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Volume+ TopHair – hoe dit werk.
+        ///   Looks up a localized string similar to Volume+ TopHair – Hoe werkt het.
         /// </summary>
         internal static string VolumeTophairHairdreamsHow {
             get {
