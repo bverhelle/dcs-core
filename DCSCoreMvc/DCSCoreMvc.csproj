@@ -139,7 +139,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Localization\Views\BabyList.Index.resx">
-      <LastGenOutput>BabyList.Enlist.Designer.cs</LastGenOutput>
+      <LastGenOutput>BabyList.Index.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Localization\Views\Hairdreams.Index.en.resx">

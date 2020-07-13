@@ -52,8 +52,13 @@ namespace DCSCoreMvc.Controllers
           var isClient = TempData["IsClient"] as string == "0" ? false : true;
           dbContext.Set<BabyListEntry>().Add(new BabyListEntry() { Email = model.Email, Name = model.Name, Client = isClient, CreatedDate = DateTimeOffset.Now });
           await dbContext.SaveChangesAsync();
-          TempData["Email"] = model.Email;
           TempData["Name"] = model.Name;
+          TempData["Email"] = model.Email;
+          TempData["Address"] = model.Address;
+          TempData["Nr"] = model.Nr;
+          TempData["PostalCode"] = model.PostalCode;
+          TempData["City"] = model.City;
+          TempData["Phone"] = model.Phone;
           return RedirectToAction(nameof(Enlisted));
         }
         if (alreadyEnlisted)
@@ -70,8 +75,13 @@ namespace DCSCoreMvc.Controllers
     [AllowAnonymous]
     public IActionResult Enlisted()
     {
-      ViewData["Email"] = TempData["Email"];
       ViewData["Name"] = TempData["Name"];
+      ViewData["Email"] = TempData["Email"];
+      ViewData["Address"] = TempData["Address"];
+      ViewData["Nr"] = TempData["Nr"];
+      ViewData["PostalCode"] = TempData["PostalCode"];
+      ViewData["City"] = TempData["City"];
+      ViewData["Phone"] = TempData["Phone"];
 
       return View();
     }
@@ -90,5 +100,55 @@ namespace DCSCoreMvc.Controllers
       return View();
     }
 
+    [HttpGet("List/Clients")]
+    // [Authorize]
+    public async Task<Object> Clients()
+    {
+      var d = dbContext.Set<BabyListEntry>().Where(b => b.Client);
+
+      string now = DateTimeOffset.Now.ToString();
+      return new object[] { "Clients", now, d.Count(), d };
+    }
+    [HttpGet("List/Prive")]
+    // [Authorize]
+    public async Task<Object> Prives()
+    {
+      var d = dbContext.Set<BabyListEntry>().Where(b => !b.Client);
+
+      string now = DateTimeOffset.Now.ToString();
+      return new object[] { "Prives", now, d.Count(), d };
+    }
+
+    [HttpPost]
+    [AllowAnonymous]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Index(BabyListViewModel model)
+    {
+      if (ModelState.IsValid)
+      {
+        var alreadyEnlisted = dbContext.Set<BabyListEntry>().Where(e => e.Email == model.Email).Count() > 0;
+        if (!alreadyEnlisted)
+        {
+          var isClient = TempData["IsClient"] as string == "0" ? false : true;
+          dbContext.Set<BabyListEntry>().Add(new BabyListEntry() { Email = model.Email, Name = model.Name, Client = isClient, CreatedDate = DateTimeOffset.Now });
+          await dbContext.SaveChangesAsync();
+          TempData["Name"] = model.Name;
+          TempData["Email"] = model.Email;
+          TempData["Address"] = model.Address;
+          TempData["Nr"] = model.Nr;
+          TempData["PostalCode"] = model.PostalCode;
+          TempData["City"] = model.City;
+          TempData["Phone"] = model.Phone;
+          return RedirectToAction(nameof(Enlisted));
+        }
+        if (alreadyEnlisted)
+        {
+          return RedirectToAction(nameof(AlreadyEnlisted));
+        }
+
+      }
+
+      return View(model);
+    }
   }
 }

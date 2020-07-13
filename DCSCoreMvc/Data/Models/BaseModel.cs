@@ -10,6 +10,7 @@ namespace DCSCoreMvc.Data.Models
   [JsonObject(MemberSerialization.OptOut)]
   public class BaseModel
   {
+    [JsonIgnore]
     public int Id { get; set; }
 
     // [Required]

@@ -55,5 +55,29 @@ namespace DCSCoreMvc.Controllers
       return new string[] { "Migrate succesfull", now };
     }
 
+    [HttpGet("Seed")]
+    public async Task<Object> Seed()
+    {
+      // var isAdmin = await CurrentUserIsAdmin();
+      // if (!isAdmin)
+      // {
+      //   return new UnauthorizedResult();
+      // }
+      try
+      {
+        await DbSeeder.SeedUsers(dbContext, RoleManager, UserManager);
+      }
+      catch (System.Exception e)
+      {
+        return new Object[] { "error", e };
+        throw;
+      }
+      string now = DateTimeOffset.Now.ToString();
+      return new string[] { "Seed succesfull", now };
+    }
+
+    [HttpPost("Seed")]
+
+
   }
 }

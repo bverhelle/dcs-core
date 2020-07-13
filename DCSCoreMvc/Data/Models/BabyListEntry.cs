@@ -11,6 +11,7 @@ namespace DCSCoreMvc.Data.Models
 {
   public class BabyListEntry : BaseModel
   {
+    [JsonIgnore]
     public bool Client { get; set; }
     public string Email { get; set; }
     public string Name { get; set; }
