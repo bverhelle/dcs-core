@@ -9,6 +9,7 @@ using DCSCoreMvc.Models.AccountViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
 namespace DCSCoreMvc.Controllers
@@ -51,10 +52,21 @@ namespace DCSCoreMvc.Controllers
         if (!alreadyEnlisted)
         {
           var isClient = TempData["IsClient"] as string == "0" ? false : true;
-          dbContext.Set<BabyListEntry>().Add(new BabyListEntry() { Email = model.Email, Name = model.Name, Client = isClient, CreatedDate = DateTimeOffset.Now });
+          dbContext.Set<BabyListEntry>().Add(new BabyListEntry()
+          {
+            Email = model.Email,
+            Name = model.Name,
+            Address = model.Address,
+            Nr = model.Nr,
+            PostalCode = model.PostalCode,
+            City = model.City,
+            Phone = model.Phone,
+            Client = isClient,
+            CreatedDate = DateTimeOffset.Now
+          });
           await dbContext.SaveChangesAsync();
-          TempData["Name"] = model.Name;
           TempData["Email"] = model.Email;
+          TempData["Name"] = model.Name;
           TempData["Address"] = model.Address;
           TempData["Nr"] = model.Nr;
           TempData["PostalCode"] = model.PostalCode;
@@ -94,11 +106,31 @@ namespace DCSCoreMvc.Controllers
       return View();
     }
 
-    [HttpGet("AdminList")]
-    [AllowAnonymous]
-    public IActionResult AdminList()
+    [HttpGet("Remove")]
+    public IActionResult Remove()
     {
       return View();
+    }
+
+    [HttpPost("Remove")]
+    [AllowAnonymous]
+    [ValidateAntiForgeryToken]
+    public async Task<Object> Remove(RemoveFromListViewModel model)
+    {
+
+      var user = await UserManager.FindByEmailAsync(model.Email);
+      if (user == null || !await UserManager.CheckPasswordAsync(user, model.Password))
+      {
+        // user does not exists or password mismatch
+        return new UnauthorizedResult();
+      }
+      var removee = dbContext.Set<BabyListEntry>().FirstOrDefault(b => b.Email == model.EmailTooRemove);
+      string now = DateTimeOffset.Now.ToString();
+      var data = new object[] { "Removed Dataset", now, removee };
+
+      dbContext.Entry(removee).State = EntityState.Deleted;
+      await dbContext.SaveChangesAsync();
+      return data;
     }
 
 

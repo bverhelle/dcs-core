@@ -61,7 +61,7 @@ namespace DCSCoreMvc.Data
       {
         SecurityStamp = Guid.NewGuid().ToString(),
         UserName = "davina",
-        Email = "pieter.verhelle+davina@gmail.com",
+        Email = "brecht.verhelle@gmail.com",
       };
 
       ApplicationUser user2 = await userManager.FindByNameAsync(davina.UserName);
