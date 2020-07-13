@@ -120,6 +120,9 @@
   <data name="CallToAction" xml:space="preserve">
     <value>Maak nu een afspraak online of geef ons een belletje als u nog vragen heeft!</value>
   </data>
+  <data name="Covid19" xml:space="preserve">
+    <value>&lt;br/&gt;Beste klant,&lt;br/&gt;&lt;br/&gt;Wegens de COVID-19 pandemie zijn wij momenteel gesloten.&lt;br/&gt;We missen jullie, maar momenteel moeten we de gezondheid van iedereen voorop stellen.&lt;br/&gt;Hopelijk mogen we jullie spoedig opnieuw ontvangen.&lt;br/&gt;&lt;br/&gt;Dikke knuffel&lt;br/&gt;Het DCS-team&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
   <data name="Focus" xml:space="preserve">
     <value>Met een focus op vakkennis en het gebruik van kwaliteitsproducten gaan wij tot het uiterste om uw droomkapsel te bekomen.</value>
   </data>

@@ -19,7 +19,7 @@ namespace DCSCoreMvc.Localization.Views {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Service_Index {
@@ -61,6 +61,15 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to van 10 tot 14 jaar.
+        /// </summary>
+        internal static string Age10to14 {
+            get {
+                return ResourceManager.GetString("Age10to14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Baard knippen.
         /// </summary>
         internal static string BeardTrim {
@@ -79,11 +88,38 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Brushing lang.
+        /// </summary>
+        internal static string BrushingLong {
+            get {
+                return ResourceManager.GetString("BrushingLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Brushing halflang.
+        /// </summary>
+        internal static string BrushingMedium {
+            get {
+                return ResourceManager.GetString("BrushingMedium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Brushing of watergolf.
         /// </summary>
         internal static string BrushingOrRollerWrap {
             get {
                 return ResourceManager.GetString("BrushingOrRollerWrap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Brushing kort.
+        /// </summary>
+        internal static string BrushingShort {
+            get {
+                return ResourceManager.GetString("BrushingShort", resourceCulture);
             }
         }
         
@@ -142,11 +178,11 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Extra kleur Keune (30g).
+        ///   Looks up a localized string similar to Extra kleur Goldwell (30g).
         /// </summary>
-        internal static string ExtraColorKeune {
+        internal static string ExtraColorGoldwell {
             get {
-                return ResourceManager.GetString("ExtraColorKeune", resourceCulture);
+                return ResourceManager.GetString("ExtraColorGoldwell", resourceCulture);
             }
         }
         
@@ -214,6 +250,15 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Meisjessnit + los drogen.
+        /// </summary>
+        internal static string HaircutGirls10to14 {
+            get {
+                return ResourceManager.GetString("HaircutGirls10to14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Balayage.
         /// </summary>
         internal static string Highlights {
@@ -259,24 +304,6 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Lang.
-        /// </summary>
-        internal static string Long {
-            get {
-                return ResourceManager.GetString("Long", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Halflang.
-        /// </summary>
-        internal static string Medium {
-            get {
-                return ResourceManager.GetString("Medium", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Permanent.
         /// </summary>
         internal static string Perm {
@@ -313,20 +340,20 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Watergolf.
+        /// </summary>
+        internal static string RollerWrap {
+            get {
+                return ResourceManager.GetString("RollerWrap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Losse mèches (per stuk).
         /// </summary>
         internal static string SeperateHighlights {
             get {
                 return ResourceManager.GetString("SeperateHighlights", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Kort.
-        /// </summary>
-        internal static string Short {
-            get {
-                return ResourceManager.GetString("Short", resourceCulture);
             }
         }
         
@@ -408,6 +435,33 @@ namespace DCSCoreMvc.Localization.Views {
         internal static string Updo {
             get {
                 return ResourceManager.GetString("Updo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Opsteekkapsel kinderen.
+        /// </summary>
+        internal static string UpdoChildren {
+            get {
+                return ResourceManager.GetString("UpdoChildren", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Opsteekkapsel lang.
+        /// </summary>
+        internal static string UpdoLong {
+            get {
+                return ResourceManager.GetString("UpdoLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Opsteekkapsel kort.
+        /// </summary>
+        internal static string UpdoShort {
+            get {
+                return ResourceManager.GetString("UpdoShort", resourceCulture);
             }
         }
         
