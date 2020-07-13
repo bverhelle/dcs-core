@@ -136,7 +136,7 @@ namespace DCSCoreMvc.Controllers
 
     [HttpGet("List/Prive")]
     // [Authorize]
-    public async Task<Object> Prives()
+    public IActionResult Prives()
     {
       return View();
     }
