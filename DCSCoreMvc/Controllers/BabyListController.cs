@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using DCSCoreMvc.Data;
 using DCSCoreMvc.Data.Models;
 using DCSCoreMvc.Models;
+using DCSCoreMvc.Models.AccountViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -100,55 +101,55 @@ namespace DCSCoreMvc.Controllers
       return View();
     }
 
-    [HttpGet("List/Clients")]
-    // [Authorize]
-    public async Task<Object> Clients()
-    {
-      var d = dbContext.Set<BabyListEntry>().Where(b => b.Client);
 
-      string now = DateTimeOffset.Now.ToString();
-      return new object[] { "Clients", now, d.Count(), d };
-    }
     [HttpGet("List/Prive")]
     // [Authorize]
     public async Task<Object> Prives()
     {
+      return View();
+    }
+
+    [HttpPost("List/Prive")]
+    [AllowAnonymous]
+    [ValidateAntiForgeryToken]
+    public async Task<Object> Prives(LoginViewModel model)
+    {
+
+      var user = await UserManager.FindByEmailAsync(model.Email);
+      if (user == null || !await UserManager.CheckPasswordAsync(user, model.Password))
+      {
+        // user does not exists or password mismatch
+        return new UnauthorizedResult();
+      }
       var d = dbContext.Set<BabyListEntry>().Where(b => !b.Client);
 
       string now = DateTimeOffset.Now.ToString();
       return new object[] { "Prives", now, d.Count(), d };
     }
 
-    [HttpPost]
+    [HttpGet("List/Clients")]
+    // [Authorize]
+    public IActionResult Clients()
+    {
+      return View();
+    }
+
+    [HttpPost("List/Clients")]
     [AllowAnonymous]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Index(BabyListViewModel model)
+    public async Task<Object> Clients(LoginViewModel model)
     {
-      if (ModelState.IsValid)
+
+      var user = await UserManager.FindByEmailAsync(model.Email);
+      if (user == null || !await UserManager.CheckPasswordAsync(user, model.Password))
       {
-        var alreadyEnlisted = dbContext.Set<BabyListEntry>().Where(e => e.Email == model.Email).Count() > 0;
-        if (!alreadyEnlisted)
-        {
-          var isClient = TempData["IsClient"] as string == "0" ? false : true;
-          dbContext.Set<BabyListEntry>().Add(new BabyListEntry() { Email = model.Email, Name = model.Name, Client = isClient, CreatedDate = DateTimeOffset.Now });
-          await dbContext.SaveChangesAsync();
-          TempData["Name"] = model.Name;
-          TempData["Email"] = model.Email;
-          TempData["Address"] = model.Address;
-          TempData["Nr"] = model.Nr;
-          TempData["PostalCode"] = model.PostalCode;
-          TempData["City"] = model.City;
-          TempData["Phone"] = model.Phone;
-          return RedirectToAction(nameof(Enlisted));
-        }
-        if (alreadyEnlisted)
-        {
-          return RedirectToAction(nameof(AlreadyEnlisted));
-        }
-
+        // user does not exists or password mismatch
+        return new UnauthorizedResult();
       }
+      var d = dbContext.Set<BabyListEntry>().Where(b => b.Client);
 
-      return View(model);
+      string now = DateTimeOffset.Now.ToString();
+      return new object[] { "Clients", now, d.Count(), d };
     }
   }
 }
