@@ -117,11 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Address" xml:space="preserve">
+    <value>Rue</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Municipalité</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
   <data name="EnterEmail" xml:space="preserve">
     <value>Entrez vos coordonnées</value>
   </data>
   <data name="IntroText" xml:space="preserve">
     <value>Thor est prêt à manier Mjölnir et à illuminer la vie de Brecht et Davina. Vous voulez faire partie de l'excitation, faites-le nous savoir!</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="Nr" xml:space="preserve">
+    <value>Non.</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>GSM / Tel</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Code postal</value>
   </data>
   <data name="Submit" xml:space="preserve">
     <value>Confimer</value>
