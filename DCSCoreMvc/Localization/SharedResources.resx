@@ -59,7 +59,10 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema id="root" 
+    xmlns="" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -139,7 +142,7 @@
     <value>Bedrijfsgegevens</value>
   </data>
   <data name="CompanyName" xml:space="preserve">
-    <value>BVBA Davina's Coiffure en Schoonheidssalon</value>
+    <value>BV Davina's Coiffure en Schoonheidssalon</value>
   </data>
   <data name="CompanyPostalCode" xml:space="preserve">
     <value>8400</value>
@@ -269,7 +272,7 @@
 &lt;h4&gt;Inzage, correctie en recht van verzet&lt;/h4&gt;
 &lt;p&gt;Indien u een relatie met ons bedrijf heeft, heeft u na schriftelijk verzoek de mogelijkheid uw persoonlijke gegevens in te zien. Indien het door ons verstrekte overzicht onjuistheden bevat, kunt u ons schriftelijk verzoeken de gegevens te wijzigen of te laten verwijderen. Daarnaast kunt u ons schriftelijk op de hoogte stellen, indien u niet wilt worden benaderd met informatie over onze producten en diensten door dit te melden bij navolgend adres:&lt;/p&gt;
 &lt;p&gt;
-    Davina’s Coiffure &amp;amp; Schoonheidssalon BVBA&lt;br /&gt;
+    Davina’s Coiffure &amp;amp; Schoonheidssalon BV&lt;br /&gt;
     Wittenonnenstraat 34&lt;br /&gt;
     8400 Oostende&lt;br /&gt;
     Tel: 059 730 185&lt;br /&gt;

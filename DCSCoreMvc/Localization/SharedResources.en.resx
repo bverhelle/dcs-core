@@ -59,7 +59,10 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema id="root" 
+    xmlns="" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -212,7 +215,7 @@
 &lt;h4&gt;Inspection, correction and right of opposition&lt;/h4&gt;
 &lt;p&gt;If you have a relationship with our company, you have the possibility, after written request, to view your personal details. If the overview provided by us contains inaccuracies, you can ask us in writing to change the data or have it removed. You can also inform us in writing if you do not want to be contacted with information regarding our products and services by means of contacting us on the following address:&lt;/p&gt;
 &lt;p&gt;
-    Davina’s Coiffure &amp;amp; Schoonheidssalon BVBA&lt;br /&gt;
+    Davina’s Coiffure &amp;amp; Schoonheidssalon BV&lt;br /&gt;
     Wittenonnenstraat 34&lt;br /&gt;
     8400 Ostend&lt;br /&gt;
     Tel: 059 730 185&lt;br /&gt;

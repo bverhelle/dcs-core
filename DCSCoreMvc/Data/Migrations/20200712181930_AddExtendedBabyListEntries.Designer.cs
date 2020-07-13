@@ -11,9 +11,10 @@ using System;
 namespace DCSCoreMvc.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200712181930_AddExtendedBabyListEntries")]
+    partial class AddExtendedBabyListEntries
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,10 +25,6 @@ namespace DCSCoreMvc.Data.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
-
-                    b.Property<string>("Address");
-
-                    b.Property<string>("City");
 
                     b.Property<bool>("Client");
 
@@ -40,12 +37,6 @@ namespace DCSCoreMvc.Data.Migrations
                     b.Property<DateTimeOffset?>("LastModifiedDate");
 
                     b.Property<string>("Name");
-
-                    b.Property<string>("Nr");
-
-                    b.Property<string>("Phone");
-
-                    b.Property<string>("PostalCode");
 
                     b.HasKey("Id");
 

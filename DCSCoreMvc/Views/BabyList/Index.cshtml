@@ -1,0 +1,48 @@
+﻿@model BabyListViewModel
+@{
+    ViewData["Title"] = @Localizer["Title"];
+}
+@section css {
+    <link href="~/css/Controllers/BabyListController.css" rel="stylesheet" />
+}
+
+
+    <div class="content row standard-hyperlinks babylist-index">
+        <h1>@Localizer["Title"]</h1>
+        <div class="clearfix intro-text">
+            <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">@Localizer["IntroText"]</div>
+        </div>
+        <h4>@Localizer["EnterEmail"]</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-4">
+                <form method="post">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Name">@Localizer["Name"]</label>
+                        <input asp-for="Name" class="form-control" />
+                        <label asp-for="Email">@Localizer["Email"]</label>
+                        <input asp-for="Email" class="form-control" />
+                        <label asp-for="Address">@Localizer["Address"]</label>
+                        <input asp-for="Address" class="form-control" />
+                        <label asp-for="Nr">@Localizer["Nr"]</label>
+                        <input asp-for="Nr" class="form-control" />
+                        <label asp-for="PostalCode">@Localizer["PostalCode"]</label>
+                        <input asp-for="PostalCode" class="form-control" />
+                        <label asp-for="City">@Localizer["City"]</label>
+                        <input asp-for="City" class="form-control" />
+                        <label asp-for="Phone">@Localizer["Phone"]</label>
+                        <input asp-for="Phone" class="form-control" />
+                    </div>
+                    <button type="submit" class="btn btn-default">@Localizer["Submit"]</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<div class="row standard-hyperlinks">
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
