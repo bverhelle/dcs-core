@@ -144,8 +144,8 @@
   <data name="ExtraColorElumen" xml:space="preserve">
     <value>Extra kleur Elumen (10g)</value>
   </data>
-  <data name="ExtraColorKeune" xml:space="preserve">
-    <value>Extra kleur Keune (30g)</value>
+  <data name="ExtraColorGoldwell" xml:space="preserve">
+    <value>Extra kleur Goldwell (30g)</value>
   </data>
   <data name="Finishing" xml:space="preserve">
     <value>afwerking</value>
@@ -183,11 +183,11 @@
   <data name="Ladies" xml:space="preserve">
     <value>Dames</value>
   </data>
-  <data name="Long" xml:space="preserve">
-    <value>Lang</value>
+  <data name="BrushingLong" xml:space="preserve">
+    <value>Brushing lang</value>
   </data>
-  <data name="Medium" xml:space="preserve">
-    <value>Halflang</value>
+  <data name="BrushingMedium" xml:space="preserve">
+    <value>Brushing halflang</value>
   </data>
   <data name="Perm" xml:space="preserve">
     <value>Permanent</value>
@@ -204,8 +204,8 @@
   <data name="SeperateHighlights" xml:space="preserve">
     <value>Losse mèches (per stuk)</value>
   </data>
-  <data name="Short" xml:space="preserve">
-    <value>Kort</value>
+  <data name="BrushingShort" xml:space="preserve">
+    <value>Brushing kort</value>
   </data>
   <data name="StartingFrom" xml:space="preserve">
     <value>vanaf</value>
@@ -245,5 +245,23 @@
   </data>
   <data name="YoungerThan5" xml:space="preserve">
     <value>jonger dan 5 jaar</value>
+  </data>
+  <data name="Age10to14" xml:space="preserve">
+    <value>van 10 tot 14 jaar</value>
+  </data>
+  <data name="HaircutGirls10to14" xml:space="preserve">
+    <value>Meisjessnit + los drogen</value>
+  </data>
+  <data name="RollerWrap" xml:space="preserve">
+    <value>Watergolf</value>
+  </data>
+  <data name="UpdoChildren" xml:space="preserve">
+    <value>Opsteekkapsel kinderen</value>
+  </data>
+  <data name="UpdoLong" xml:space="preserve">
+    <value>Opsteekkapsel lang</value>
+  </data>
+  <data name="UpdoShort" xml:space="preserve">
+    <value>Opsteekkapsel kort</value>
   </data>
 </root>

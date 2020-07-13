@@ -145,7 +145,7 @@
     <value>Extra color Elumen (10g)</value>
   </data>
   <data name="ExtraColorKeune" xml:space="preserve">
-    <value>Extra color Keune (30g)</value>
+    <value>Extra color Goldwell (30g)</value>
   </data>
   <data name="Finishing" xml:space="preserve">
     <value>finishing</value>
@@ -183,11 +183,11 @@
   <data name="Ladies" xml:space="preserve">
     <value>Ladies</value>
   </data>
-  <data name="Long" xml:space="preserve">
-    <value>Long</value>
+  <data name="BrushingLong" xml:space="preserve">
+    <value>Brushing long</value>
   </data>
-  <data name="Medium" xml:space="preserve">
-    <value>Medium</value>
+  <data name="BrushingMedium" xml:space="preserve">
+    <value>Brushing medium</value>
   </data>
   <data name="Perm" xml:space="preserve">
     <value>Perm</value>
@@ -204,8 +204,8 @@
   <data name="SeperateHighlights" xml:space="preserve">
     <value>Seperate highlights (per piece)</value>
   </data>
-  <data name="Short" xml:space="preserve">
-    <value>Short</value>
+  <data name="BrushingShort" xml:space="preserve">
+    <value>Brushing short</value>
   </data>
   <data name="StartingFrom" xml:space="preserve">
     <value>starting from</value>
@@ -244,6 +244,24 @@
     <value>younger than 10 years</value>
   </data>
   <data name="YoungerThan5" xml:space="preserve">
-    <value>younger than 10 years</value>
+    <value>younger than 5 years</value>
+  </data>
+  <data name="Age10to14" xml:space="preserve">
+    <value>ages 10 to 14 years</value>
+  </data>
+  <data name="HaircutGirls10to14" xml:space="preserve">
+    <value>Haircut girls + quick dry</value>
+  </data>
+  <data name="RollerWrap" xml:space="preserve">
+    <value>Roller wrap</value>
+  </data>
+  <data name="UpdoChildren" xml:space="preserve">
+    <value>Updo children</value>
+  </data>
+  <data name="UpdoLong" xml:space="preserve">
+    <value>Updo long</value>
+  </data>
+  <data name="UpdoShort" xml:space="preserve">
+    <value>Updo short</value>
   </data>
 </root>

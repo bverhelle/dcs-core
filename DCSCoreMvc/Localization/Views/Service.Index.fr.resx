@@ -145,7 +145,7 @@
     <value>Couleur supplémentaire Elumen (10g)</value>
   </data>
   <data name="ExtraColorKeune" xml:space="preserve">
-    <value>Couleur supplémentaire Keune (30g)</value>
+    <value>Couleur supplémentaire Goldwell (30g)</value>
   </data>
   <data name="Finishing" xml:space="preserve">
     <value>finition</value>
@@ -183,11 +183,11 @@
   <data name="Ladies" xml:space="preserve">
     <value>Dames</value>
   </data>
-  <data name="Long" xml:space="preserve">
-    <value>Long</value>
+  <data name="BrushingLong" xml:space="preserve">
+    <value>Brushing long</value>
   </data>
-  <data name="Medium" xml:space="preserve">
-    <value>Mi-long</value>
+  <data name="BrushingMedium" xml:space="preserve">
+    <value>Brushing mi-long</value>
   </data>
   <data name="Perm" xml:space="preserve">
     <value>Permanente</value>
@@ -204,8 +204,8 @@
   <data name="SeperateHighlights" xml:space="preserve">
     <value>Mèches séparées (par pièce)</value>
   </data>
-  <data name="Short" xml:space="preserve">
-    <value>Court</value>
+  <data name="BrushingShort" xml:space="preserve">
+    <value>Brushing court</value>
   </data>
   <data name="StartingFrom" xml:space="preserve">
     <value>à partir de</value>
@@ -245,5 +245,23 @@
   </data>
   <data name="YoungerThan5" xml:space="preserve">
     <value>moins de 5 ans</value>
+  </data>
+  <data name="Age10to14" xml:space="preserve">
+    <value>de 10 ans à 14 ans</value>
+  </data>
+  <data name="HaircutGirls10to14" xml:space="preserve">
+    <value>Coupe de cheveux fille + séchage rapide</value>
+  </data>
+  <data name="RollerWrap" xml:space="preserve">
+    <value>Mise en plis</value>
+  </data>
+  <data name="UpdoChildren" xml:space="preserve">
+    <value>Chignon enfants</value>
+  </data>
+  <data name="UpdoLong" xml:space="preserve">
+    <value>Chignon long</value>
+  </data>
+  <data name="UpdoShort" xml:space="preserve">
+    <value>Chignon court</value>
   </data>
 </root>
