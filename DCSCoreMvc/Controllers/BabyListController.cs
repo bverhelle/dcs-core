@@ -32,6 +32,13 @@ namespace DCSCoreMvc.Controllers
       return RedirectToAction("Index", new { c = "0" });
     }
 
+    [HttpGet("Decleer")]
+    [AllowAnonymous]
+    public IActionResult Decleer()
+    {
+      return RedirectToAction("Index", new { c = "0" });
+    }
+
     [HttpGet]
     [AllowAnonymous]
     public IActionResult Index(string c)

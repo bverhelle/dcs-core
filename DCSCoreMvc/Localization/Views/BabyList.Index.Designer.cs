@@ -97,7 +97,8 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Thor is klaar om Mjölnir in de hand te nemen en wat donder en bliksem in het leven van Brecht en Davina te brengen. Ben jij klaar, laat het ons weten!.
+        ///   Looks up a localized string similar to Baby Decleer is op komst. Omdat hij/zij jullie nog niet kent zou het heel lief zijn als jullie je gegevens hier willen ingeven. We kunnen je dan een kaartje opsturen als hij/zij ter wereld komt. 
+        ///Alvast bedankt..
         /// </summary>
         internal static string IntroText {
             get {
@@ -151,7 +152,7 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Thor is op komst.
+        ///   Looks up a localized string similar to Baby Decleer is op komst..
         /// </summary>
         internal static string Title {
             get {
