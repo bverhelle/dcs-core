@@ -264,4 +264,7 @@
   <data name="UpdoShort" xml:space="preserve">
     <value>Chignon court</value>
   </data>
+  <data name="Bondpro" xml:space="preserve">
+    <value>Bond pro</value>
+  </data>
 </root>

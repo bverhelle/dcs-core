@@ -88,6 +88,15 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bond pro.
+        /// </summary>
+        internal static string Bondpro {
+            get {
+                return ResourceManager.GetString("Bondpro", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Brushing lang.
         /// </summary>
         internal static string BrushingLong {

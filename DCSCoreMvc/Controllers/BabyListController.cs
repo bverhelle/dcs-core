@@ -55,10 +55,10 @@ namespace DCSCoreMvc.Controllers
     {
       if (ModelState.IsValid)
       {
-        var alreadyEnlisted = dbContext.Set<BabyListEntry>().Where(e => e.Email == model.Email).Count() > 0;
+        var isClient = TempData["IsClient"] as string == "0" ? false : true;
+        var alreadyEnlisted = dbContext.Set<BabyListEntry>().Where(e => e.Email == model.Email && e.Client == isClient).Count() > 0;
         if (!alreadyEnlisted)
         {
-          var isClient = TempData["IsClient"] as string == "0" ? false : true;
           dbContext.Set<BabyListEntry>().Add(new BabyListEntry()
           {
             Email = model.Email,
