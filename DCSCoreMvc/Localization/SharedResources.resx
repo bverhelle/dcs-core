@@ -145,7 +145,7 @@
     <value>8400</value>
   </data>
   <data name="CompanyStreet" xml:space="preserve">
-    <value>Koningstraat</value>
+    <value>Koningsstraat</value>
   </data>
   <data name="CompanyStreetNumber" xml:space="preserve">
     <value>48</value>
@@ -217,7 +217,7 @@
     <value>08:00 - 17:00</value>
   </data>
   <data name="OpeningHoursSunday" xml:space="preserve">
-    <value>09:00 - 11:00</value>
+    <value>-</value>
   </data>
   <data name="OpeningHoursThursday" xml:space="preserve">
     <value>09:00 - 18:00</value>
@@ -235,10 +235,10 @@
     <value>Parkeren</value>
   </data>
   <data name="PhoneNumber" xml:space="preserve">
-    <value>059 730 185</value>
+    <value>059 860 980</value>
   </data>
   <data name="PhoneNumberInternational" xml:space="preserve">
-    <value>+3259730185</value>
+    <value>+3259860980</value>
   </data>
   <data name="PrivacyPolicy" xml:space="preserve">
     <value>&lt;h4&gt;Privacyverklaring&lt;/h4&gt;
@@ -272,7 +272,7 @@
     Davina’s Coiffure &amp;amp; Schoonheidssalon BV&lt;br /&gt;
     Wittenonnenstraat 34&lt;br /&gt;
     8400 Oostende&lt;br /&gt;
-    Tel: 059 730 185&lt;br /&gt;
+    Tel: 059 860 980&lt;br /&gt;
     E-mail: info@coiffureshop.com
 &lt;/p&gt;
 &lt;h4&gt;Beveiling van gegevens&lt;/h4&gt;

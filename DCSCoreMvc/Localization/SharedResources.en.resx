@@ -59,10 +59,7 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" 
-    xmlns="" 
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -218,7 +215,7 @@
     Davina’s Coiffure &amp;amp; Schoonheidssalon BV&lt;br /&gt;
     Wittenonnenstraat 34&lt;br /&gt;
     8400 Ostend&lt;br /&gt;
-    Tel: 059 730 185&lt;br /&gt;
+    Tel: 059 860 980&lt;br /&gt;
     E-mail: info@coiffureshop.com
 &lt;/p&gt;
 &lt;h4&gt;Data security&lt;/h4&gt;

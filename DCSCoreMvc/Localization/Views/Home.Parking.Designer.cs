@@ -71,14 +71,14 @@ namespace DCSCoreMvc.Localization.Views {
         ///&lt;/div&gt;
         ///&lt;div class=&quot;col-md-4&quot;&gt;
         ///    &lt;h3&gt;Davina&apos;s Coiffure Shop&lt;/h3&gt;
-        ///    &lt;p&gt;
-        ///        Wittenonnenstraat 34&lt;br /&gt;
-        ///        8400 Oostende
-        ///    &lt;/p&gt;
+        ///       &lt;p&gt;
+        ///             Koningsstraat 48
+        ///       &lt;br/&gt;
+        ///              8400 Oostende
+        ///       &lt;/p&gt;
         ///    &lt;h4&gt;GPS-coördinaten:&lt;/h4&gt;
         ///    &lt;ul&gt;
-        ///        &lt;li&gt;
-        ///          [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Parking {
             get {

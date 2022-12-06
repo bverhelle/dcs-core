@@ -142,7 +142,7 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Koningstraat.
+        ///   Looks up a localized string similar to Koningsstraat.
         /// </summary>
         internal static string CompanyStreet {
             get {
@@ -349,7 +349,7 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 09:00 - 11:00.
+        ///   Looks up a localized string similar to -.
         /// </summary>
         internal static string OpeningHoursSunday {
             get {
@@ -403,7 +403,7 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 059 730 185.
+        ///   Looks up a localized string similar to 059 860 980.
         /// </summary>
         internal static string PhoneNumber {
             get {
@@ -412,7 +412,7 @@ namespace DCSCoreMvc.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to +3259730185.
+        ///   Looks up a localized string similar to +3259860980.
         /// </summary>
         internal static string PhoneNumberInternational {
             get {
