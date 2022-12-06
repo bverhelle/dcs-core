@@ -97,6 +97,15 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bruidskapsel.
+        /// </summary>
+        internal static string BrideHair {
+            get {
+                return ResourceManager.GetString("BrideHair", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Brushing lang.
         /// </summary>
         internal static string BrushingLong {
