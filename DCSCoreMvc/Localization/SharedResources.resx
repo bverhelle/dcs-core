@@ -59,7 +59,10 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema id="root"
+    xmlns=""
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -130,7 +133,7 @@
     <value>Bel ons</value>
   </data>
   <data name="CoiffureShopWebsite" xml:space="preserve">
-    <value>www.coiffureshop.com</value>
+    <value>www.dcs-hairdressers.be</value>
   </data>
   <data name="CompanyCity" xml:space="preserve">
     <value>Oostende</value>
@@ -235,7 +238,7 @@
     <value>Parkeren</value>
   </data>
   <data name="PhoneNumber" xml:space="preserve">
-    <value>059 860 980</value>
+    <value>059 730 185</value>
   </data>
   <data name="PhoneNumberInternational" xml:space="preserve">
     <value>+3259860980</value>
@@ -272,7 +275,7 @@
     Davina’s Coiffure &amp;amp; Schoonheidssalon BV&lt;br /&gt;
     Wittenonnenstraat 34&lt;br /&gt;
     8400 Oostende&lt;br /&gt;
-    Tel: 059 860 980&lt;br /&gt;
+    Tel: 059 730 185&lt;br /&gt;
     E-mail: info@coiffureshop.com
 &lt;/p&gt;
 &lt;h4&gt;Beveiling van gegevens&lt;/h4&gt;

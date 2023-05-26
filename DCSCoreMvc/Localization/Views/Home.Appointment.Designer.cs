@@ -70,7 +70,7 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tijdens de openingsuren zijn wij steeds telefonisch bereikbaar.&lt;br/&gt;Telefonisch een afspraak maken is mogelijk op het nummer 059 860 980.&lt;br/&gt;Indien u niet kunt bellen kunt u steeds online een afspraak boeken..
+        ///   Looks up a localized string similar to Tijdens de openingsuren zijn wij steeds telefonisch bereikbaar.&lt;br/&gt;Telefonisch een afspraak maken is mogelijk op het nummer 059 730 185.&lt;br/&gt;Indien u niet kunt bellen kunt u steeds online een afspraak boeken..
         /// </summary>
         internal static string ByTelephoneText {
             get {
