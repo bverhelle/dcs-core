@@ -1,306 +1,336 @@
-﻿
-
-@{
-    ViewData["Title"] = @Localizer["Title"];
+﻿@{
+  ViewData["Title"] = @Localizer["Title"];
 }
 @section css {
-    <link href="~/css/Controllers/ServiceController.css" rel="stylesheet" />
+  <link href="~/css/Controllers/ServiceController.css" rel="stylesheet" />
 }
 
 
 <div class="content row standard-hyperlinks">
-    <div class="intro-text">
-        <h1>@Localizer["Title"]</h1>
-        <p>@Localizer["IntroText"]</p>
-        <p>@Localizer["IntroText2"]</p>
-    </div>
-    <div class="services-container">
-        <ul class="nav nav-tabs">
-            <li class="active">
-                <a data-toggle="tab" href="#menuWomen">
-                    <div class="text-center service-index-tab">
-                        <img class="img-service-index-tab" src="~/images/ServiceIndex/women.png" />
-                        <div class="name-service-index-tab">@Localizer["Ladies"]</div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a data-toggle="tab" href="#menuMen">
-                    <div class="text-center service-index-tab">
-                        <img class="img-service-index-tab" src="~/images/ServiceIndex/men.png" />
-                        <div class="name-service-index-tab">@Localizer["Gentlemen"]</div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a data-toggle="tab" href="#menuChildren">
-                    <div class="text-center service-index-tab">
-                        <img class="img-service-index-tab" src="~/images/ServiceIndex/children.png" />
-                        <div class="name-service-index-tab">@Localizer["Children"]</div>
-                    </div>
-                </a>
-            </li>
-        </ul>
+  <div class="intro-text">
+    <h1>@Localizer["Title"]</h1>
+    <p>@Localizer["IntroText"]</p>
+    <p>@Localizer["IntroText2"]</p>
+  </div>
+  <div class="services-container">
+    <ul class="nav nav-tabs">
+      <li class="active">
+        <a data-toggle="tab" href="#menuWomen">
+          <div class="text-center service-index-tab">
+            <img class="img-service-index-tab" src="~/images/ServiceIndex/women.png" />
+            <div class="name-service-index-tab">@Localizer["Ladies"]</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a data-toggle="tab" href="#menuMen">
+          <div class="text-center service-index-tab">
+            <img class="img-service-index-tab" src="~/images/ServiceIndex/men.png" />
+            <div class="name-service-index-tab">@Localizer["Gentlemen"]</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a data-toggle="tab" href="#menuChildren">
+          <div class="text-center service-index-tab">
+            <img class="img-service-index-tab" src="~/images/ServiceIndex/children.png" />
+            <div class="name-service-index-tab">@Localizer["Children"]</div>
+          </div>
+        </a>
+      </li>
+    </ul>
 
-        <div class="tab-content">
-            <div id="menuWomen" class="standard-shadow tab-pane fade in active">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
-                        <h4 class="text-center service-h4">
-                            <img src="~/images/ServiceIndex/hairdryer.png" class="service-image" />
-                            <span class="service-name">@Localizer["BrushingOrRollerWrap"]</span>
-                        </h4>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["BrushingShort"]</span>
-                            <span class="pull-right">€ 25,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["BrushingMedium"]</span>
-                            <span class="pull-right">€ 29,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["BrushingLong"]</span>
-                            <span class="pull-right">€ 34,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["RollerWrap"]</span>
-                            <span class="pull-right">€ 30,00</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
-                        <h4 class="text-center service-h4">
-                            <img src="~/images/ServiceIndex/clips.png" class="service-image" />
-                            <span class="service-name">@Localizer["Updo"]</span>
-                        </h4>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["UpdoShort"]</span>
-                            <span class="pull-right">€ 25,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["UpdoLong"]</span>
-                            <span class="pull-right">€ 35,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["BrideHair"]</span>
-                            <span class="pull-right">@Localizer["StartingFrom"] € 65,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">&nbsp;</span>
-                            <span class="pull-right">&nbsp;</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
-                        <h4 class="text-center service-h4">
-                            <img src="~/images/ServiceIndex/scissors.png" class="service-image" />
-                            <span class="service-name">@Localizer["Cut"]</span>
-                        </h4>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["Haircut"]</span>
-                            <span class="pull-right">€ 25,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left service-extra-info">@Localizer["ToBeCombined"]</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">&nbsp;</span>
-                            <span class="pull-right">&nbsp;</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">&nbsp;</span>
-                            <span class="pull-right">&nbsp;</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
-                        <h4 class="text-center service-h4">
-                            <img src="~/images/ServiceIndex/brush.png" class="service-image" />
-                            <span class="service-name">@Localizer["Coloring"]</span>
-                        </h4>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["Regrowthcolor"]</span>
-                            <span class="pull-right">@Localizer["StartingFrom"] € 45,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["Highlights"]</span>
-                            <span class="pull-right">@Localizer["StartingFrom"] € 62,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["FoilHighlights"]</span>
-                            <span class="pull-right">@Localizer["StartingFrom"] € 78,00</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
-                        <h4 class="text-center service-h4">
-                            <img src="~/images/ServiceIndex/rollers.png" class="service-image" />
-                            <span class="service-name">@Localizer["StraightenOrCurl"]</span>
-                        </h4>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["Straighten"]</span>
-                            <span class="pull-right">@Localizer["StartingFrom"] € 65,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["Perm"]</span>
-                            <span class="pull-right">@Localizer["StartingFrom"] € 72,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">&nbsp;</span>
-                            <span class="pull-right">&nbsp;</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
-                        <h4 class="text-center service-h4">
-                            <img src="~/images/ServiceIndex/shampoo.png" class="service-image" />
-                            <span class="service-name">@Localizer["Supplements"] @Localizer["WashAndCare"]</span>
-                        </h4>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["IntensiveCareMask"]</span>
-                            <span class="pull-right">€ 10,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["Beautybath"]</span>
-                            <span class="pull-right">€ 21,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["Bondpro"]</span>
-                            <span class="pull-right">€ 15,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">&nbsp;</span>
-                            <span class="pull-right">&nbsp;</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
-                        <h4 class="text-center service-h4">
-                            <img src="~/images/ServiceIndex/curliron.png" class="service-image" />
-                            <span class="service-name">@Localizer["Supplements"] @Localizer["Finishing"]</span>
-                        </h4>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["StraighteningIronSteampod"]</span>
-                            <span class="pull-right">€ 11,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["CurlingIron"]</span>
-                            <span class="pull-right">€ 11,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["TouchUp"]</span>
-                            <span class="pull-right">€ 8,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["QuickDry"]</span>
-                            <span class="pull-right">€ 13,00</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
-                        <h4 class="text-center service-h4">
-                            <img src="~/images/ServiceIndex/tube.png" class="service-image" />
-                            <span class="service-name">@Localizer["Supplements"] @Localizer["Coloring"]</span>
-                        </h4>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["PrePigmenting"]</span>
-                            <span class="pull-right">€ 25,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["SeperateHighlights"]</span>
-                            <span class="pull-right">€ 3,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["ExtraColorGoldwell"]</span>
-                            <span class="pull-right">€ 18,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["ExtraColorElumen"]</span>
-                            <span class="pull-right">€ 9,00</span>
-                        </div>
-                    </div>
-                </div>
+    <div class="tab-content">
+      <div id="menuWomen" class="standard-shadow tab-pane fade in active">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+            <h4 class="text-center service-h4">
+              <img src="~/images/ServiceIndex/hairdryer.png" class="service-image" />
+              <span class="service-name">@Localizer["BrushingOrRollerWrap"]</span>
+            </h4>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["BrushingShort"]</span>
+              <span class="pull-right">€ 25,00</span>
             </div>
-            <div id="menuMen" class="standard-shadow tab-pane fade">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
-                        <h4 class="text-center service-h4">
-                            <img src="~/images/ServiceIndex/scissors.png" class="service-image" />
-                            <span class="service-name">@Localizer["Cut"]</span>
-                        </h4>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["Haircut"]</span>
-                            <span class="pull-right">€ 24,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["ClipperCut"]</span>
-                            <span class="pull-right">€ 15,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["BeardTrim"]</span>
-                            <span class="pull-right">€ 12,00</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["BrushingMedium"]</span>
+              <span class="pull-right">€ 29,00</span>
             </div>
-            <div id="menuChildren" class="standard-shadow tab-pane fade">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
-                        <h4 class="text-center service-h4">
-                            <img src="~/images/ServiceIndex/scissors.png" class="service-image" />
-                            <span class="service-name">@Localizer["Cut"]</span>
-                        </h4>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["HaircutGirls10to14"]</span>
-                            <span class="pull-right">€ 25,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left service-extra-info">@Localizer["Age10to14"]</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["HaircutGirls"]</span>
-                            <span class="pull-right">€ 20,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left service-extra-info">@Localizer["YoungerThan10"]</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["HaircutBoys"]</span>
-                            <span class="pull-right">€ 15,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left service-extra-info">@Localizer["YoungerThan10"]</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["HaircutBaby"]</span>
-                            <span class="pull-right">€ 12,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left service-extra-info">@Localizer["YoungerThan5"]</span>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
-                        <h4 class="text-center service-h4">
-                            <img src="~/images/ServiceIndex/clips.png" class="service-image" />
-                            <span class="service-name">@Localizer["Updo"]</span>
-                        </h4>
-                        <div class="col-xs-12">
-                            <span class="pull-left">@Localizer["UpdoChildren"]</span>
-                            <span class="pull-right">€ 15,00</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left service-extra-info">@Localizer["YoungerThan10"]</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">&nbsp;</span>
-                            <span class="pull-right">&nbsp;</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">&nbsp;</span>
-                            <span class="pull-right">&nbsp;</span>
-                        </div>
-                        <div class="col-xs-12">
-                            <span class="pull-left">&nbsp;</span>
-                            <span class="pull-right">&nbsp;</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["BrushingLong"]</span>
+              <span class="pull-right">€ 35,00</span>
             </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["RollerWrap"]</span>
+              <span class="pull-right">€ 35,00</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+            <h4 class="text-center service-h4">
+              <img src="~/images/ServiceIndex/clips.png" class="service-image" />
+              <span class="service-name">@Localizer["Updo"]</span>
+            </h4>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["UpdoShort"]</span>
+              <span class="pull-right">€ 25,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["UpdoLong"]</span>
+              <span class="pull-right">€ 35,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["BrideHair"]</span>
+              <span class="pull-right">@Localizer["StartingFrom"] € 65,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">&nbsp;</span>
+              <span class="pull-right">&nbsp;</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+            <h4 class="text-center service-h4">
+              <img src="~/images/ServiceIndex/scissors.png" class="service-image" />
+              <span class="service-name">@Localizer["Cut"]</span>
+            </h4>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["Haircut"]</span>
+              <span class="pull-right">€ 26,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left service-extra-info">@Localizer["ToBeCombined"]</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">&nbsp;</span>
+              <span class="pull-right">&nbsp;</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">&nbsp;</span>
+              <span class="pull-right">&nbsp;</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+            <h4 class="text-center service-h4">
+              <img src="~/images/ServiceIndex/brush.png" class="service-image" />
+              <span class="service-name">@Localizer["Coloring"]</span>
+            </h4>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["Regrowthcolor"]</span>
+              <span class="pull-right">@Localizer["StartingFrom"] € 48,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["Highlights"]</span>
+              <span class="pull-right">@Localizer["StartingFrom"] € 65,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["FoilHighlights"]</span>
+              <span class="pull-right">@Localizer["StartingFrom"] € 75,00</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+            <h4 class="text-center service-h4">
+              <img src="~/images/ServiceIndex/rollers.png" class="service-image" />
+              <span class="service-name">@Localizer["StraightenOrCurl"]</span>
+            </h4>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["Straighten"]</span>
+              <span class="pull-right">@Localizer["StartingFrom"] € 65,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["Perm"]</span>
+              <span class="pull-right">@Localizer["StartingFrom"] € 72,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">&nbsp;</span>
+              <span class="pull-right">&nbsp;</span>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+            <h4 class="text-center service-h4">
+              <img src="~/images/ServiceIndex/women.png" class="service-image" />
+              <span class="service-name">@Localizer["HairLengtheningAndFiller"]</span>
+            </h4>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["PlaceExtentions"]</span>
+              <span class="pull-right">€ 60,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["ExtentionsHairDreams"]</span>
+              <span class="pull-right">@Localizer["PriceOnDemand"]</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["ExtentionsPlusHairDreams"]</span>
+              <span class="pull-right">@Localizer["PriceOnDemand"]</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">&nbsp;</span>
+              <span class="pull-right">&nbsp;</span>
+            </div>
+          </div>
         </div>
+
+
+
+
+
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+            <h4 class="text-center service-h4">
+              <img src="~/images/ServiceIndex/shampoo.png" class="service-image" />
+              <span class="service-name">@Localizer["Supplements"] @Localizer["WashAndCare"]</span>
+            </h4>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["IntensiveCareMask"]</span>
+              <span class="pull-right">€ 13,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["Beautybath"]</span>
+              <span class="pull-right">€ 21,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["Bondpro"]</span>
+              <span class="pull-right">€ 15,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">&nbsp;</span>
+              <span class="pull-right">&nbsp;</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+            <h4 class="text-center service-h4">
+              <img src="~/images/ServiceIndex/curliron.png" class="service-image" />
+              <span class="service-name">@Localizer["Supplements"] @Localizer["Finishing"]</span>
+            </h4>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["StraighteningIronSteampod"]</span>
+              <span class="pull-right">€ 11,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["CurlingIron"]</span>
+              <span class="pull-right">€ 11,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["TouchUp"]</span>
+              <span class="pull-right">€ 8,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["QuickDry"]</span>
+              <span class="pull-right">@Localizer["StartingFrom"] € 13,00</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+            <h4 class="text-center service-h4">
+              <img src="~/images/ServiceIndex/tube.png" class="service-image" />
+              <span class="service-name">@Localizer["Supplements"] @Localizer["Coloring"]</span>
+            </h4>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["PrePigmenting"]</span>
+              <span class="pull-right">€ 25,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["SeperateHighlights"]</span>
+              <span class="pull-right">€ 3,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["ExtraColorGoldwell"]</span>
+              <span class="pull-right">€ 20,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["ExtraColorElumen"]</span>
+              <span class="pull-right">€ 10,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["AmmoniaFree"]</span>
+              <span class="pull-right">€ 10,00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="menuMen" class="standard-shadow tab-pane fade">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+            <h4 class="text-center service-h4">
+              <img src="~/images/ServiceIndex/scissors.png" class="service-image" />
+              <span class="service-name">@Localizer["Cut"]</span>
+            </h4>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["Haircut"]</span>
+              <span class="pull-right">€ 26,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["ClipperCut"]</span>
+              <span class="pull-right">€ 16,00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="menuChildren" class="standard-shadow tab-pane fade">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+            <h4 class="text-center service-h4">
+              <img src="~/images/ServiceIndex/scissors.png" class="service-image" />
+              <span class="service-name">@Localizer["Cut"]</span>
+            </h4>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["HaircutGirls10to14"]</span>
+              <span class="pull-right">€ 30,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left service-extra-info">@Localizer["Age10to14"]</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["HaircutGirls"]</span>
+              <span class="pull-right">€ 21,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left service-extra-info">@Localizer["YoungerThan10"]</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["HaircutBoys"]</span>
+              <span class="pull-right">€ 17,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left service-extra-info">@Localizer["YoungerThan10"]</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["HaircutBaby"]</span>
+              <span class="pull-right">€ 13,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left service-extra-info">@Localizer["YoungerThan3"]</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 service-subsection">
+            <h4 class="text-center service-h4">
+              <img src="~/images/ServiceIndex/clips.png" class="service-image" />
+              <span class="service-name">@Localizer["Updo"]</span>
+            </h4>
+            <div class="col-xs-12">
+              <span class="pull-left">@Localizer["UpdoChildren"]</span>
+              <span class="pull-right">@Localizer["StartingFrom"] € 15,00</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left service-extra-info">@Localizer["YoungerThan10"]</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">&nbsp;</span>
+              <span class="pull-right">&nbsp;</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">&nbsp;</span>
+              <span class="pull-right">&nbsp;</span>
+            </div>
+            <div class="col-xs-12">
+              <span class="pull-left">&nbsp;</span>
+              <span class="pull-right">&nbsp;</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </div>

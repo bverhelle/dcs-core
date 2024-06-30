@@ -250,7 +250,7 @@
     <value>ages 10 to 14 years</value>
   </data>
   <data name="HaircutGirls10to14" xml:space="preserve">
-    <value>Haircut girls + quick dry</value>
+    <value>Haircut teenager + quick dry</value>
   </data>
   <data name="RollerWrap" xml:space="preserve">
     <value>Roller wrap</value>
@@ -269,5 +269,26 @@
   </data>
   <data name="BrideHair" xml:space="preserve">
     <value>Bridal hairstyle</value>
+  </data>
+  <data name="AmmoniaFree" xml:space="preserve">
+    <value>Amonia Free Coloring</value>
+  </data>
+  <data name="YoungerThan3" xml:space="preserve">
+    <value>younger than 3 years</value>
+  </data>
+  <data name="ExtentionsHairDreams" xml:space="preserve">
+    <value>Extentions Hairdreams</value>
+  </data>
+  <data name="ExtentionsPlusHairDreams" xml:space="preserve">
+    <value>Volume+ Hairdreams</value>
+  </data>
+  <data name="HairLengtheningAndFiller" xml:space="preserve">
+    <value>Extensions &amp; filler</value>
+  </data>
+  <data name="PlaceExtentions" xml:space="preserve">
+    <value>Placing extensions (cut + brushing included)</value>
+  </data>
+  <data name="PriceOnDemand" xml:space="preserve">
+    <value>Price on demand</value>
   </data>
 </root>

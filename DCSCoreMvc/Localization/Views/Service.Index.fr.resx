@@ -250,7 +250,7 @@
     <value>de 10 ans à 14 ans</value>
   </data>
   <data name="HaircutGirls10to14" xml:space="preserve">
-    <value>Coupe de cheveux fille + séchage rapide</value>
+    <value>Coupe de cheveux adolescente + séchage rapide</value>
   </data>
   <data name="RollerWrap" xml:space="preserve">
     <value>Mise en plis</value>
@@ -269,5 +269,26 @@
   </data>
   <data name="BrideHair" xml:space="preserve">
     <value>Coiffure de mariée</value>
+  </data>
+  <data name="AmmoniaFree" xml:space="preserve">
+    <value>Couleur sans ammoniaque</value>
+  </data>
+  <data name="YoungerThan3" xml:space="preserve">
+    <value>moins de 3 ans</value>
+  </data>
+  <data name="ExtentionsHairDreams" xml:space="preserve">
+    <value>Extentions Hairdreams</value>
+  </data>
+  <data name="ExtentionsPlusHairDreams" xml:space="preserve">
+    <value>Volume+ Hairdreams</value>
+  </data>
+  <data name="HairLengtheningAndFiller" xml:space="preserve">
+    <value>Extensions &amp; remplissage</value>
+  </data>
+  <data name="PlaceExtentions" xml:space="preserve">
+    <value>Pose d'extensions (coupe + brushing inclus)</value>
+  </data>
+  <data name="PriceOnDemand" xml:space="preserve">
+    <value>Prix sur demande</value>
   </data>
 </root>

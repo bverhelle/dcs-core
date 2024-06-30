@@ -70,6 +70,15 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ammoniakvrije Kleuring.
+        /// </summary>
+        internal static string AmmoniaFree {
+            get {
+                return ResourceManager.GetString("AmmoniaFree", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Baard knippen.
         /// </summary>
         internal static string BeardTrim {
@@ -187,6 +196,24 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Extentions Hairdreams.
+        /// </summary>
+        internal static string ExtentionsHairDreams {
+            get {
+                return ResourceManager.GetString("ExtentionsHairDreams", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volume+ Hairdreams.
+        /// </summary>
+        internal static string ExtentionsPlusHairDreams {
+            get {
+                return ResourceManager.GetString("ExtentionsPlusHairDreams", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Extra kleur Elumen (10g).
         /// </summary>
         internal static string ExtraColorElumen {
@@ -268,11 +295,20 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Meisjessnit + los drogen.
+        ///   Looks up a localized string similar to Tienersnit + los drogen.
         /// </summary>
         internal static string HaircutGirls10to14 {
             get {
                 return ResourceManager.GetString("HaircutGirls10to14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Haarverlengingen &amp; opvullingen.
+        /// </summary>
+        internal static string HairLengtheningAndFiller {
+            get {
+                return ResourceManager.GetString("HairLengtheningAndFiller", resourceCulture);
             }
         }
         
@@ -331,11 +367,29 @@ namespace DCSCoreMvc.Localization.Views {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Plaatsing extentions (snit + brushing inbegrepen).
+        /// </summary>
+        internal static string PlaceExtentions {
+            get {
+                return ResourceManager.GetString("PlaceExtentions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Voorpigmentatie.
         /// </summary>
         internal static string PrePigmenting {
             get {
                 return ResourceManager.GetString("PrePigmenting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Prijs op aanvraag.
+        /// </summary>
+        internal static string PriceOnDemand {
+            get {
+                return ResourceManager.GetString("PriceOnDemand", resourceCulture);
             }
         }
         
@@ -507,6 +561,15 @@ namespace DCSCoreMvc.Localization.Views {
         internal static string YoungerThan10 {
             get {
                 return ResourceManager.GetString("YoungerThan10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to jonger dan 3 jaar.
+        /// </summary>
+        internal static string YoungerThan3 {
+            get {
+                return ResourceManager.GetString("YoungerThan3", resourceCulture);
             }
         }
         

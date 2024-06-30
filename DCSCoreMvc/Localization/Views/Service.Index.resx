@@ -250,7 +250,7 @@
     <value>van 10 tot 14 jaar</value>
   </data>
   <data name="HaircutGirls10to14" xml:space="preserve">
-    <value>Meisjessnit + los drogen</value>
+    <value>Tienersnit + los drogen</value>
   </data>
   <data name="RollerWrap" xml:space="preserve">
     <value>Watergolf</value>
@@ -269,5 +269,26 @@
   </data>
   <data name="BrideHair" xml:space="preserve">
     <value>Bruidskapsel</value>
+  </data>
+  <data name="AmmoniaFree" xml:space="preserve">
+    <value>Ammoniakvrije Kleuring</value>
+  </data>
+  <data name="YoungerThan3" xml:space="preserve">
+    <value>jonger dan 3 jaar</value>
+  </data>
+  <data name="ExtentionsHairDreams" xml:space="preserve">
+    <value>Extentions Hairdreams</value>
+  </data>
+  <data name="ExtentionsPlusHairDreams" xml:space="preserve">
+    <value>Volume+ Hairdreams</value>
+  </data>
+  <data name="HairLengtheningAndFiller" xml:space="preserve">
+    <value>Haarverlengingen &amp; opvullingen</value>
+  </data>
+  <data name="PlaceExtentions" xml:space="preserve">
+    <value>Plaatsing extentions (snit + brushing inbegrepen)</value>
+  </data>
+  <data name="PriceOnDemand" xml:space="preserve">
+    <value>Prijs op aanvraag</value>
   </data>
 </root>
