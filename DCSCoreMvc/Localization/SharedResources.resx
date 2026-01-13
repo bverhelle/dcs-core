@@ -59,10 +59,7 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root"
-    xmlns=""
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -214,10 +211,10 @@
     <value>08:00 - 18:00</value>
   </data>
   <data name="OpeningHoursMonday" xml:space="preserve">
-    <value>09:00 - 18:00</value>
+    <value>09:00 - 15:00</value>
   </data>
   <data name="OpeningHoursSaturday" xml:space="preserve">
-    <value>08:00 - 17:00</value>
+    <value>08:00 - 16:00</value>
   </data>
   <data name="OpeningHoursSunday" xml:space="preserve">
     <value>-</value>
@@ -226,7 +223,7 @@
     <value>09:00 - 18:00</value>
   </data>
   <data name="OpeningHoursTuesday" xml:space="preserve">
-    <value>09:00 - 18:00</value>
+    <value>09:00 - 15:00</value>
   </data>
   <data name="OpeningHoursWednesday" xml:space="preserve">
     <value>-</value>
